@@ -1,0 +1,154 @@
+[
+  {
+    "text": "how can I best use my data?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 26,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.626624228790486,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Anything to do outside of purchasing data?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 37,
+        "end": 41,
+        "confidence_entity": 0.9121413789272852,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "property",
+        "start": 37,
+        "end": 41,
+        "confidence_entity": 0.9985625147819519,
+        "value": "assets",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Can I have control over my data?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 27,
+        "end": 31,
+        "confidence_entity": 0.6267507965852374,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "property",
+        "start": 27,
+        "end": 31,
+        "confidence_entity": 0.9988358616828918,
+        "value": "assets",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find the restaurants around me.",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "restaurants",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i am a little down today.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "down",
+        "entity": "mood"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "please book a taxi for me.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "taxi",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is the date today?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "value": "date",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "can you tell me the time ?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "time",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "can you answer in Chinese?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "Chinese",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

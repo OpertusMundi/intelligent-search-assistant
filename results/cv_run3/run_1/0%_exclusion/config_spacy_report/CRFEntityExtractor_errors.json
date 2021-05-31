@@ -1,0 +1,256 @@
+[
+  {
+    "text": "do I need to pay you for selling data on your marketplace?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 37,
+        "value": "data",
+        "entity": "property"
+      },
+      {
+        "start": 46,
+        "end": 57,
+        "value": "marketplace",
+        "entity": "place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place",
+        "start": 46,
+        "end": 57,
+        "confidence_entity": 0.9853035563424336,
+        "value": "marketplace",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "place",
+        "start": 46,
+        "end": 57,
+        "confidence_entity": 0.9981322884559631,
+        "value": "marketplace",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I do not wanna buy any data, suggest me something else to do.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.5199590821965334,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "am I the person who is in charge of my own data?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 43,
+        "end": 47,
+        "confidence_entity": 0.5986776988765278,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Am I taking responsibility of my data ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 33,
+        "end": 37,
+        "confidence_entity": 0.5457759491447242,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "property",
+        "start": 33,
+        "end": 37,
+        "confidence_entity": 0.6819656491279602,
+        "value": "assets",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I need help to start.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 11,
+        "value": "help",
+        "entity": "support_topio"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am a new member, can you provide me some guidance?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "member",
+        "entity": "customer"
+      },
+      {
+        "start": 43,
+        "end": 51,
+        "value": "guidance",
+        "entity": "support_topio"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "support_topio",
+        "start": 43,
+        "end": 51,
+        "confidence_entity": 0.6633114730572253,
+        "value": "support",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "customer",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.9525903463363647,
+        "value": "adopter",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "support_topio",
+        "start": 43,
+        "end": 51,
+        "confidence_entity": 0.9921824336051941,
+        "value": "support",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "What is your age?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 16,
+        "value": "age",
+        "entity": "information"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "do you also talk in spanish?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "value": "spanish",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.9713095426559448,
+        "value": "spanish",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i am happy.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "happy",
+        "entity": "mood"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what country are you from?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "country",
+        "entity": "information"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how is ur personality?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 21,
+        "value": "personality",
+        "entity": "information"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Am I your friend?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "friend",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who is your boss?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "value": "boss",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "text": "who are you?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5961393713951111
+    }
+  },
+  {
+    "text": "what are the fees I need to pay for selling data?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.4183698892593384
+    }
+  },
+  {
+    "text": "do I need to pay you for selling data on your marketplace?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_free_service",
+      "confidence": 0.5241899490356445
+    }
+  },
+  {
+    "text": "Any extra fees I need to pay for selling assets?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_free_service",
+      "confidence": 0.4701499342918396
+    }
+  },
+  {
+    "text": "What functionalities can your platform provide?",
+    "intent": "ask_marketplace_functionality",
+    "intent_prediction": {
+      "name": "ask_support",
+      "confidence": 0.3069939613342285
+    }
+  },
+  {
+    "text": "what are the functionalities of your platform?",
+    "intent": "ask_marketplace_functionality",
+    "intent_prediction": {
+      "name": "ask_support",
+      "confidence": 0.2440488487482071
+    }
+  },
+  {
+    "text": "what can I do on your platform?",
+    "intent": "ask_marketplace_functionality",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.3830493688583374
+    }
+  },
+  {
+    "text": "I do not want to buy data, what else can I do on your platform?",
+    "intent": "ask_more_than_data",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.6400656700134277
+    }
+  },
+  {
+    "text": "I am not interested in buying assets, suggest me something else to do.",
+    "intent": "ask_more_than_data",
+    "intent_prediction": {
+      "name": "ask_information",
+      "confidence": 0.5877753496170044
+    }
+  },
+  {
+    "text": "In case of disputes or claims, how will I be protected as a seller?",
+    "intent": "ask_security",
+    "intent_prediction": {
+      "name": "ask_price_terms",
+      "confidence": 0.41204434633255005
+    }
+  },
+  {
+    "text": "In case of disputes and claims, what protection will I get?",
+    "intent": "ask_security",
+    "intent_prediction": {
+      "name": "ask_price_terms",
+      "confidence": 0.2970242202281952
+    }
+  },
+  {
+    "text": "Is there any seller protection guarantee policy?",
+    "intent": "ask_security",
+    "intent_prediction": {
+      "name": "ask_sell_asset",
+      "confidence": 0.2165910303592682
+    }
+  },
+  {
+    "text": "is there any protection for the seller in case something goes wrong?",
+    "intent": "ask_security",
+    "intent_prediction": {
+      "name": "ask_sell_asset",
+      "confidence": 0.22711685299873352
+    }
+  },
+  {
+    "text": "Does the data still belong to me after uploading it to your marketplace?",
+    "intent": "ask_data_control",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.6546278595924377
+    }
+  },
+  {
+    "text": "who is ur father",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_more_answer",
+      "confidence": 0.21225452423095703
+    }
+  },
+  {
+    "text": "dsanjsd3218341",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3528471887111664
+    }
+  },
+  {
+    "text": "i am a little down today.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.873386025428772
+    }
+  },
+  {
+    "text": "who is your mother?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.34296736121177673
+    }
+  },
+  {
+    "text": "can you reserve a hotel for me?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_free_service",
+      "confidence": 0.16831758618354797
+    }
+  }
+]

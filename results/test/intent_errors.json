@@ -1,0 +1,34 @@
+[
+  {
+    "text": "Hey bot ##",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7614516019821167
+    }
+  },
+  {
+    "text": "what rules do you use to find an ealr user?",
+    "intent": "ask_early_user",
+    "intent_prediction": {
+      "name": "ask_marketplace_functionality",
+      "confidence": 0.28496184945106506
+    }
+  },
+  {
+    "text": "how much does it cost to trade on your platform? ##",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.5070720911026001
+    }
+  },
+  {
+    "text": "are you expensive?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.7631570100784302
+    }
+  }
+]

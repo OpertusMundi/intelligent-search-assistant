@@ -1,0 +1,169 @@
+[
+  {
+    "text": "Is it possible to maintain the absolute control over my data?",
+    "entities": [
+      {
+        "start": 56,
+        "end": 60,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 56,
+        "end": 60,
+        "confidence_entity": 0.5699762481072312,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "will I have the full power over my data?",
+    "entities": [
+      {
+        "start": 35,
+        "end": 39,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.5699767558724026,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Do I have the right to use my data anyway I want to?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 34,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "would I maintain the full control over my data?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 46,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 42,
+        "end": 46,
+        "confidence_entity": 0.5699762445884139,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "would it be possible for me to determine the terms & price of my own assets?",
+    "entities": [
+      {
+        "start": 69,
+        "end": 75,
+        "value": "assets",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 69,
+        "end": 75,
+        "confidence_entity": 0.9761371280730211,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I want to know more information about the data before buying it.",
+    "entities": [
+      {
+        "start": 42,
+        "end": 46,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to buy data, tell me how much does it cost?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How much will I pay for purchasing data from you?",
+    "entities": [
+      {
+        "start": 35,
+        "end": 39,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I do not wanna buy data, suggest me something else that I can do.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 23,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Happy birthday!",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 6,
+        "end": 14,
+        "confidence_entity": 0.3150477707386017,
+        "value": "birthday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

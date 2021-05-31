@@ -1,0 +1,146 @@
+[
+  {
+    "text": "What options do I have for using data at your platform?",
+    "intent": "ask_data_usage",
+    "intent_prediction": {
+      "name": "ask_free_service",
+      "confidence": 0.2566229999065399
+    }
+  },
+  {
+    "text": "What are the fees on selling assets ?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.5564919114112854
+    }
+  },
+  {
+    "text": "how much does it cost to sell data?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.9919284582138062
+    }
+  },
+  {
+    "text": "How much will you charge me for selling assets?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_price_terms",
+      "confidence": 0.44105708599090576
+    }
+  },
+  {
+    "text": "Tell me more about the functionality of the platform.",
+    "intent": "ask_marketplace_functionality",
+    "intent_prediction": {
+      "name": "ask_support",
+      "confidence": 0.6722070574760437
+    }
+  },
+  {
+    "text": "Is there any seller protection guarantee policy?",
+    "intent": "ask_security",
+    "intent_prediction": {
+      "name": "ask_terms_and_conditions",
+      "confidence": 0.397938996553421
+    }
+  },
+  {
+    "text": "can I have the right to manage my data?",
+    "intent": "ask_data_control",
+    "intent_prediction": {
+      "name": "ask_free_service",
+      "confidence": 0.2215602844953537
+    }
+  },
+  {
+    "text": "can I maintain full control over my assets?",
+    "intent": "ask_data_control",
+    "intent_prediction": {
+      "name": "ask_price_terms",
+      "confidence": 0.9301562905311584
+    }
+  },
+  {
+    "text": "am I the person who is in charge of my own data?",
+    "intent": "ask_data_control",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.2638276219367981
+    }
+  },
+  {
+    "text": "Can I have control over my data?",
+    "intent": "ask_data_control",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.15444713830947876
+    }
+  },
+  {
+    "text": "Talk to you later",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5050112009048462
+    }
+  },
+  {
+    "text": "Have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3562915325164795
+    }
+  },
+  {
+    "text": "byr",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6922141313552856
+    }
+  },
+  {
+    "text": "find the restaurants around me.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_more_answer",
+      "confidence": 0.22450241446495056
+    }
+  },
+  {
+    "text": "what are you made of?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_early_user",
+      "confidence": 0.2601006031036377
+    }
+  },
+  {
+    "text": "i am a little down today.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.576308012008667
+    }
+  },
+  {
+    "text": "dsanjsd3218341",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_more_answer",
+      "confidence": 0.33356761932373047
+    }
+  },
+  {
+    "text": "can you answer in Chinese?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_more_answer",
+      "confidence": 0.4822378158569336
+    }
+  }
+]

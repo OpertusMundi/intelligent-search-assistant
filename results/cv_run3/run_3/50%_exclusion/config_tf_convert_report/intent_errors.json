@@ -1,0 +1,50 @@
+[
+  {
+    "text": "how much does it cost to sell data?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.9956010580062866
+    }
+  },
+  {
+    "text": "what are you made of?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9150782823562622
+    }
+  },
+  {
+    "text": "i am a little down today.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8891083002090454
+    }
+  },
+  {
+    "text": "what is the date today?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_marketplace_functionality",
+      "confidence": 0.1629139631986618
+    }
+  },
+  {
+    "text": "dsanjsd3218341",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.2790859639644623
+    }
+  },
+  {
+    "text": "can you answer in Chinese?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_more_answer",
+      "confidence": 0.5301938652992249
+    }
+  }
+]

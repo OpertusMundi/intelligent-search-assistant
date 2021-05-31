@@ -1,0 +1,26 @@
+[
+  {
+    "text": "Do you provide triaining on how to use your marketplace?",
+    "intent": "ask_support",
+    "intent_prediction": {
+      "name": "ask_marketplace_functionality",
+      "confidence": 0.9261212944984436
+    }
+  },
+  {
+    "text": "dsanjsd3218341",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5203695297241211
+    }
+  },
+  {
+    "text": "i am a little down today.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9261351823806763
+    }
+  }
+]

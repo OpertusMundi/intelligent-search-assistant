@@ -1,92 +1,464 @@
 version: "2.0"
 nlu:
-- intent: greet
+- intent: greet 
   examples: |
-    - hey
     - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
-    - Hello!
-    - Hello
-- intent: goodbye
+    - what is new?
+    - hey!
+    - Good afternoon
+    - how are you?
+    - how have you been?
+    - Are you all right?
+    - good day
+    - Good morning
+    - how do you do
+    - Are you ok?
+    - how r u?
+    - Hallo
+    - Hey
+    - how are things going?
+    - Good to see you
+    - hey dude!
+    - what is up?
+    - Morning
+    - Everything ok?
+    - how are you doing today?
+    - how is your day?
+    - how are you feeling?
+    - Hi there!
+- intent: goodbye 
   examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
-- intent: affirm
+    - See you later
+    - go away
+    - I am off
+    - Exit
+    - I am done
+    - I will quit now
+    - bye-bye
+    - Have a nice day
+    - until next time
+    - Good night
+    - let us stop
+    - I got to go
+    - ciao
+    - catch you later
+    - Talk to you later
+    - that is all
+    - farewell
+    - Good bye rasa!
+    - bye for now
+    - gotta go
+    - see u later
+    - close this talk
+    - byr
+- intent: bot_challenge 
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
+    - who am I talking to right now?
+    - Are you a computer program?
+    - Is this a real person?
+    - Is this a chatbot?
+    - am i speaking with a computer?
+    - are you a chatbot?
     - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
-- intent: dataset_city
+    - bot?
+    - is this a bot that is answering me?
+    - who are you?
+    - are you ai?
+    - Are you a machine?
+    - I am talking to a robot, am I not?
+    - are you artificial intelligence?
+    - are you real?
+    - r u a chat bot?
+    - Is this a robot I am speaking with?
+    - Tell me, are you a bot?
+    - you are ai
+    - r u a robot?    
+- intent: ask_support 
   examples: |
-    - I am looking for datasets in [Athens](city)
-    - show me datasets in [Athens](city)
-    - what kind of data is there about [Athens](city)
+    - Is there any [support](support_topio) you can offer to get started?
+    - is there any [guidance](support_topio) you can provide to start?
+    - is there any [support](support_topio) you can give to start on on your [website](place)?
+    - Do you offer [assistance](support_topio) to get started?
+    - Do you provide [triaining](support_topio) on how to use your [marketplace](place)?
+    - do you provide onboarding [training](support_topio)?
+    - Do you offer any [help](support_topio) to start?
+    - do you help on setting things up?
+    - do you provide any [guidance](support_topio) to start off?
+    - do you help me to get started?
+    - can you help me to set things up?
+    - can you teach me how to start using your [platform](place)?
+    - can you guide me onboarding?
+    - can you give me [assistance](support_topio) to set things up?
+    - can you give more [guidance](support_topio) on how to use your services?
+    - Could you help me to start?
+    - I am new, can you help?
+    - I am new, would you mind help me to get started?
+    - I am a new [member](customer), can you provide me some [guidance](support_topio)?    
+    - Im new ro your platform, can you give me some onboarding [training](support_topio)?
+    - will you provide some onboarding [training](support_topio)?
+    - Any [support](support_topio) to get started?
+    - any help on getting started?
+    - I need [help](support_topio) to start. 
+- intent: ask_early_user 
+  examples: |
+    - I want to be an early [adopter](customer), what should I do?
+    - I would like to be an early [user](customer), what do I need to do?
+    - I would like to be an early [user](customer), what should I do?
+    - Id like to be an ealry [adopter](customer). 
+    - I wanna be an early [adopter](customer), what to do?
+    - what criteria are you using to find an early [user](customer) ?
+    - what criteria do you use to identify an early [adopter](customer)?
+    - what criteria do you use to select an early [user](customer)?
+    - What criteria will be used to pick an early [adopter](customer) ?
+    - what are the criteria to be selected as an [adopter](customer)?
+    - how to be an early [adopter](customer)?
+    - how to b ur early [user](customer) ?
+    - how to become an early [member](customer) of your [platform](place)?
+    - how can I become an early [user](customer)?  
+    - How can I be selected to be an early [user](customer)? 
+    - How can I register myself to be an early [user](customer)?
+    - what do I need to do to be an early [user](customer)?
+    - what are things I need to do to become an early [adopter](customer)?
+    - what are the requirements to be considered as an early [adopter](customer)?
+    - what are the requirements to be an early [adopter](customer) ?
+    - how do you decide if someone is an early [member](customer)?
+- intent: ask_data_control 
+  examples: |
+    - Can I have control over my data?
+    - can I have the right to manage my [data](property)?
+    - can I maintain full control over my [assets](property)?
+    - can I take ownership of my [data](property) ?
+    - Can I manage and manipulate the data the way I want to?
+    - Could I keep control of my own [data](property)?
+    - could I take the full control over my data?
+    - do I take the absolute control of my data?
+    - Do I have the full right to manage my data ?
+    - Am I in control of my [data](property)?
+    - am i the boss of my data?
+    - Am I in charge of my own data?
+    - am I the person who is in charge of my own data?
+    - Am I taking responsibility of my data ?
+    - Will I have the absolute control of my own data?
+    - will I keep control of my own [data](property)?
+    - will my data on your platform still be under my control?
+    - Who is in control of my [data](property)?
+    - who would be in charge of my [assets](property)?
+    - Is the data still mine after uploading it to your [platform](place)?
+    - Is it possible to kepp the full control of my data?    
+    - Does the data still belong to me after uploading it to your [marketplace](place)?
+- intent: ask_data_usage 
+  examples: |
+    - what exactly can I do with my data on the [marketplace](place)?
+    - what could I do with my data at your [marketplace](place) ?
+    - what can I possibly do with my data?
+    - What can I do with my [data](property)?
+    - what to do with my data at your place?
+    - what do you suggest me to do with my data?
+    - what to do with my [data](property) on your [platform](place)?
+    - what options do you provide for using data on your [marketplace](place)?
+    - What options do I have for using data at your [platform](place)?
+    - What are the things I could do with my data on your [marketplace](place)?
+    - what are the choices for using my data on your [platform](place)
+    - what choices do I have for using my data on your [website](place)?
+    - Tell me what things can I do with my data?
+    - what are the thing I can do with my [data](property)?
+    - how can I best use my [data](property)?
+    - how can I use my data on your [marketplace](place)?
+    - any suggestions on what can I do with my data?
+    - any suggestion on how to use my data on your [marketplace](place)?
+    - any recommendation on what to do with my [data](property)?
+    - Are there many things I can do with my data on your [marketplace](place)?
+- intent: ask_sell_asset 
+  examples: |
+    - How much will you charge me for selling [assets](property)?
+    - how much does it cost to sell [data](property)?
+    - how much to pay to sell [assets](property)?
+    - how much should I pay you for selling assets on your [website](place)?
+    - how much do I need to pay for selling data on your [marketplace](place)?
+    - Any extra fees I need to pay for selling [assets](property)?
+    - Any selling fees I need to pay ?
+    - any processing fee for selling [assets](property)?
+    - any hideen cost I need to pay when making a sale?
+    - any processing fee to pay for selling [assets](property)?
+    - is there any processing fee that I need to pay to sell [assets](property)?
+    - Is there a fee to pay for selling [data](property)?
+    - do I need to pay you for selling [data](property) on your [marketplace](place)?
+    - what are the fees I need to pay for selling [data](property)?
+    - What are the fees on selling [assets](property) ?
+    - what are the charges for selling [assets](property) on your [marketplace](place)?
+    - What are the merchant charge in a transaction?
+    - Will you charge me for selling [assets](property)?
+    - will there be a fee to [assets](property)?
+    - Tell me how much is the selling fee on your [website](place)?
+- intent: ask_free_service 
+  examples: |
+    - Is there any other free service that I can use?
+    - is there anything for free ?
+    - Any free services I can use?
+    - Any service I do not need to pay?
+    - anything for free?
+    - Anything free of charge?
+    - Anything for free at your [marketplace](place)?
+    - Anything free on your [website](place)?
+    - do you offer free service on your [website](place)?
+    - do you have something for free?
+    - how can I access your free service ?
+    - what service is for free?
+    - what services do you have for free?
+    - what service can I use for free?
+    - what can I use for free on your [marketplace](place)?
+    - what services can I take without paying ?
+    - what is out there for free?
+    - I am looking for free services.
+    - I do not want to pay, what services can I get?
+    - I want to try out something for free.
+    - I do not have money, what is for free?
+- intent: ask_price_terms 
+  examples: |
+    - is it possible for me to set my own terms for my [assets](property)?
+    - Is it possible for me to set price for my [assets](property)?
+    - is it possible to create terms & prices for my [assets](property) myself?
+    - Is it possible to set the price and terms of my [assets](property) myself?
+    - can I set my own price and terms for my [assets](property)?
+    - can I decide on the terms and prices of my [data](property)?
+    - can I make terms and price for my [data](property)?
+    - can I make the price and terms of my [assets](property) myself
+    - can I make a decision on the price of my [assets](property) ?
+    - Am I able to decide price and terms for my own [assets](property)?
+    - Am I going to set terms and prices for my [assets](property)?
+    - Am i able to choose the price for my [data](property)?
+    - will I decide on the terms and price of my [assets](property)?
+    - will I be able to make a decision on the prices and terms for my [assets](property)?
+    - will I determine the prices and terms of my [assets](property)?
+    - would I be able to set the price and terms for my [assets](property)?
+    - do I have the right to set the terms and price for my own [data](property)?
+    - Do I decide on the price and terms for my [assets](property)?
+    - I want to set my own price for my [assets](property), can I do that?
+    - I would like to make the terms and prices for my [assets](property), is it allowed?
+- intent: ask_security 
+  examples: |
+    - On what security measurements I can rely on if something goes wrong?
+    - what protection measurements I can rely on if things go wrong?
+    - What will you do to protect my assets if something happens
+    - what are the security measures to take if something goes wrong?
+    - if something goes wrong, what security measurements can I depend on?
+    - If something unexpected happens, what protection methods are there?
+    - If there is a problem with a transaction, how will you protect sellers rights and interests?
+    - if things go wrong, how will my sellers right be secured?
+    - how am I protected if something happens that is outside of my control?
+    - how will I be protected if something unexpected happens?
+    - how do you protect my seller rights in case of unexpected events in a transactions?
+    - How will the seller be protected if something goes wrong?
+    - will I be protected when there is an issue with the transaction?
+    - when there is a dispute, how will you protect me? 
+    - Is there any seller protection guarantee policy?
+    - is there any protection for the seller in case something goes wrong?
+    - Is there any security actions that will be followed in case of things going wrong?
+    - In case of disputes or claims, how will I be protected as a seller?
+    - In case of disputes and claims, what protection will I get?
+    - Do you have any security measurements to take in case something goes wrong?
+    - Do you have any protection measurements for sellers if things go wrong 
+- intent: ask_terms_and_conditions 
+  examples: |
+    - Can I have a look at terms and conditions?
+    - can I please take a look at conditions & terms?
+    - can I know what are your terms and conditions ?
+    - can I read the conditions and terms?
+    - can I check contract conditions?
+    - can I see the terms and conditions ?
+    - Is there a place to check out terms and conditions?
+    - Is it possible to view the terms & conditions?
+    - Is it possible for me to go over the terms and conditions?
+    - Is it possible to check the terms and conditions?
+    - Would it be possible to have a look at your terms and conditions?
+    - I am interested in the terms and conditions.
+    - I want to view the condition and terms. 
+    - I wanna first read your terms & conditions.
+    - where can I find the terms and conditions?
+    - where are your conditions and terms ?
+    - where is the link to terms and conditions?
+    - Show me terms and conditions. 
+    - guide me to terms & conditions
+    - terms and conditions please.
+- intent: ask_marketplace_functionality
+  examples: |
+    - what functionalities does the [marketplace](place) have ?
+    - What are the functionalities that your [marketplace](place) offer?
+    - What functionalities can your [platform](place) provide?
+    - what activities does your [marketplace](place) support?
+    - what are the functionalities of your [platform](place)?
+    - what are the features of the [marketplace](place)?
+    - what are the main features or functionalities of this [marketplace](place)?
+    - what can I do on your [platform](place)?
+    - what can I do in general on your [marketplace](place)?
+    - what will I be able to do on your [marketplace](place)?
+    - What features does the [marketplace](place) have?
+    - How can I use the [marketplace](place) ?  
+    - how to use your [platform](place)?    
+    - can you suggest me some ways to use your [marketplace](place)?
+    - Can you tell me what are the ways to use your [marketplace](place)?
+    - can you tell me what functions does your [marketplace](place) have ?
+    - could you tell me the features of the [marketplace](place)?
+    - Tell me more about the functionality of the [platform](place).
+    - tell me the features of your [marketplace](place). 
+    - Features & functionality of the [marketplace](place).
+- intent: ask_information 
+  examples: |
+    - what kind of information is available upfront before I purchase [assets](property)?
+    - what kind of information is out there before I buy [assets](property)?
+    - what infor is available to me before purchasing [assets](property)?
+    - What information about the [assets](property) will I get before purchasing?
+    - What kind of information can I access before I buy [data](property) ?
+    - what information can I see before purchasing anything?
+    - what infor will I get before buying [assets](property)?
+    - What information can I have in advance of buying [data](property)?
+    - What kind of details do I have access to before buying [assets](property)?
+    - what are the details I can see before purchasing [assets](property) ?
+    - Before purchasing [assets](property), what information is made available to me ?
+    - Before I purchase [assets](property), what kind of information is out there?
+    - before buying anything, what information can I get access to?
+    - Could you give me some information before I purchase [assets](property)?
+    - can I see more information about the [assets](property) before purchasing?
+    - Can I view have more information in advance of purchasing [assets](property)?
+    - Is there any information available before purchasing [assets](property)?
+    - Is there any infor I can use to make up my decision on buying [assets](property)?
+    - will there be any information given, prior to buying any [assets](property)?
+    - Will you allow me to check more information prior to purchasing [assets](property)
+    - Any information given ahead of buying [assets](property) ?
+- intent: ask_data_costs
+  examples: |
+    - what are the costs for buying [data](property)?
+    - What are the prices for purchasing [data](property)?
+    - What are the prices of your [data](property)?
+    - what is the rate of your [data](property)?
+    - how much is the [data](property)?
+    - How much does the [data](property) cost?
+    - How much does it cost to buy [data](property)?
+    - How much will I pay for buying [data](property)?
+    - how much do I need to pay for buying [assets](property) ?
+    - how much would it cost to buy [data](property)?
+    - can I know the price for buying the [data](property)? 
+    - Can I please know the costs of purchasing [data](property) 
+    - Can you tell me the price of the [data](property)?
+    - can you tell me what are the costs for buying [assets](property)?
+    - could you tell me where to find the price of the [data](property) ?
+    - Tell me the costs of buying [assets](property)
+    - I want to know the price of buying data on your [marketplace](place)?
+    - I want to buy data, where is the price?
+    - I would like to buy some data, can I see the price of the [data](property)?  
+    - I am interested in getting some data, can you tell me the costs?
+    - Price of your [data](property)?
+- intent: ask_more_than_data
+  examples: |
+    - can I do more than just buying [asstes](property)?
+    - Can I do some other things instead of buying [asstes](property) ?
+    - Can I do anything else apart from purchasing [data](property)?
+    - can I do something else on your [platform](place) other than buying [data](property)?
+    - what can I do other than purchasing [assets](property)?
+    - what are the things I can do outside of buying [data](property)?
+    - what else can I do apart form buying [data](property)?
+    - What else could I do besides buying or selling [data](property)?
+    - Is there anything to do on your marketplace excluding buying data?
+    - Is there something I can do outside of buying [assets](property) ?
+    - is it possible to do more than just buying [data](property)?
+    - Is there anything else to do other than buying/selling [data](property)?
+    - Anything else I can do apart from buying [assets](property)?
+    - Anything to do outside of purchasing data?
+    - Any suggestion on what I can do instead of buying [data](property)?
+    - I do not want to buy data, what else can I do on your [platform](place)?   
+    - I do not wanna buy any data, suggest me something else to do.  
+    - I am not interested in purchasing data, tell me something else to do.
+    - apart from buying or selling [data](property), what else can I do?
+    - I am not interested in buying [assets](property), suggest me something else to do.     
+- intent: ask_more_answer 
+  examples: |
+    - My question is not answered here, who can I contact?
+    - my question is not answered, can I talk to someone else?
+    - my question is not answered, can I speak to a human?
+    - my problem is not solved, who can I ask?
+    - My problem is unsolved, I want to talk to a real person. 
+    - You did not answer my question, can I speak to someone else? 
+    - Your answer is not good, who should I ask?
+    - you do not have the answer Im looking for, give me the contact of someone else.
+    - I do not get the right answer here, what should I do next?
+    - I do not find an answer, who can I ask?
+    - I have more to ask, I want to talk to a person. 
+    - I need better answer, who to contact?
+    - is there anyone else I can ask the questions?
+    - Is there anybody can help me with my problem?
+    - Anyone can answer my question?
+    - Anyone can help me further with my question? 
+    - who can I ask because my question is not answered here?
+    - who can I contact if my question is not answered here?
+    - where can I get better answers to my questions?
+    - If my question is not answered here, who should I contact?
+    - Give me the contact to a real person, I have more complex questions. 
+    
+- intent: out_of_scope 
+  examples: |
+    - what is your [name](information)?
+    - What is your [age](information)?
+    - Tell me your [gender](information)?
+    - how is ur [personality](information)?
+    - what [country](information) are you from?
+    - which [year](time) is it?
+    - what is the [date](time) today?
+    - can you tell me the [time](time) ? 
+    - what [season](time) is it now?
+    - what is the [temperature](time) today ? 
+    - what is 1 + 1?
+    - Can you sing a song?
+    - who is the US president?
+    - Where do you live?
+    - what are you made of?
+    - Can you book me a [flight](service)?
+    - can you reserve a [hotel](service) for me?
+    - please book a [taxi](service) for me.
+    - I want to book a sales [call](service).
+    - find the [restaurants](service) around me.
+    - i am [happy](mood).
+    - I am felling a bit [worrying](mood).
+    - i am a little [down](mood) today.
+    - you are boring](mood).
+    - will you ever get [mad](mood)?
+    - can you tell me a story?
+    - who is your [mother](relation)?
+    - who is ur [father](relation)
+    - who is your [boss](relation)?
+    - do you have a [girlfriend](relation)?
+    - Am I your [friend](relation)?
+    - Do you speak [German](language)?
+    - do you also talk in [spanish](language)?
+    - can you answer in [Chinese](language)?
+    - You cannot speak [French](language) ?
+    - I want to learn [english](language).
+    - are you smart?
+    - dsanjsd3218341
+    - sudo reboot
+
+
+- synonym: assets
+  examples: |
+    - data  
+- synonym: marketplace
+  examples: |
+    - platform
+    - website
+- synonym: adopter
+  examples: |
+    - user
+    - customer
+    - member
+- synonym: support
+  examples: |
+    - guidance
+    - help
+    - assistance
+    - training  
+
+    
+    
+    
+    
+    
+      

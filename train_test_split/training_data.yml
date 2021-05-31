@@ -1,0 +1,192 @@
+version: "2.0"
+nlu:
+- intent: faq/ask_early_user #8
+  examples: |
+    - I want to be an early adopter, what should I do?
+    - What criteria are you using to find an early adopter/user?
+    - How to be an early adopter?
+    - What do I need to do to be an early adopter/user?
+    - How can I be selected to be an early user?
+    - What are the requirements to be considered as an early adopter/user?
+    - What criteria will be used to pick an early adopter/user?
+    - What are the criteria to be selected as an early adopter/user?
+- intent: faq/ask_data_control #8
+  examples: |
+    - Can I keep control of my data?
+    - Can I maintain full control over my data?
+    - Do I have the control of my data?
+    - Will I have the absolute control of my own data?
+    - Am I the person who is in charge of my own data?
+    - Can I have the right to manage and use own my data?
+    - Will I have control over my data?
+    - Will my data on your platform still be in my control?
+- intent: faq/ask_data_usage #8
+  examples: |
+    - Are there many things I can do with my data on your marketplace?
+    - What exactly can I do with my data on the marketplace?
+    - What to do with my data on your platform?
+    - What options do you provide for using data on your marketplace?
+    - What can I do with my data on your platform?
+    - What options do I have for using data on your platform?
+    - How can I use my data on your marketplace?
+    - What are the things I could do with my data on your marketplace?
+- intent: faq/ask_price_terms #8
+  examples: |
+    - Is it possible for me to set my own terms for my assets?
+    - Can I set my own price and terms for my assets?
+    - Will I decide on the terms and price of my assets?
+    - Will I have control on the price and terms for my assets?
+    - Will I be able to make the prices and terms for my assets?
+    - Do I have the right to set the terms and price for my own data?
+    - Can I decide on the terms and prices of my data?
+    - Is it possible to set the price and terms of my assets myself?
+- intent: faq/ask_marketplace_functionality #8
+  examples: |
+    - What functions can your marketplace provide?
+    - How can I use the marketplace?
+    - What are the features of the marketplace?
+    - What does the marketplace have?
+    - What features does the marketplace provide?
+    - What functionalities does the marketplace offer?
+    - What can I do on your website?
+    - What will I be able to do on the marketplace?
+- intent: faq/ask_data_costs #8
+  examples: |
+    - What are the prices for purchasing data?
+    - How much does the data cost?
+    - Can you tell me the price of the data?
+    - What are the prices of your data?
+    - I want to know the price of buying data on your marketplace?
+    - What are the costs for buying data?
+    - How much does it cost to buy data?
+    - How much will I pay for buying data?
+- intent: faq/ask_support #8
+  examples: |
+    - Is there any support you can offer to get started?
+    - Do you offer any guidance to start?
+    - Do you help on setting things up?
+    - Is there any support you can give to start?
+    - Do you offer assistance to get started?
+    - Do you provide onboarding training?
+    - Do you provide any help to start?
+    - Do you provide any guidance to start off?
+- intent: faq/ask_security #8
+  examples: |
+    - If something goes wrong, what security measures can I depend on?
+    - Will I be protected when there is an issue with the transaction?
+    - How am I protected if something happens that is outside of my control?
+    - What will you do to protect my assets if something happens?
+    - Is there any seller protection guarantee policy?
+    - How do you protect my seller rights in case of unexpetced events in a transactions?
+    - How will the seller be protected if something goes wrong?
+    - Is there any protection for the seller in case something goes wrong?
+- intent: faq/ask_terms_and_conditions #8
+  examples: |
+    - Is there a place to check out terms and conditions?
+    - Can I know what are your terms and conditions?
+    - Is it possible for me to go over the terms and conditions?
+    - Where can I find the terms and conditions?
+    - Is it possible to check the terms and conditions?
+    - I am interested in the terms and conditions.
+    - Can I read the conditions and terms?
+    - Can I see the terms and conditions?
+- intent: faq/ask_information #9
+  examples: |
+    - What kind of details do I have access to before I buy assets?
+    - What infor will I get before buying assets?
+    - What kind of information is available upfront before I purchase assets?
+    - Before purchasing assets, what kind of information is available?
+    - Is there any information available before I purchase assets?
+    - Will there be any information given, prior to buying any asset?
+    - Before I purchase assets, what kind of information is out there?
+    - What information is there before buying anything?
+    - What information is available before buying?
+- intent: faq/ask_more_than_data #9
+  examples: |
+    - What are the things I can do outside buying data?
+    - What else can I do apart form buying data?
+    - Can I do something else on your platform apart from buying data?
+    - I do not want to buy data, what else can I get from your platform?
+    - Is there anything to do on your marketplace excluding buying data?
+    - Can I do more than just buying data?
+    - Is it possible to do more than just buying data?
+    - What can I do other than purchasing data?
+    - What else can I do apart from buying data?
+- intent: faq/ask_sell_asset #9
+  examples: |
+    - How much will you charge me for selling asset?
+    - Any extra fees I need to pay for selling assets?
+    - Is there any processing fee that I need to pay for selling?
+    - How much should I pay you for selling my assets on your website?
+    - What are the charges for selling assets on your marketplace?
+    - Do I need to pay you for selling assets on your marketplace?
+    - Any fees I need to pay for each sale I make?
+    - What are the fees I need to pay for selling data?
+    - What are the service fees in a transaction?
+- intent: faq/ask_free_service #9
+  examples: |
+    - Is there any other free service that I can use?
+    - What services do you have for free?
+    - Do you offer free service?
+    - I am looking for your free services.
+    - How can I access your free service?
+    - What service is for free?
+    - Any free services?
+    - What services can I take without paying?
+    - I do not want to pay for anything, what can I do?
+- intent: faq/ask_more_answer #9
+  examples: |
+    - Is there anyone else I can ask the questions?
+    - Who can I contact because my question is not answered here?
+    - Where can I get better answers to my questions?
+    - Who can I contact if my question is not answered here?
+    - I do not get the answer I need, what should I do next?
+    - My question is not answered here, who can I contact?
+    - I do not find an answer, who can I ask?
+    - If my question is not answered here, who can I contact?
+    - My question is not solved, can I talk to someone else?
+- intent: bot_challenge #9
+  examples: |
+    - Who am I talking to right now?
+    - Are you a computer program?
+    - Is this a real person?
+    - Is this a chatbot?
+    - Are you a chatbot?
+    - Are you a human?
+    - Who are you?
+    - Are you a machine?
+    - Is this a robot I am speaking with?
+- intent: greet #10
+  examples: |
+    - Hallo
+    - What is new?
+    - Hey!
+    - Good afternoon
+    - How are you?
+    - Good day
+    - Good evening
+    - It is good to see you
+    - What is up?
+    - Morning
+- intent: goodbye #13
+  examples: |
+    - See you later
+    - Go away
+    - I am off
+    - Exit
+    - I am done
+    - I will quit now
+    - Bye
+    - Bye-bye
+    - Have a nice day
+    - Good night
+    - Stop
+    - I got to go
+    - Talk to you later
+- synonym: assets
+  examples: |
+    - data
+- synonym: marketplace
+  examples: |
+    - platform
+    - website

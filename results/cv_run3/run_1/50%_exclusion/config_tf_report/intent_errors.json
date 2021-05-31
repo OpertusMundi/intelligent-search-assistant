@@ -1,0 +1,106 @@
+[
+  {
+    "text": "bot?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6377649307250977
+    }
+  },
+  {
+    "text": "who are you?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9155744910240173
+    }
+  },
+  {
+    "text": "how can I best use my data?",
+    "intent": "ask_data_usage",
+    "intent_prediction": {
+      "name": "ask_data_control",
+      "confidence": 0.5832080245018005
+    }
+  },
+  {
+    "text": "any recommendation on what to do with my data?",
+    "intent": "ask_data_usage",
+    "intent_prediction": {
+      "name": "ask_price_terms",
+      "confidence": 0.275446355342865
+    }
+  },
+  {
+    "text": "any hideen cost I need to pay when making a sale?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_security",
+      "confidence": 0.4750148057937622
+    }
+  },
+  {
+    "text": "I wanna first read your terms & conditions.",
+    "intent": "ask_terms_and_conditions",
+    "intent_prediction": {
+      "name": "ask_support",
+      "confidence": 0.5634082555770874
+    }
+  },
+  {
+    "text": "what can I use for free on your marketplace?",
+    "intent": "ask_free_service",
+    "intent_prediction": {
+      "name": "ask_marketplace_functionality",
+      "confidence": 0.6384208798408508
+    }
+  },
+  {
+    "text": "Is there any seller protection guarantee policy?",
+    "intent": "ask_security",
+    "intent_prediction": {
+      "name": "ask_sell_asset",
+      "confidence": 0.5882341861724854
+    }
+  },
+  {
+    "text": "What information can I have in advance of buying data?",
+    "intent": "ask_information",
+    "intent_prediction": {
+      "name": "ask_more_than_data",
+      "confidence": 0.5595413446426392
+    }
+  },
+  {
+    "text": "can you teach me how to start using your platform?",
+    "intent": "ask_support",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.2618978023529053
+    }
+  },
+  {
+    "text": "Do you provide triaining on how to use your marketplace?",
+    "intent": "ask_support",
+    "intent_prediction": {
+      "name": "ask_marketplace_functionality",
+      "confidence": 0.9709845185279846
+    }
+  },
+  {
+    "text": "dsanjsd3218341",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_data_control",
+      "confidence": 0.3648264408111572
+    }
+  },
+  {
+    "text": "i am a little down today.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7742185592651367
+    }
+  }
+]

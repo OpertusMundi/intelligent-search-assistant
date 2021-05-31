@@ -1,0 +1,58 @@
+[
+  {
+    "text": "how much does it cost to sell data?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.5417117476463318
+    }
+  },
+  {
+    "text": "Anything else I can do apart from buying assets?",
+    "intent": "ask_more_than_data",
+    "intent_prediction": {
+      "name": "ask_information",
+      "confidence": 0.3883132040500641
+    }
+  },
+  {
+    "text": "byr",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.28254446387290955
+    }
+  },
+  {
+    "text": "what are you made of?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.3249000012874603
+    }
+  },
+  {
+    "text": "i am a little down today.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.480195552110672
+    }
+  },
+  {
+    "text": "what is the date today?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_terms_and_conditions",
+      "confidence": 0.35408052802085876
+    }
+  },
+  {
+    "text": "dsanjsd3218341",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.23562416434288025
+    }
+  }
+]

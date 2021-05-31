@@ -1,0 +1,144 @@
+[
+  {
+    "text": "Do you offer support in using your service? ##",
+    "entities": [
+      {
+        "start": 13,
+        "end": 20,
+        "value": "support",
+        "entity": "support_topio"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "support_topio",
+        "start": 13,
+        "end": 20,
+        "confidence_entity": 0.998971700668335,
+        "value": "support",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I dont know how to start on your marketplace, any support? ##",
+    "entities": [
+      {
+        "start": 33,
+        "end": 44,
+        "value": "marketplace",
+        "entity": "place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place",
+        "start": 33,
+        "end": 44,
+        "confidence_entity": 0.8577449589898131,
+        "value": "marketplace",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "support_topio",
+        "start": 50,
+        "end": 57,
+        "confidence_entity": 0.6145487579187106,
+        "value": "support",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "place",
+        "start": 33,
+        "end": 44,
+        "confidence_entity": 0.9975320100784302,
+        "value": "marketplace",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Do I have the right to use my data anyway I want to?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 34,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "can I decide the price and terms of my data on my own?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 43,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 39,
+        "end": 43,
+        "confidence_entity": 0.9725006818771362,
+        "value": "assets",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I want to know more information about the data before buying it.",
+    "entities": [
+      {
+        "start": 42,
+        "end": 46,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to buy data, tell me how much does it cost?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How much will I pay for purchasing data from you?",
+    "entities": [
+      {
+        "start": 35,
+        "end": 39,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I do not wanna buy data, suggest me something else that I can do.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 23,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

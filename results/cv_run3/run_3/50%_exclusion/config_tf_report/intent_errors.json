@@ -1,0 +1,90 @@
+[
+  {
+    "text": "bot?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3783000111579895
+    }
+  },
+  {
+    "text": "how can I best use my data?",
+    "intent": "ask_data_usage",
+    "intent_prediction": {
+      "name": "ask_data_control",
+      "confidence": 0.5309209227561951
+    }
+  },
+  {
+    "text": "how much does it cost to sell data?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.975982129573822
+    }
+  },
+  {
+    "text": "Any suggestion on what I can do instead of buying data?",
+    "intent": "ask_more_than_data",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.6059413552284241
+    }
+  },
+  {
+    "text": "byr",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8752729892730713
+    }
+  },
+  {
+    "text": "find the restaurants around me.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_free_service",
+      "confidence": 0.34423309564590454
+    }
+  },
+  {
+    "text": "what are you made of?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5071684122085571
+    }
+  },
+  {
+    "text": "i am a little down today.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6133003234863281
+    }
+  },
+  {
+    "text": "please book a taxi for me.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_free_service",
+      "confidence": 0.7635413408279419
+    }
+  },
+  {
+    "text": "what is the date today?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5667569637298584
+    }
+  },
+  {
+    "text": "dsanjsd3218341",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7178765535354614
+    }
+  }
+]

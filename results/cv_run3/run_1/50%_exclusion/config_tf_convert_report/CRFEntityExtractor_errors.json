@@ -1,0 +1,290 @@
+[
+  {
+    "text": "do I need to pay you for selling data on your marketplace?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 37,
+        "value": "data",
+        "entity": "property"
+      },
+      {
+        "start": 46,
+        "end": 57,
+        "value": "marketplace",
+        "entity": "place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place",
+        "start": 46,
+        "end": 57,
+        "confidence_entity": 0.9690129974326824,
+        "value": "marketplace",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "place",
+        "start": 46,
+        "end": 57,
+        "confidence_entity": 0.9988491535186768,
+        "value": "marketplace",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What functionalities can your platform provide?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 38,
+        "value": "platform",
+        "entity": "place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place",
+        "start": 30,
+        "end": 38,
+        "confidence_entity": 0.9870423078536987,
+        "value": "marketplace",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "am i the boss of my data?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.5162413144989384,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "am I the person who is in charge of my own data?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 43,
+        "end": 47,
+        "confidence_entity": 0.9204129679121877,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "property",
+        "start": 43,
+        "end": 47,
+        "confidence_entity": 0.9975460171699524,
+        "value": "assets",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Do I have the full right to manage my data ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 38,
+        "end": 42,
+        "confidence_entity": 0.5162550837490987,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I need help to start.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 11,
+        "value": "help",
+        "entity": "support_topio"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Any support to get started?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "support",
+        "entity": "support_topio"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "customer",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.5407984256744385,
+        "value": "support",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Do you provide triaining on how to use your marketplace?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 24,
+        "value": "triaining",
+        "entity": "support_topio"
+      },
+      {
+        "start": 44,
+        "end": 55,
+        "value": "marketplace",
+        "entity": "place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place",
+        "start": 44,
+        "end": 55,
+        "confidence_entity": 0.9690109775903554,
+        "value": "marketplace",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "place",
+        "start": 44,
+        "end": 55,
+        "confidence_entity": 0.9985893368721008,
+        "value": "marketplace",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what country are you from?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "country",
+        "entity": "information"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who is ur father",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "father",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "information",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.3603834807872772,
+        "value": "father",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "do you have a girlfriend?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 24,
+        "value": "girlfriend",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i am a little down today.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "down",
+        "entity": "mood"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who is your mother?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "mother",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "information",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.25800567865371704,
+        "value": "mother",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can you reserve a hotel for me?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "hotel",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 18,
+        "end": 23,
+        "confidence_entity": 0.5340527296066284,
+        "value": "hotel",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

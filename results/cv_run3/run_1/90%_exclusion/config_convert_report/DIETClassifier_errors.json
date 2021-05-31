@@ -1,0 +1,262 @@
+[
+  {
+    "text": "how can I best use my data?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 26,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "any recommendation on what to do with my data?",
+    "entities": [
+      {
+        "start": 41,
+        "end": 45,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "is it possible to create terms & prices for my assets myself?",
+    "entities": [
+      {
+        "start": 47,
+        "end": 53,
+        "value": "assets",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 47,
+        "end": 53,
+        "confidence_entity": 0.6456283075886646,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "property",
+        "start": 54,
+        "end": 60,
+        "confidence_entity": 0.9997027516365051,
+        "value": "myself",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I do not want to buy data, what else can I do on your platform?",
+    "entities": [
+      {
+        "start": 54,
+        "end": 62,
+        "value": "platform",
+        "entity": "place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.9014133810997009,
+        "value": "assets",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place",
+        "start": 54,
+        "end": 62,
+        "confidence_entity": 0.941037118434906,
+        "value": "marketplace",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how do you decide if someone is an early member?",
+    "entities": [
+      {
+        "start": 41,
+        "end": 47,
+        "value": "member",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how to be an early adopter?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 26,
+        "value": "adopter",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to buy data, where is the price?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.9850823879241943,
+        "value": "assets",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I need help to start.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 11,
+        "value": "help",
+        "entity": "support_topio"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Any support to get started?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "support",
+        "entity": "support_topio"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Do you provide triaining on how to use your marketplace?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 24,
+        "value": "triaining",
+        "entity": "support_topio"
+      },
+      {
+        "start": 44,
+        "end": 55,
+        "value": "marketplace",
+        "entity": "place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place",
+        "start": 44,
+        "end": 55,
+        "confidence_entity": 0.8723648722276672,
+        "value": "marketplace",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "place",
+        "start": 44,
+        "end": 55,
+        "confidence_entity": 0.999173104763031,
+        "value": "marketplace",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what country are you from?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "country",
+        "entity": "information"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who is ur father",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "father",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "do you have a girlfriend?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 24,
+        "value": "girlfriend",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i am a little down today.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "down",
+        "entity": "mood"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who is your mother?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "mother",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "can you reserve a hotel for me?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "hotel",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

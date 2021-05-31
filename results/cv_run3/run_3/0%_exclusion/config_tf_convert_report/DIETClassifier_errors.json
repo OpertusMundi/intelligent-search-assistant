@@ -1,0 +1,140 @@
+[
+  {
+    "text": "Are you a computer program?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 19,
+        "end": 26,
+        "confidence_entity": 0.7786963582038879,
+        "value": "program",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how can I best use my data?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 26,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.5103745528525298,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Anything to do outside of purchasing data?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 37,
+        "end": 41,
+        "confidence_entity": 0.8846948756002702,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "property",
+        "start": 37,
+        "end": 41,
+        "confidence_entity": 0.9998703002929688,
+        "value": "assets",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "can I have the right to manage my data?",
+    "entities": [
+      {
+        "start": 34,
+        "end": 38,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 34,
+        "end": 38,
+        "confidence_entity": 0.5103778646678725,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find the restaurants around me.",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "restaurants",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i am a little down today.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "down",
+        "entity": "mood"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is the date today?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "value": "date",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "can you tell me the time ?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "time",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

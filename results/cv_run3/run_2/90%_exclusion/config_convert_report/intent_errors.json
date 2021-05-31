@@ -1,0 +1,162 @@
+[
+  {
+    "text": "any processing fee to pay for selling assets?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.2656697928905487
+    }
+  },
+  {
+    "text": "will there be a fee to assets?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_price_terms",
+      "confidence": 0.3610972464084625
+    }
+  },
+  {
+    "text": "Tell me how much is the selling fee on your website?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.39776960015296936
+    }
+  },
+  {
+    "text": "how much do I need to pay for selling data on your marketplace?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.45653676986694336
+    }
+  },
+  {
+    "text": "can I do something else on your platform other than buying data?",
+    "intent": "ask_more_than_data",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.5087733864784241
+    }
+  },
+  {
+    "text": "Is there anybody can help me with my problem?",
+    "intent": "ask_more_answer",
+    "intent_prediction": {
+      "name": "ask_support",
+      "confidence": 0.66145259141922
+    }
+  },
+  {
+    "text": "my question is not answered, can I speak to a human?",
+    "intent": "ask_more_answer",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.39408013224601746
+    }
+  },
+  {
+    "text": "Does the data still belong to me after uploading it to your marketplace?",
+    "intent": "ask_data_control",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.3130576014518738
+    }
+  },
+  {
+    "text": "can I maintain full control over my assets?",
+    "intent": "ask_data_control",
+    "intent_prediction": {
+      "name": "ask_price_terms",
+      "confidence": 0.52154141664505
+    }
+  },
+  {
+    "text": "byr",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.2157025784254074
+    }
+  },
+  {
+    "text": "let us stop",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.24697095155715942
+    }
+  },
+  {
+    "text": "go away",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.3121979236602783
+    }
+  },
+  {
+    "text": "how do you do",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.20408448576927185
+    }
+  },
+  {
+    "text": "how is your day?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.49990418553352356
+    }
+  },
+  {
+    "text": "Im new ro your platform, can you give me some onboarding training?",
+    "intent": "ask_support",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.25658050179481506
+    }
+  },
+  {
+    "text": "Am I your friend?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.42090022563934326
+    }
+  },
+  {
+    "text": "You cannot speak French ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.3802800178527832
+    }
+  },
+  {
+    "text": "which year is it?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.22187215089797974
+    }
+  },
+  {
+    "text": "can you tell me the time ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.2858300507068634
+    }
+  },
+  {
+    "text": "I am felling a bit worrying.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_more_answer",
+      "confidence": 0.26257210969924927
+    }
+  }
+]

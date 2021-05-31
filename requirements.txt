@@ -1,0 +1,4 @@
+rasa==2.4.3
+rasa-x --extra-index-url https://pypi.rasa.com/simple
+spacy==3.0.6
+transformers==4.6.0

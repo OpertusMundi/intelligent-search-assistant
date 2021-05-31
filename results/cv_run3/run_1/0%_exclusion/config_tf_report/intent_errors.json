@@ -1,0 +1,50 @@
+[
+  {
+    "text": "bot?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.520327091217041
+    }
+  },
+  {
+    "text": "Have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7512216567993164
+    }
+  },
+  {
+    "text": "can you teach me how to start using your platform?",
+    "intent": "ask_support",
+    "intent_prediction": {
+      "name": "ask_marketplace_functionality",
+      "confidence": 0.590510368347168
+    }
+  },
+  {
+    "text": "Do you provide triaining on how to use your marketplace?",
+    "intent": "ask_support",
+    "intent_prediction": {
+      "name": "ask_marketplace_functionality",
+      "confidence": 0.9792246222496033
+    }
+  },
+  {
+    "text": "dsanjsd3218341",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_early_user",
+      "confidence": 0.3321920335292816
+    }
+  },
+  {
+    "text": "i am a little down today.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8205438852310181
+    }
+  }
+]

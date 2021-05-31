@@ -1,0 +1,285 @@
+[
+  {
+    "text": "any suggestions on what can I do with my data?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 41,
+        "end": 45,
+        "confidence_entity": 0.517896440413162,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what activities does your marketplace support?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 37,
+        "value": "marketplace",
+        "entity": "place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place",
+        "start": 26,
+        "end": 37,
+        "confidence_entity": 0.9187501650837325,
+        "value": "marketplace",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "support_topio",
+        "start": 38,
+        "end": 45,
+        "confidence_entity": 0.8684648760732435,
+        "value": "support",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "place",
+        "start": 26,
+        "end": 37,
+        "confidence_entity": 0.9998791217803955,
+        "value": "marketplace",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "support_topio",
+        "start": 38,
+        "end": 45,
+        "confidence_entity": 0.9857461452484131,
+        "value": "support",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "apart from buying or selling data, what else can I do?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 33,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 29,
+        "end": 33,
+        "confidence_entity": 0.9992215633392334,
+        "value": "assets",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "am i the boss of my data?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.517831376597034,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I need help to start.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 11,
+        "value": "help",
+        "entity": "support_topio"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Im new ro your platform, can you give me some onboarding training?",
+    "entities": [
+      {
+        "start": 57,
+        "end": 65,
+        "value": "training",
+        "entity": "support_topio"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.6012425024405335,
+        "value": "marketplace",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "support_topio",
+        "start": 57,
+        "end": 65,
+        "confidence_entity": 0.8782068196751095,
+        "value": "support",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9983214735984802,
+        "value": "marketplace",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "support_topio",
+        "start": 57,
+        "end": 65,
+        "confidence_entity": 0.9988515377044678,
+        "value": "support",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Am I your friend?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "friend",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "You cannot speak French ?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 23,
+        "value": "French",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 17,
+        "end": 23,
+        "confidence_entity": 0.9588925838470459,
+        "value": "French",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "which year is it?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 10,
+        "value": "year",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "time",
+        "start": 6,
+        "end": 10,
+        "confidence_entity": 0.9603564739227295,
+        "value": "year",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who is your mother?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "mother",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "relation",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.5689785480499268,
+        "value": "mother",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can you tell me the time ?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "time",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am felling a bit worrying.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "value": "worrying",
+        "entity": "mood"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "do you have a girlfriend?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 24,
+        "value": "girlfriend",
+        "entity": "relation"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

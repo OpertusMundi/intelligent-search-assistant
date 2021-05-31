@@ -1,0 +1,34 @@
+[
+  {
+    "text": "Am i able to choose the price for my data?",
+    "intent": "ask_price_terms",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.7235655784606934
+    }
+  },
+  {
+    "text": "Is there anybody can help me with my problem?",
+    "intent": "ask_more_answer",
+    "intent_prediction": {
+      "name": "ask_support",
+      "confidence": 0.4191499650478363
+    }
+  },
+  {
+    "text": "Does the data still belong to me after uploading it to your marketplace?",
+    "intent": "ask_data_control",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.39252540469169617
+    }
+  },
+  {
+    "text": "byr",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.32832950353622437
+    }
+  }
+]

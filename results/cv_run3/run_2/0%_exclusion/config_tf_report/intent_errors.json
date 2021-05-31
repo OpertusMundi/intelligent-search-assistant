@@ -1,0 +1,58 @@
+[
+  {
+    "text": "are you ai?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5168349146842957
+    }
+  },
+  {
+    "text": "who are you?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8855498433113098
+    }
+  },
+  {
+    "text": "Tell me how much is the selling fee on your website?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_free_service",
+      "confidence": 0.4538225531578064
+    }
+  },
+  {
+    "text": "Am i able to choose the price for my data?",
+    "intent": "ask_price_terms",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.6411910057067871
+    }
+  },
+  {
+    "text": "byr",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7193809747695923
+    }
+  },
+  {
+    "text": "how do you do",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9957378506660461
+    }
+  },
+  {
+    "text": "can you teach me how to start using your platform?",
+    "intent": "ask_support",
+    "intent_prediction": {
+      "name": "ask_marketplace_functionality",
+      "confidence": 0.9871598482131958
+    }
+  }
+]

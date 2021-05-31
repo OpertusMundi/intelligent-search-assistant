@@ -1,0 +1,222 @@
+[
+  {
+    "text": "What functionalities can your platform provide?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 38,
+        "value": "platform",
+        "entity": "place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place",
+        "start": 30,
+        "end": 38,
+        "confidence_entity": 0.9992204904556274,
+        "value": "marketplace",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "apart from buying or selling data, what else can I do?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 33,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Anything to do outside of purchasing data?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 37,
+        "end": 41,
+        "confidence_entity": 0.8846948756002702,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "property",
+        "start": 37,
+        "end": 41,
+        "confidence_entity": 0.9619777798652649,
+        "value": "assets",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "am I the person who is in charge of my own data?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 43,
+        "end": 47,
+        "confidence_entity": 0.7700597469237402,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Can I have control over my data?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 27,
+        "end": 31,
+        "confidence_entity": 0.5103874855561819,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "property",
+        "start": 27,
+        "end": 31,
+        "confidence_entity": 0.9913526177406311,
+        "value": "assets",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "can you give more guidance on how to use your services?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 26,
+        "value": "guidance",
+        "entity": "support_topio"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "find the restaurants around me.",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "restaurants",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i am a little down today.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "down",
+        "entity": "mood"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "please book a taxi for me.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "taxi",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.8738054037094116,
+        "value": "taxi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is the date today?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "value": "date",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "can you tell me the time ?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "time",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "information",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.5148096680641174,
+        "value": "time",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can you answer in Chinese?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "Chinese",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 18,
+        "end": 25,
+        "confidence_entity": 0.8502688407897949,
+        "value": "Chinese",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

@@ -1,54 +1,35 @@
-# Intelligent Search Assistant
+# Conversation Assistant
 
-The purpose of the Intelligent Search Assistant is to help and guide users in finding the most relevant 
-assets in the OpertusMundi marketplace. 
-An intelligent search assistant can significantly improve the search experience by interacting with 
-the user and understanding their query to provide better results, and integrating in the provided resources the 
-rich information in terms of metadata and automated metadata produced and managed by the marketplace. 
+The purpose of the Conversation Assistant is to help and guide users in finding answers to the most frequent asked questions about the OpertusMundi marketplace. 
+An conversation assistant can improve the user experience by interacting with 
+the users, understanding their questions and providing answers to them.
 
 # Setup
 
-##### Prerequisites
-* Python 3.6
-* Rasa and Rasa X
+### Requirements:
+* Python 3.8.5
+
+To install the required libraries, simply run: 
 
 ```
-pip install rasa-x --extra-index-url https://pypi.rasa.com/simple
+pip install -r requirements.txt
+python -m spacy download en_core_web_md
 ```
 
-##### Run Conversation Assistant
-Run the Conversation Assistant by executing the following from project root directory:
-```
-rasa run --enable-api
-```
-
-## Documentation
-
-Once the server is running at http://localhost:5005, access the chatbot via REST endpoint:
-
-#### POST /webhooks/rest/webhook
-##### Sample Body
-```json
-{
-  "sender": "some_id",
-  "message": "Hello!"
-}
-```
-##### Sample Response
-```json
-[
-    {
-        "recipient_id": "some_id",
-        "text": "Hey! How are you?"
-    }
-]
-```
-
-## Training NLU
-
-To train the NLU models via Rasa X UI, run the following from project root directory:
+### Intereact with the Conversation Assistant
+Intereact with the conversation assistant by executing the following from project root directory:
 ```
 rasa x
 ```
+Then the Rasa X UI will run locally at http://localhost:5002/login?username=me&password=KoVg01ePU3Zb.
 
-Then the Rasa X training UI will run at http://localhost:5002
+### Access the Conversation Assistant
+
+Once the server is running at http://localhost:5002, external access to the chatbot can be made via: 
+
+
+### Dialog example <br>
+<img src="https://github.com/OpertusMundi/intelligent-search-assistant/tree/main/image/rasa_x.png"></img><br>
+
+
+

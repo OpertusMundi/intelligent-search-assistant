@@ -1,0 +1,186 @@
+[
+  {
+    "text": "who are you?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5137988924980164
+    }
+  },
+  {
+    "text": "any processing fee to pay for selling assets?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.6294125914573669
+    }
+  },
+  {
+    "text": "will there be a fee to assets?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.5565208196640015
+    }
+  },
+  {
+    "text": "Tell me how much is the selling fee on your website?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.5585554838180542
+    }
+  },
+  {
+    "text": "how much do I need to pay for selling data on your marketplace?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.8079155683517456
+    }
+  },
+  {
+    "text": "Am i able to choose the price for my data?",
+    "intent": "ask_price_terms",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.3492288589477539
+    }
+  },
+  {
+    "text": "terms and conditions please.",
+    "intent": "ask_terms_and_conditions",
+    "intent_prediction": {
+      "name": "ask_price_terms",
+      "confidence": 0.17929837107658386
+    }
+  },
+  {
+    "text": "can I do something else on your platform other than buying data?",
+    "intent": "ask_more_than_data",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.8996281027793884
+    }
+  },
+  {
+    "text": "what are the security measures to take if something goes wrong?",
+    "intent": "ask_security",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.2005840688943863
+    }
+  },
+  {
+    "text": "Is there anybody can help me with my problem?",
+    "intent": "ask_more_answer",
+    "intent_prediction": {
+      "name": "ask_support",
+      "confidence": 0.6448774337768555
+    }
+  },
+  {
+    "text": "my question is not answered, can I speak to a human?",
+    "intent": "ask_more_answer",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5169910192489624
+    }
+  },
+  {
+    "text": "Does the data still belong to me after uploading it to your marketplace?",
+    "intent": "ask_data_control",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.5173879861831665
+    }
+  },
+  {
+    "text": "can I maintain full control over my assets?",
+    "intent": "ask_data_control",
+    "intent_prediction": {
+      "name": "ask_price_terms",
+      "confidence": 0.5954188704490662
+    }
+  },
+  {
+    "text": "byr",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.3301469385623932
+    }
+  },
+  {
+    "text": "close this talk",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.3540588617324829
+    }
+  },
+  {
+    "text": "let us stop",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.3307500183582306
+    }
+  },
+  {
+    "text": "I am done",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.44342708587646484
+    }
+  },
+  {
+    "text": "Am I your friend?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.2988578975200653
+    }
+  },
+  {
+    "text": "You cannot speak French ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.35971564054489136
+    }
+  },
+  {
+    "text": "which year is it?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6046193838119507
+    }
+  },
+  {
+    "text": "can you tell me the time ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.35250788927078247
+    }
+  },
+  {
+    "text": "I am felling a bit worrying.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_more_answer",
+      "confidence": 0.4017205536365509
+    }
+  },
+  {
+    "text": "do you have a girlfriend?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.43473559617996216
+    }
+  }
+]

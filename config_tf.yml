@@ -1,0 +1,41 @@
+### Bert ####
+language: en
+
+pipeline:
+  - name: HFTransformersNLP
+    model_name: "bert"
+    model_weights: "bert-base-uncased"
+  - name: LanguageModelTokenizer
+  - name: LanguageModelFeaturizer
+  - name: CRFEntityExtractor
+  # - name: Countvecorfeaturize
+  - name: DIETClassifier
+    # constrain_similarities: True
+    # model_confidence: linear_norm
+    epochs: 200
+  - name: EntitySynonymMapper
+  - name: ResponseSelector
+    epochs: 200
+    # constrain_similarities: True
+    # model_confidence: linear_norm
+  - name: FallbackClassifier
+    threshold: 0.7
+    ambiguity_threshold: 0.1
+
+
+policies:
+  - name: AugmentedMemoizationPolicy
+  - name: RulePolicy
+  - name: TEDPolicy
+    # constrain_similarities: True
+    # model_confidence: linear_norm
+    max_history: 6
+    epochs: 200
+  
+ 
+
+ 
+ 
+ 
+ 
+ 

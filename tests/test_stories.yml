@@ -2,90 +2,419 @@
 #### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
 
 stories:
-- story: happy path 1
+- story: greet
   steps:
   - user: |
-      hello there!
+      Hey bot
     intent: greet
   - action: utter_greet
   - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
-
-- story: happy path 2
-  steps:
-  - user: |
-      hello there!
+      How is it going?
     intent: greet
   - action: utter_greet
   - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
+      long time no see
+    intent: greet
+  - action: utter_greet
   - user: |
-      bye-bye!
+      how is life?
+    intent: greet
+  - action: utter_greet
+  - user: |
+      greetings
+    intent: greet
+  - action: utter_greet
+- story: goodbye
+  steps:
+  - user: |
+      finished
     intent: goodbye
   - action: utter_goodbye
-
-- story: sad path 1
-  steps:
   - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      yes
-    intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      not really
-    intent: deny
-  - action: utter_goodbye
-
-- story: sad path 3
-  steps:
-  - user: |
-      hi
-    intent: greet
-  - action: utter_greet
-  - user: |
-      very terrible
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      no
-    intent: deny
-  - action: utter_goodbye
-
-- story: say goodbye
-  steps:
-  - user: |
-      bye-bye!
+      I need to leave
     intent: goodbye
   - action: utter_goodbye
-
-- story: bot challenge
+  - user: |
+      bye was nice talking to you
+    intent: goodbye
+  - action: utter_goodbye
+  - user: |
+      end
+    intent: goodbye
+  - action: utter_goodbye
+  - user: |
+      see ya
+    intent: goodbye
+  - action: utter_goodbye
+- story: bot_challenge
   steps:
   - user: |
-      are you a bot?
+      you are a bot, are you not?
     intent: bot_challenge
-  - action: utter_iamabot
+  - action: utter_i_am_a_bot
+  - user: |
+      real bot then?
+    intent: bot_challenge
+  - action: utter_i_am_a_bot
+  - user: |
+      I guess you are a chatbot
+    intent: bot_challenge
+  - action: utter_i_am_a_bot
+  - user: |
+      you robo
+    intent: bot_challenge
+  - action: utter_i_am_a_bot
+  - user: |
+      what are you, a bot?
+    intent: bot_challenge
+  - action: utter_i_am_a_bot
+  
+- story: ask_support
+  steps:
+  - user: |
+      Do you offer support in using your service?
+    intent: ask_support
+  - action: utter_ask_support
+  - user: |
+      I dont know how to start on your marketplaceplace, any support?
+    intent: ask_support
+  - action: utter_ask_support
+  - user: |
+      can you guide me how to start
+    intent: ask_support
+  - action: utter_ask_support
+  - user: |
+      can I get some onboarding training ?
+    intent: ask_support
+  - action: utter_ask_support
+  - user: |
+      Im new, any help to start ? 
+    intent: ask_support
+  - action: utter_ask_support
+- story: ask_early_user
+  steps:
+  - user: |
+      What to do to be your ealr adopter?
+    intent: ask_early_user
+  - action: utter_ask_early_user
+  - user: |
+      How will I be considered as an early adopter/user?
+    intent: ask_early_user
+  - action: utter_ask_early_user
+  - user: |
+      how do you selected early user?
+    intent: ask_early_user
+  - action: utter_ask_early_user
+  - user: |
+      what rules do you use to find an ealr user?
+    intent: ask_early_user
+  - action: utter_ask_early_user
+  - user: |
+      Any idea on how to be an early user?
+    intent: ask_early_user
+  - action: utter_ask_early_user
+- story: ask_data_control
+  steps:
+  - user: |
+      Is it possible to maintain the absolute control over my data?
+    intent: ask_data_control
+  - action: utter_ask_data_control
+  - user: |
+      will I have the full power over my data?
+    intent: ask_data_control
+  - action: utter_ask_data_control
+  - user: |
+      Do I have the right to use my data anyway I want to?
+    intent: ask_data_control
+  - action: utter_ask_data_control
+  - user: |
+      who takes control of my data?
+    intent: ask_data_control
+  - action: utter_ask_data_control
+  - user: |
+      would I maintain the full control over my data?
+    intent: ask_data_control
+  - action: utter_ask_data_control
+- story: ask_data_usage
+  steps:
+  - user: |
+      What are the options to use my data on your platform?
+    intent: ask_data_usage
+  - action: utter_ask_data_usage
+  - user: |
+      anything I can do with my data on your marketplace?
+    intent: ask_data_usage
+  - action: utter_ask_data_usage
+  - user: |
+      any idea how to use my data?
+    intent: ask_data_usage
+  - action: utter_ask_data_usage
+  - user: |
+      what are the choices of using data on your website?
+    intent: ask_data_usage
+  - action: utter_ask_data_usage
+
+- story: ask_sell_asset
+  steps:
+  - user: |
+      how much does it cost to trade on your marketplace?
+    intent: ask_sell_asset
+  - action: utter_ask_sell_asset
+  - user: |
+      Is there any hideen cost for selling assets?
+    intent: ask_sell_asset
+  - action: utter_ask_sell_asset
+  - user: |
+      Tell me what fees must I pay for selling assets?
+    intent: ask_sell_asset
+  - action: utter_ask_sell_asset
+  - user: |
+      how much is your seller fee for each transaction?
+    intent: ask_sell_asset
+  - action: utter_ask_sell_asset
+  - user: |
+      any seller fees?
+    intent: ask_sell_asset
+  - action: utter_ask_sell_asset 
+- story: ask_free_service
+  steps:
+  - user: |
+      what services can I use without being charged?
+    intent: ask_free_service
+  - action: utter_ask_free_service
+  - user: |
+      what is for free out there?
+    intent: ask_free_service
+  - action: utter_ask_free_service
+  - user: |
+      Are there any services I can use for free?
+    intent: ask_free_service
+  - action: utter_ask_free_service
+  - user: |
+      Anything on your platform is for free ?
+    intent: ask_free_service
+  - action: utter_ask_free_service
+  - user: |
+      Im looking for free service.
+    intent: ask_free_service
+  - action: utter_ask_free_service
+- story: ask_price_terms
+  steps:
+  - user: |
+      would it be possible for me to determine the terms & price of my own assets?
+    intent: ask_price_terms
+  - action: utter_ask_price_terms
+  - user: |
+      am I the the person who decides on the price and terms of my assets?
+    intent: ask_price_terms
+  - action: utter_ask_price_terms
+  - user: |
+      can I decide the price and terms of my data on my own?
+    intent: ask_price_terms
+  - action: utter_ask_price_terms
+  - user: |
+      Will I set rules and price of my assets?
+    intent: ask_price_terms
+  - action: utter_ask_price_terms  
+- story: ask_security
+  steps:
+  - user: |
+      What protection measures I could depend on if anything goes wrong?
+    intent: ask_security
+  - action: utter_ask_security
+  - user: |
+      how will I be protected if something happens?
+    intent: ask_security
+  - action: utter_ask_security
+  - user: |
+      Do you have a protection measurement when something goes wrong?
+    intent: ask_security
+  - action: utter_ask_security
+  - user: |
+      can you tell me about your security measurements?
+    intent: ask_security
+  - action: utter_ask_security
+  - user: |
+      Is there any security measurement can be applied in the case of unexpected events?
+    intent: ask_security
+  - action: utter_ask_security  
+- story: ask_terms_and_conditions
+  steps:
+  - user: |
+      Can I take a look at contract terms and conditions?
+    intent: ask_terms_and_conditions
+  - action: utter_ask_terms_and_conditions
+  - user: |
+      Are the conditions and terms availble?
+    intent: ask_terms_and_conditions
+  - action: utter_ask_terms_and_conditions
+  - user: |
+      please show me your terms & conditions
+    intent: ask_terms_and_conditions
+  - action: utter_ask_terms_and_conditions
+  - user: |
+      Find me terms and conditions. 
+    intent: ask_terms_and_conditions
+  - action: utter_ask_terms_and_conditions
+  
+- story: ask_marketplace_functionality
+  steps:
+  - user: |
+      what are the functions and features of this marketplace?
+    intent: ask_marketplace_functionality
+  - action: utter_ask_marketplace_functionality
+  - user: |
+      I want to know the features of the marketplace.
+    intent: ask_marketplace_functionality
+  - action: utter_ask_marketplace_functionality
+  - user: |
+      Tell me what to do on your marketplace.
+    intent: ask_marketplace_functionality
+  - action: utter_ask_marketplace_functionality
+  - user: |
+      Any information on the functionalities of your platform?
+    intent: ask_marketplace_functionality
+  - action: utter_ask_marketplace_functionality  
+- story: ask_information
+  steps:
+  - user: |
+      what infor could you provide prior to purchasing assets?
+    intent: ask_information
+  - action: utter_ask_information
+  - user: |
+      What sort of information is out there before buying assets?
+    intent: ask_information
+  - action: utter_ask_information
+  - user: |
+      can you tell me what information do I have in advance of purchasing data?
+    intent: ask_information
+  - action: utter_ask_information
+  - user: |
+      I want to know more information about the data before buying it. 
+    intent: ask_information
+  - action: utter_ask_information
+  - user: |
+      how much information of the assets can I have, prior to purchasing it? 
+    intent: ask_information
+  - action: utter_ask_information
+  
+- story: ask_data_costs
+  steps:
+  - user: |
+      I wanna know what are the costs for purchasing data.
+    intent: ask_data_costs
+  - action: utter_ask_data_costs
+  - user: |
+      I want to buy data, tell me how much does it cost?
+    intent: ask_data_costs
+  - action: utter_ask_data_costs
+  - user: |
+      Show me the price of your data.
+    intent: ask_data_costs
+  - action: utter_ask_data_costs
+  - user: |
+      How much will I pay for purchasing data from you?
+    intent: ask_data_costs
+  - action: utter_ask_data_costs
+  - user: |
+      tell me the costs of buying data. 
+    intent: ask_data_costs
+  - action: utter_ask_data_costs
+- story: ask_more_than_data
+  steps:
+  - user: |
+      Is it possible for me to do anything else instead of buying data?
+    intent: ask_more_than_data
+  - action: utter_ask_more_than_data
+  - user: |
+      apart from purchasing data, what else can I do on your marketplace?
+    intent: ask_more_than_data
+  - action: utter_ask_more_than_data
+  - user: |
+      Anything else to do outside of buying or selling assets?
+    intent: ask_more_than_data
+  - action: utter_ask_more_than_data
+  - user: |
+      I do not wanna buy data, suggest me something else that I can do.
+    intent: ask_more_than_data
+  - action: utter_ask_more_than_data
+- story: ask_more_answer
+  steps:
+  - user: |
+      You did not answer my question, what should I do?
+    intent: ask_more_answer
+  - action: utter_ask_more_answer
+  - user: |
+      I am looking for more specific answers.
+    intent: ask_more_answer
+  - action: utter_ask_more_answer
+  - user: |
+      I have more questions, who can I sepak with?
+    intent: ask_more_answer
+  - action: utter_ask_more_answer
+  - user: |
+      my problem is still not solved, anyone can help me more?
+    intent: ask_more_answer
+  - action: utter_ask_more_answer
+  - user: |
+      I did not get good answer here, who can help me further with my question ?
+    intent: ask_more_answer
+  - action: utter_ask_more_answer
+- story: out_of_scope
+  steps:
+  - user: |
+      play a song.
+    intent: out_of_scope
+  - action: utter_out_of_scope
+  - user: |
+      What is 3+7
+    intent: out_of_scope
+  - action: utter_out_of_scope
+  - user: |
+      where do you live?
+    intent: out_of_scope
+  - action: utter_out_of_scope
+  - user: |
+      Tell me a joke. 
+    intent: out_of_scope
+  - action: utter_out_of_scope
+  - user: |
+      Do you have a hobby?
+    intent: out_of_scope
+  - action: utter_out_of_scope
+  - user: |
+      are you expensive?
+    intent: out_of_scope
+  - action: utter_out_of_scope
+  - user: |
+      Happy birthday!
+    intent: out_of_scope
+  - action: utter_out_of_scope
+  - user: |
+      does santa claus exist?
+    intent: out_of_scope
+  - action: utter_out_of_scope
+  - user: |
+      Do you like talking to people?
+    intent: out_of_scope
+  - action: utter_out_of_scope
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+  

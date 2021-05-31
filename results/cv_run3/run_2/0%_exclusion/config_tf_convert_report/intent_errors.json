@@ -1,0 +1,34 @@
+[
+  {
+    "text": "who are you?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9292435050010681
+    }
+  },
+  {
+    "text": "Is there anybody can help me with my problem?",
+    "intent": "ask_more_answer",
+    "intent_prediction": {
+      "name": "ask_support",
+      "confidence": 0.8818135857582092
+    }
+  },
+  {
+    "text": "byr",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5787714719772339
+    }
+  },
+  {
+    "text": "can you teach me how to start using your platform?",
+    "intent": "ask_support",
+    "intent_prediction": {
+      "name": "ask_marketplace_functionality",
+      "confidence": 0.9897900819778442
+    }
+  }
+]
