@@ -16,22 +16,24 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_md
 ```
 
-### Intereact with the Conversation Assistant
+### Intereact with the Conversation Assistant locally
 Intereact with the conversation assistant by executing the following from project root directory:
 ```
 rasa x
 ```
 Then the Rasa X UI will run locally at http://localhost:5002/login?username=me&password=KoVg01ePU3Zb.
 
-### Access the Conversation Assistant 
+### Connect external channels
 
-Once the server is running at http://localhost:5002, external access to the chatbot can be made via: 
+For details of the deployment of Rasa X on a server as a set of Docker containers, please see https://rasa.com/docs/rasa-x/installation-and-setup/install/docker-compose/
+
+
 
 <br/><br/>
 
 
 ### Dialogue example<br/><br/>
-<img src="https://github.com/yzuo845/Test_OM/blob/master/image/rasa_x.png"></img><br>
+<img src="https://github.com/OpertusMundi/intelligent-search-assistant/blob/main/image/rasa_x.png"></img><br>
 
 
 
