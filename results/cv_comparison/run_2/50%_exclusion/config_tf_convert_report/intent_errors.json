@@ -1,0 +1,90 @@
+[
+  {
+    "text": "Tell me Tobie, can I take ownership of my assets ?",
+    "intent": "ask_data_control",
+    "intent_prediction": {
+      "name": "ask_price_terms",
+      "confidence": 0.1998145431280136
+    }
+  },
+  {
+    "text": "what are the costs of buying assets on Topio ?",
+    "intent": "ask_data_costs",
+    "intent_prediction": {
+      "name": "ask_sell_asset",
+      "confidence": 0.4319501519203186
+    }
+  },
+  {
+    "text": "Tobie is there something I can do outside of buying assets ?",
+    "intent": "ask_more_than_data",
+    "intent_prediction": {
+      "name": "ask_process_buy",
+      "confidence": 0.6752927303314209
+    }
+  },
+  {
+    "text": "Nice to meet you Tobie",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3882947564125061
+    }
+  },
+  {
+    "text": "hey Tobie, let us talk",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.899978518486023
+    }
+  },
+  {
+    "text": "good day",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8961095213890076
+    }
+  },
+  {
+    "text": "Thanks but I have more questions",
+    "intent": "ask_more_answer",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.6482253074645996
+    }
+  },
+  {
+    "text": "how is ur personality?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.35789066553115845
+    }
+  },
+  {
+    "text": "what season is it now?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.2965751886367798
+    }
+  },
+  {
+    "text": "i am a little down today ,Tobie.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9732977747917175
+    }
+  },
+  {
+    "text": "Am I your friend?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5187148451805115
+    }
+  }
+]

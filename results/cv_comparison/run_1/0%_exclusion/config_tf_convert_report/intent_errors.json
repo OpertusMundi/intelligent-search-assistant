@@ -1,0 +1,26 @@
+[
+  {
+    "text": "that is all",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9407567381858826
+    }
+  },
+  {
+    "text": "what should I do, if I want to getting some assets ?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_more_than_data",
+      "confidence": 0.8417108654975891
+    }
+  },
+  {
+    "text": "i am a little down today ,Tobie.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9991892576217651
+    }
+  }
+]

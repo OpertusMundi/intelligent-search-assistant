@@ -1,0 +1,196 @@
+{
+  "ask_data_costs": {
+    "precision": 0.6666666666666666,
+    "recall": 0.8,
+    "f1-score": 0.7272727272727272,
+    "support": 5,
+    "confused_with": {
+      "ask_sell_asset": 1
+    }
+  },
+  "ask_process_sell": {
+    "precision": 0.6666666666666666,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.4444444444444444,
+    "support": 6,
+    "confused_with": {
+      "ask_process_buy": 1,
+      "ask_price_terms": 1
+    }
+  },
+  "ask_more_answer": {
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8333333333333334,
+    "support": 6,
+    "confused_with": {
+      "out_of_scope": 1
+    }
+  },
+  "goodbye": {
+    "precision": 0.5714285714285714,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6153846153846153,
+    "support": 6,
+    "confused_with": {
+      "ask_data_control": 1,
+      "out_of_scope": 1
+    }
+  },
+  "ask_information": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "thank": {
+    "precision": 1.0,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.6,
+    "support": 7,
+    "confused_with": {
+      "greet": 1,
+      "goodbye": 1
+    }
+  },
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_process_buy": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "ask_marketplace_functionality": 2,
+      "ask_data_costs": 1,
+      "ask_data_usage": 1
+    }
+  },
+  "greet": {
+    "precision": 0.2727272727272727,
+    "recall": 0.5,
+    "f1-score": 0.3529411764705882,
+    "support": 6,
+    "confused_with": {
+      "goodbye": 2,
+      "out_of_scope": 1
+    }
+  },
+  "ask_more_than_data": {
+    "precision": 0.5,
+    "recall": 0.2,
+    "f1-score": 0.28571428571428575,
+    "support": 5,
+    "confused_with": {
+      "ask_data_usage": 2,
+      "ask_process_buy": 1,
+      "ask_marketplace_functionality": 1
+    }
+  },
+  "ask_price_terms": {
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "f1-score": 0.8333333333333333,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_free_service": {
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "f1-score": 0.8333333333333333,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_terms_and_conditions": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_data_usage": {
+    "precision": 0.5555555555555556,
+    "recall": 1.0,
+    "f1-score": 0.7142857142857143,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_sell_asset": {
+    "precision": 0.75,
+    "recall": 0.75,
+    "f1-score": 0.75,
+    "support": 4,
+    "confused_with": {
+      "ask_free_service": 1
+    }
+  },
+  "ask_early_user": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "ask_security": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_data_control": {
+    "precision": 0.6666666666666666,
+    "recall": 0.4,
+    "f1-score": 0.5,
+    "support": 5,
+    "confused_with": {
+      "ask_price_terms": 1,
+      "ask_data_costs": 1
+    }
+  },
+  "ask_marketplace_functionality": {
+    "precision": 0.42857142857142855,
+    "recall": 0.6,
+    "f1-score": 0.5,
+    "support": 5,
+    "confused_with": {
+      "ask_data_usage": 1,
+      "ask_free_service": 1
+    }
+  },
+  "out_of_scope": {
+    "precision": 0.16666666666666666,
+    "recall": 0.125,
+    "f1-score": 0.14285714285714288,
+    "support": 8,
+    "confused_with": {
+      "greet": 7
+    }
+  },
+  "ask_support": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "accuracy": 0.672566371681416,
+  "macro avg": {
+    "precision": 0.6908025836597265,
+    "recall": 0.6969954648526078,
+    "f1-score": 0.6729952431633104,
+    "support": 113
+  },
+  "weighted avg": {
+    "precision": 0.6781276737028948,
+    "recall": 0.672566371681416,
+    "f1-score": 0.6530015533659469,
+    "support": 113
+  }
+}

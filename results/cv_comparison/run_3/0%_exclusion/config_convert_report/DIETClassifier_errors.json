@@ -1,0 +1,465 @@
+[
+  {
+    "text": "hey Tobie how can I best use my data on your platform?",
+    "entities": [
+      {
+        "start": 32,
+        "end": 36,
+        "value": "data",
+        "entity": "property"
+      },
+      {
+        "start": 45,
+        "end": 53,
+        "value": "platform",
+        "entity": "place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 32,
+        "end": 36,
+        "confidence_entity": 0.5114407681638354,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place",
+        "start": 45,
+        "end": 53,
+        "confidence_entity": 0.9918963723663614,
+        "value": "marketplace",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place",
+        "start": 45,
+        "end": 53,
+        "confidence_entity": 0.9998252987861633,
+        "value": "marketplace",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what are the charges for selling assets on your marketplace?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 39,
+        "value": "assets",
+        "entity": "property"
+      },
+      {
+        "start": 48,
+        "end": 59,
+        "value": "marketplace",
+        "entity": "place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 33,
+        "end": 39,
+        "confidence_entity": 0.7280992236624689,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "place",
+        "start": 48,
+        "end": 59,
+        "confidence_entity": 0.9968148069182013,
+        "value": "marketplace",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "place",
+        "start": 48,
+        "end": 59,
+        "confidence_entity": 0.9998836517333984,
+        "value": "marketplace",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "is it possible to create terms & prices for my data myself?",
+    "entities": [
+      {
+        "start": 47,
+        "end": 51,
+        "value": "data",
+        "entity": "property"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 47,
+        "end": 51,
+        "confidence_entity": 0.7981293339383514,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "property",
+        "start": 52,
+        "end": 58,
+        "confidence_entity": 0.9998804330825806,
+        "value": "myself",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tobie, Im new ro your platform, can you give me some onboarding training?",
+    "entities": [
+      {
+        "start": 64,
+        "end": 72,
+        "value": "training",
+        "entity": "support_topio"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place",
+        "start": 22,
+        "end": 30,
+        "confidence_entity": 0.8817312282240144,
+        "value": "marketplace",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "support_topio",
+        "start": 64,
+        "end": 72,
+        "confidence_entity": 0.8839854269155056,
+        "value": "support",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "place",
+        "start": 22,
+        "end": 30,
+        "confidence_entity": 0.9991163611412048,
+        "value": "marketplace",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "support_topio",
+        "start": 64,
+        "end": 72,
+        "confidence_entity": 0.9979298114776611,
+        "value": "support",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Give me the terms & conditions of your website?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 46,
+        "value": "website",
+        "entity": "place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place",
+        "start": 39,
+        "end": 46,
+        "confidence_entity": 0.9718301133383092,
+        "value": "marketplace",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how much do you charge for data?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 27,
+        "end": 31,
+        "confidence_entity": 0.9629011355761138,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "property",
+        "start": 27,
+        "end": 31,
+        "confidence_entity": 0.9999188184738159,
+        "value": "assets",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I am interested in getting some data, can you tell me the costs?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 32,
+        "end": 36,
+        "confidence_entity": 0.7871330387253842,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "property",
+        "start": 32,
+        "end": 36,
+        "confidence_entity": 0.9999101161956787,
+        "value": "assets",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "What will you do to protect my assets if something happens",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.8222639266524332,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "property",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.9998718500137329,
+        "value": "assets",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hey Tobie, what are the steps of buying assets on your platform?",
+    "entities": [
+      {
+        "start": 55,
+        "end": 63,
+        "value": "platform",
+        "entity": "place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 40,
+        "end": 46,
+        "confidence_entity": 0.8603676562644071,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "place",
+        "start": 55,
+        "end": 63,
+        "confidence_entity": 0.991896382128456,
+        "value": "marketplace",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "property",
+        "start": 40,
+        "end": 46,
+        "confidence_entity": 0.9996249675750732,
+        "value": "assets",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "place",
+        "start": 55,
+        "end": 63,
+        "confidence_entity": 0.9997639060020447,
+        "value": "marketplace",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I want to sell assets on Topio, guide me Tobie.",
+    "entities": [
+      {
+        "start": 25,
+        "end": 30,
+        "value": "Topio",
+        "entity": "place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.9157762374315058,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "place",
+        "start": 25,
+        "end": 30,
+        "confidence_entity": 0.8242863897204633,
+        "value": "marketplace",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "property",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.9996585845947266,
+        "value": "assets",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "place",
+        "start": 25,
+        "end": 30,
+        "confidence_entity": 0.989726722240448,
+        "value": "marketplace",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "What are the steps of selling assets on your platform ?",
+    "entities": [
+      {
+        "start": 45,
+        "end": 53,
+        "value": "platform",
+        "entity": "place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "property",
+        "start": 30,
+        "end": 36,
+        "confidence_entity": 0.7282353030885839,
+        "value": "assets",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "place",
+        "start": 45,
+        "end": 53,
+        "confidence_entity": 0.9918963796918167,
+        "value": "marketplace",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "property",
+        "start": 30,
+        "end": 36,
+        "confidence_entity": 0.9853925108909607,
+        "value": "assets",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "place",
+        "start": 45,
+        "end": 53,
+        "confidence_entity": 0.9998314380645752,
+        "value": "marketplace",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i am happy.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "happy",
+        "entity": "mood"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is the temperature today ?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 23,
+        "value": "temperature",
+        "entity": "time"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

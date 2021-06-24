@@ -1,0 +1,26 @@
+[
+  {
+    "text": "How can I get data on Topio?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.8348878622055054
+    }
+  },
+  {
+    "text": "good day",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7148439884185791
+    }
+  },
+  {
+    "text": "i am a little down today ,Tobie.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9917318224906921
+    }
+  }
+]

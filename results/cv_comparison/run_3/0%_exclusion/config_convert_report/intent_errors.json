@@ -1,0 +1,26 @@
+[
+  {
+    "text": "Tobie, I don't wann pay for anything, what can I do on Topio",
+    "intent": "ask_free_service",
+    "intent_prediction": {
+      "name": "ask_more_than_data",
+      "confidence": 0.41030681133270264
+    }
+  },
+  {
+    "text": "how much do you charge for data?",
+    "intent": "ask_data_costs",
+    "intent_prediction": {
+      "name": "ask_sell_asset",
+      "confidence": 0.4544326663017273
+    }
+  },
+  {
+    "text": "what is new?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7720051407814026
+    }
+  }
+]

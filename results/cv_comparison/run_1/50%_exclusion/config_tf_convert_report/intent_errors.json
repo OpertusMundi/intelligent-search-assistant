@@ -1,0 +1,42 @@
+[
+  {
+    "text": "hey Tobie how much do I need to pay for selling data on your marketplace?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.80156409740448
+    }
+  },
+  {
+    "text": "that is all",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_marketplace_functionality",
+      "confidence": 0.2828805446624756
+    }
+  },
+  {
+    "text": "Helpdesk with a real person?",
+    "intent": "ask_more_answer",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.43495675921440125
+    }
+  },
+  {
+    "text": "i am a little down today ,Tobie.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.993354856967926
+    }
+  },
+  {
+    "text": "what are you made of?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.3776743710041046
+    }
+  }
+]

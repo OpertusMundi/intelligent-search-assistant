@@ -24,7 +24,7 @@ pipeline:
 
 
 policies:
-  - name: AugmentedMemoizationPolicy
+  - name: MemoizationPolicy
   - name: RulePolicy
   - name: TEDPolicy
     # constrain_similarities: True

@@ -1,0 +1,26 @@
+[
+  {
+    "text": "that is all",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.2999376654624939
+    }
+  },
+  {
+    "text": "i am a little down today ,Tobie.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6126589775085449
+    }
+  },
+  {
+    "text": "what are you made of?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.46173739433288574
+    }
+  }
+]

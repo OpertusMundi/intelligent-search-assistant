@@ -1,21 +1,47 @@
 # responses:
+#    utter_greet:
+#        - text: |
+#            Hello! How can I help you?
+#        - text: |
+#            Hi!
+#    utter_ask_email:
+#        - text: |
+#            What is your email address?
+#    utter_subscribed:
+#        - text: |
+#            Check your inbox at {email} in order to finish subscribing to the newsletter!
+#        - text: |
+#            You're all set! Check your inbox at {email} to confirm your subscription.
 
 responses:
   utter_greet:
   - text: |
-      Hello! Can I help you with your questions?
+      Hello! I am Tobie. Can I help you with your questions? 🙂 
   - text: |
-      Hi! What questions do you have?
+      Hi! I'm Tobie 🙂, what questions do you have?
+  - text: |
+      Hi 🙂 I'm Tobie, how can I help?
   utter_goodbye:
   - text: |
-      Okay, goodbye!
+      Okay, goodbye! 👋
   - text: |
       Bye-bye 
   - text: |
       Talk to you later!
+  - text: |
+      Bye 👋. Have a good day!
+  utter_thank:
+  - text: |
+      You are welcome, Do you have more questions?
+  - text: |
+      Welcome, can I help more?
+  - text: |
+      No worries. Anything else I can help?
   utter_i_am_a_bot:
   - text: |
-      I am a bot, powered by a Rasa!     
+      I am a bot 🤖, powered by a Rasa!   
+  - text: |
+      I am a chatbot 🤖. powered by a Rasa!     
   utter_ask_support:
   - text: |
       Yes, we do. If you join as an early user, you get free onboarding for your assets and services. In addition, we also guide you through the marketplace with free trainings for your personnel and do support for your existing clients. You also get free access to early Topio APIs and value-added services. So what are you waiting for?
@@ -60,10 +86,22 @@ responses:
       Sure, you can use the assets bought in any of our value-added services. You can build maps, integrate, analyze, build a web service, and much more. Moreover, you can keep track of all your activity in a Dashboard on one place via a simple to use secure web-based application. You can check all your contracts and assets bought.   
   utter_ask_more_answer:
   - text: |
-      We do have a helpdesk to answer technical, business and legal questions. Contact us via the link.   
+      We do have a helpdesk to answer technical, business and legal questions. Contact us via the link.  
+  utter_ask_process_sell:
+  - text: |
+      For selling assets, please check https://topio.market/  
+  utter_ask_process_buy:
+  - text: |
+      For buying assets, please check https://topio.market/  
   utter_out_of_scope:
   - text: |
-      Sorry, your question is out of scope. Please ask relevant question to Topio data.
-  utter_please_rephrase:
+      Sorry, I cannot understand you 🤷, can you rephrase the question?
   - text: |
-      Sorry, I could not understand you, could you please ask relevant question about Topio data? 
+      Could you rephrase your message? I didn't get it, I'm sorry 🙇
+  - text: |
+      Sorry, I didn't get  that 🤷. Could you please rephrase?  
+  - text: |
+      I'm afraid I didn't get what you just said. Could you rephrase that?
+  # utter_please_rephrase:
+  # - text: |
+  #     Sorry, I could not understand you, could you please ask relevant question about Topio data?

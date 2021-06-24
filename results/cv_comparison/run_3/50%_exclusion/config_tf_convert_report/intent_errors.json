@@ -1,0 +1,42 @@
+[
+  {
+    "text": "how much do you charge for data?",
+    "intent": "ask_data_costs",
+    "intent_prediction": {
+      "name": "ask_sell_asset",
+      "confidence": 0.7963976263999939
+    }
+  },
+  {
+    "text": "how much to pay to get data from your platform?",
+    "intent": "ask_data_costs",
+    "intent_prediction": {
+      "name": "ask_sell_asset",
+      "confidence": 0.9047797918319702
+    }
+  },
+  {
+    "text": "byr",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6059301495552063
+    }
+  },
+  {
+    "text": "what is new?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5499153733253479
+    }
+  },
+  {
+    "text": "i am happy.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3402429223060608
+    }
+  }
+]

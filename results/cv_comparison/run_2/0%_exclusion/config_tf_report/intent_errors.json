@@ -1,0 +1,58 @@
+[
+  {
+    "text": "hey Tobie, are you ai?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.39477285742759705
+    }
+  },
+  {
+    "text": "Am i able to set the price for my own data?",
+    "intent": "ask_price_terms",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.8414803147315979
+    }
+  },
+  {
+    "text": "Adio",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8048611879348755
+    }
+  },
+  {
+    "text": "How can I get data on Topio?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.5261991620063782
+    }
+  },
+  {
+    "text": "Nice to meet you Tobie",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.3929022252559662
+    }
+  },
+  {
+    "text": "hey Tobie, let us talk",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_support",
+      "confidence": 0.7660717368125916
+    }
+  },
+  {
+    "text": "how is ur personality?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8964589834213257
+    }
+  }
+]

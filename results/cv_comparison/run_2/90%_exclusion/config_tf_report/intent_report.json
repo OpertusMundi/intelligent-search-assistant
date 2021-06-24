@@ -1,0 +1,217 @@
+{
+  "ask_data_costs": {
+    "precision": 0.2,
+    "recall": 0.2,
+    "f1-score": 0.20000000000000004,
+    "support": 5,
+    "confused_with": {
+      "thank": 1,
+      "ask_sell_asset": 1
+    }
+  },
+  "ask_process_sell": {
+    "precision": 0.6,
+    "recall": 0.5,
+    "f1-score": 0.5454545454545454,
+    "support": 6,
+    "confused_with": {
+      "ask_more_than_data": 2,
+      "ask_data_costs": 1
+    }
+  },
+  "ask_more_answer": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 6,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 0.5,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.5714285714285715,
+    "support": 6,
+    "confused_with": {
+      "greet": 2
+    }
+  },
+  "ask_information": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "thank": {
+    "precision": 0.4444444444444444,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.5,
+    "support": 7,
+    "confused_with": {
+      "goodbye": 1,
+      "ask_free_service": 1
+    }
+  },
+  "bot_challenge": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8000000000000002,
+    "support": 5,
+    "confused_with": {
+      "goodbye": 1
+    }
+  },
+  "ask_process_buy": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "greet": 1,
+      "ask_data_costs": 1,
+      "ask_data_usage": 1
+    }
+  },
+  "greet": {
+    "precision": 0.1111111111111111,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.13333333333333333,
+    "support": 6,
+    "confused_with": {
+      "goodbye": 2,
+      "out_of_scope": 2
+    }
+  },
+  "ask_more_than_data": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "ask_process_buy": 2,
+      "ask_data_usage": 2,
+      "ask_sell_asset": 1
+    }
+  },
+  "ask_price_terms": {
+    "precision": 0.4,
+    "recall": 0.8,
+    "f1-score": 0.5333333333333333,
+    "support": 5,
+    "confused_with": {
+      "ask_data_control": 1
+    }
+  },
+  "ask_free_service": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "thank": 1,
+      "ask_more_than_data": 1,
+      "ask_sell_asset": 1
+    }
+  },
+  "ask_terms_and_conditions": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1-score": 0.5714285714285715,
+    "support": 5,
+    "confused_with": {
+      "ask_price_terms": 1,
+      "ask_data_costs": 1
+    }
+  },
+  "ask_data_usage": {
+    "precision": 0.4,
+    "recall": 0.4,
+    "f1-score": 0.4000000000000001,
+    "support": 5,
+    "confused_with": {
+      "ask_data_control": 2,
+      "ask_marketplace_functionality": 1
+    }
+  },
+  "ask_sell_asset": {
+    "precision": 0.16666666666666666,
+    "recall": 0.25,
+    "f1-score": 0.2,
+    "support": 4,
+    "confused_with": {
+      "ask_price_terms": 1,
+      "ask_data_costs": 1
+    }
+  },
+  "ask_early_user": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {
+      "ask_more_answer": 1
+    }
+  },
+  "ask_security": {
+    "precision": 0.5,
+    "recall": 0.6,
+    "f1-score": 0.5454545454545454,
+    "support": 5,
+    "confused_with": {
+      "ask_sell_asset": 2
+    }
+  },
+  "ask_data_control": {
+    "precision": 0.42857142857142855,
+    "recall": 0.6,
+    "f1-score": 0.5,
+    "support": 5,
+    "confused_with": {
+      "ask_price_terms": 2
+    }
+  },
+  "ask_marketplace_functionality": {
+    "precision": 0.6666666666666666,
+    "recall": 0.4,
+    "f1-score": 0.5,
+    "support": 5,
+    "confused_with": {
+      "ask_more_than_data": 1,
+      "greet": 1
+    }
+  },
+  "out_of_scope": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "greet": 4,
+      "thank": 2,
+      "ask_more_than_data": 1
+    }
+  },
+  "ask_support": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1-score": 0.5714285714285715,
+    "support": 5,
+    "confused_with": {
+      "thank": 1,
+      "ask_more_answer": 1
+    }
+  },
+  "accuracy": 0.45132743362831856,
+  "macro avg": {
+    "precision": 0.4706727135298564,
+    "recall": 0.45657596371882087,
+    "f1-score": 0.44195011337868484,
+    "support": 113
+  },
+  "weighted avg": {
+    "precision": 0.46035960106756574,
+    "recall": 0.45132743362831856,
+    "f1-score": 0.4350802589740643,
+    "support": 113
+  }
+}

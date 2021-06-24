@@ -1,0 +1,58 @@
+[
+  {
+    "text": "how can I use my data on your marketplace?",
+    "intent": "ask_data_usage",
+    "intent_prediction": {
+      "name": "ask_process_buy",
+      "confidence": 0.2648320496082306
+    }
+  },
+  {
+    "text": "Tobie, I don't wann pay for anything, what can I do on Topio",
+    "intent": "ask_free_service",
+    "intent_prediction": {
+      "name": "ask_more_than_data",
+      "confidence": 0.2763158082962036
+    }
+  },
+  {
+    "text": "how much do you charge for data?",
+    "intent": "ask_data_costs",
+    "intent_prediction": {
+      "name": "ask_sell_asset",
+      "confidence": 0.5460938811302185
+    }
+  },
+  {
+    "text": "how much to pay to get data from your platform?",
+    "intent": "ask_data_costs",
+    "intent_prediction": {
+      "name": "ask_sell_asset",
+      "confidence": 0.49789056181907654
+    }
+  },
+  {
+    "text": "how to buy stuff on your marketplace?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_marketplace_functionality",
+      "confidence": 0.410068541765213
+    }
+  },
+  {
+    "text": "what is new?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.42010509967803955
+    }
+  },
+  {
+    "text": "you are boring](mood).",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3457157015800476
+    }
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "text": "good day",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6282262206077576
+    }
+  },
+  {
+    "text": "how much does it cost to sell data on Topio market?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.7168202996253967
+    }
+  },
+  {
+    "text": "tell me Tobie, how much do I need to pay for buying assets ?",
+    "intent": "ask_data_costs",
+    "intent_prediction": {
+      "name": "ask_sell_asset",
+      "confidence": 0.4501964747905731
+    }
+  },
+  {
+    "text": "I am felling a bit worrying.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.2720969021320343
+    }
+  },
+  {
+    "text": "Tobie, are you smart?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.4242076575756073
+    }
+  },
+  {
+    "text": "what is new?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.536585807800293
+    }
+  },
+  {
+    "text": "Hey Tobie, is there anybody can help me with my problem?",
+    "intent": "ask_more_answer",
+    "intent_prediction": {
+      "name": "ask_support",
+      "confidence": 0.5029897093772888
+    }
+  },
+  {
+    "text": "who is your boss?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_more_answer",
+      "confidence": 0.4908875524997711
+    }
+  },
+  {
+    "text": "Am I your friend?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6630116105079651
+    }
+  },
+  {
+    "text": "that is all",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5445171594619751
+    }
+  },
+  {
+    "text": "What can I do with my assets on Topio",
+    "intent": "ask_data_usage",
+    "intent_prediction": {
+      "name": "ask_process_sell",
+      "confidence": 0.23951271176338196
+    }
+  },
+  {
+    "text": "Tobie your answer is bad.",
+    "intent": "ask_more_answer",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6304654479026794
+    }
+  },
+  {
+    "text": "How can I get data on Topio?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.4692136347293854
+    }
+  },
+  {
+    "text": "what are you made of?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.49136170744895935
+    }
+  },
+  {
+    "text": "Tobie I want to book a sales call.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_more_answer",
+      "confidence": 0.4695794880390167
+    }
+  },
+  {
+    "text": "i am happy.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.4566761255264282
+    }
+  },
+  {
+    "text": "dsanjsd3218341",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.43513160943984985
+    }
+  },
+  {
+    "text": "hey Tobie, let us talk",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5396778583526611
+    }
+  },
+  {
+    "text": "Tobie, I don't wann pay for anything, what can I do on Topio",
+    "intent": "ask_free_service",
+    "intent_prediction": {
+      "name": "ask_more_than_data",
+      "confidence": 0.4486216604709625
+    }
+  },
+  {
+    "text": "what to do on Topio?",
+    "intent": "ask_marketplace_functionality",
+    "intent_prediction": {
+      "name": "ask_process_buy",
+      "confidence": 0.45394885540008545
+    }
+  },
+  {
+    "text": "i am a little down today ,Tobie.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8745648860931396
+    }
+  }
+]

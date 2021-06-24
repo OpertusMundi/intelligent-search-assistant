@@ -1,0 +1,78 @@
+{
+  "information": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "property": {
+    "precision": 0.8709677419354839,
+    "recall": 0.7297297297297297,
+    "f1-score": 0.7941176470588235,
+    "support": 37,
+    "confused_with": {}
+  },
+  "time": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "relation": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "support_topio": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "topio_user": {
+    "precision": 0.8,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.7272727272727272,
+    "support": 6,
+    "confused_with": {
+      "place": 1
+    }
+  },
+  "place": {
+    "precision": 0.85,
+    "recall": 0.7727272727272727,
+    "f1-score": 0.8095238095238095,
+    "support": 22,
+    "confused_with": {}
+  },
+  "mood": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.8571428571428571,
+    "recall": 0.6486486486486487,
+    "f1-score": 0.7384615384615384,
+    "support": 74
+  },
+  "macro avg": {
+    "precision": 0.3151209677419355,
+    "recall": 0.27114045864045866,
+    "f1-score": 0.29136427298192,
+    "support": 74
+  },
+  "weighted avg": {
+    "precision": 0.7530514385353095,
+    "recall": 0.6486486486486487,
+    "f1-score": 0.6966961231667114,
+    "support": 74
+  }
+}

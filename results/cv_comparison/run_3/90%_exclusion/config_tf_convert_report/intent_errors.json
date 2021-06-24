@@ -1,0 +1,194 @@
+[
+  {
+    "text": "Tobie can I have the right to manage my data?",
+    "intent": "ask_data_control",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.47512248158454895
+    }
+  },
+  {
+    "text": "how can I access your free service, tobie?",
+    "intent": "ask_free_service",
+    "intent_prediction": {
+      "name": "ask_process_buy",
+      "confidence": 0.2828415632247925
+    }
+  },
+  {
+    "text": "Tobie what services can I take without paying ?",
+    "intent": "ask_free_service",
+    "intent_prediction": {
+      "name": "ask_sell_asset",
+      "confidence": 0.15835919976234436
+    }
+  },
+  {
+    "text": "Tobie, I don't wann pay for anything, what can I do on Topio",
+    "intent": "ask_free_service",
+    "intent_prediction": {
+      "name": "ask_more_than_data",
+      "confidence": 0.3568500578403473
+    }
+  },
+  {
+    "text": "I am a new member, can you provide me some guidance?",
+    "intent": "ask_support",
+    "intent_prediction": {
+      "name": "ask_early_user",
+      "confidence": 0.2764074504375458
+    }
+  },
+  {
+    "text": "what are the costs of buying assets on Topio ?",
+    "intent": "ask_data_costs",
+    "intent_prediction": {
+      "name": "ask_price_terms",
+      "confidence": 0.3684658408164978
+    }
+  },
+  {
+    "text": "Tobie in case of disputes and claims, what protection will I get?",
+    "intent": "ask_security",
+    "intent_prediction": {
+      "name": "ask_more_answer",
+      "confidence": 0.29345592856407166
+    }
+  },
+  {
+    "text": "Tobie can you tell me what functions does your marketplace have ?",
+    "intent": "ask_marketplace_functionality",
+    "intent_prediction": {
+      "name": "ask_support",
+      "confidence": 0.24965925514698029
+    }
+  },
+  {
+    "text": "Tell me more about the functionality of the platform.",
+    "intent": "ask_marketplace_functionality",
+    "intent_prediction": {
+      "name": "ask_process_buy",
+      "confidence": 0.28592005372047424
+    }
+  },
+  {
+    "text": "Tobie tell me the features of your marketplace.",
+    "intent": "ask_marketplace_functionality",
+    "intent_prediction": {
+      "name": "ask_support",
+      "confidence": 0.3033483922481537
+    }
+  },
+  {
+    "text": "Tobie what can I do on your platform?",
+    "intent": "ask_marketplace_functionality",
+    "intent_prediction": {
+      "name": "ask_more_than_data",
+      "confidence": 0.37454840540885925
+    }
+  },
+  {
+    "text": "let us stop, Tobie",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.861786961555481
+    }
+  },
+  {
+    "text": "byr",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.575236439704895
+    }
+  },
+  {
+    "text": "gotta go Tobie",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8599326014518738
+    }
+  },
+  {
+    "text": "how to buy stuff on your marketplace?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_process_sell",
+      "confidence": 0.34841033816337585
+    }
+  },
+  {
+    "text": "I need more details on the process of buying assets?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_information",
+      "confidence": 0.3141304850578308
+    }
+  },
+  {
+    "text": "What are the steps of selling assets on your platform ?",
+    "intent": "ask_process_sell",
+    "intent_prediction": {
+      "name": "ask_process_buy",
+      "confidence": 0.45732933282852173
+    }
+  },
+  {
+    "text": "Hi Tobie, what is the procedure to sell data on your marketplace ?",
+    "intent": "ask_process_sell",
+    "intent_prediction": {
+      "name": "ask_process_buy",
+      "confidence": 0.22646135091781616
+    }
+  },
+  {
+    "text": "what is new?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5714777112007141
+    }
+  },
+  {
+    "text": "Do you have a helpdesk?",
+    "intent": "ask_more_answer",
+    "intent_prediction": {
+      "name": "ask_support",
+      "confidence": 0.4913112223148346
+    }
+  },
+  {
+    "text": "I have more to ask",
+    "intent": "ask_more_answer",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.36691394448280334
+    }
+  },
+  {
+    "text": "You cannot speak French ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.305949866771698
+    }
+  },
+  {
+    "text": "i am happy.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.3064350187778473
+    }
+  },
+  {
+    "text": "you are boring](mood).",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4616168141365051
+    }
+  }
+]

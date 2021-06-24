@@ -1,0 +1,298 @@
+[
+  {
+    "text": "hey tobie, any fee to pay to sell stuff on your marketplace",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_free_service",
+      "confidence": 0.3040463924407959
+    }
+  },
+  {
+    "text": "Will I have the absolute control of my own assets?",
+    "intent": "ask_data_control",
+    "intent_prediction": {
+      "name": "ask_price_terms",
+      "confidence": 0.7002288103103638
+    }
+  },
+  {
+    "text": "Tell me Tobie, can I take ownership of my assets ?",
+    "intent": "ask_data_control",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.3021213412284851
+    }
+  },
+  {
+    "text": "hey Tobie who would be in charge of my assets?",
+    "intent": "ask_data_control",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.36688825488090515
+    }
+  },
+  {
+    "text": "how much do you charge for data?",
+    "intent": "ask_data_costs",
+    "intent_prediction": {
+      "name": "ask_sell_asset",
+      "confidence": 0.5336070656776428
+    }
+  },
+  {
+    "text": "Tobie tell me functionalities of Topio .",
+    "intent": "ask_marketplace_functionality",
+    "intent_prediction": {
+      "name": "ask_free_service",
+      "confidence": 0.388173907995224
+    }
+  },
+  {
+    "text": "What are the features Topio market have?",
+    "intent": "ask_marketplace_functionality",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.22770807147026062
+    }
+  },
+  {
+    "text": "Any suggestion on what I can do instead of buying data?",
+    "intent": "ask_more_than_data",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.3063153922557831
+    }
+  },
+  {
+    "text": "Tobie is there something I can do outside of buying assets ?",
+    "intent": "ask_more_than_data",
+    "intent_prediction": {
+      "name": "ask_process_buy",
+      "confidence": 0.2582610547542572
+    }
+  },
+  {
+    "text": "Tobie what else can I do apart form buying data?",
+    "intent": "ask_more_than_data",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.25707927346229553
+    }
+  },
+  {
+    "text": "what can I do other than purchasing assets on your marketplace?",
+    "intent": "ask_more_than_data",
+    "intent_prediction": {
+      "name": "ask_marketplace_functionality",
+      "confidence": 0.4867579936981201
+    }
+  },
+  {
+    "text": "I will quit now",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_data_control",
+      "confidence": 0.20899109542369843
+    }
+  },
+  {
+    "text": "gotta go Tobie",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.33198902010917664
+    }
+  },
+  {
+    "text": "How can I get data on Topio?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.5586535334587097
+    }
+  },
+  {
+    "text": "what exactly is the procedure for buying assets?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_process_sell",
+      "confidence": 0.18568554520606995
+    }
+  },
+  {
+    "text": "how to buy stuff on your marketplace?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_marketplace_functionality",
+      "confidence": 0.7013400793075562
+    }
+  },
+  {
+    "text": "How do I purchasing assets on your marketplace?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_marketplace_functionality",
+      "confidence": 0.40720033645629883
+    }
+  },
+  {
+    "text": "I am interesting in getting assets, Tobie what should I do ?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.24408061802387238
+    }
+  },
+  {
+    "text": "How do I sell assets on your marketplace?",
+    "intent": "ask_process_sell",
+    "intent_prediction": {
+      "name": "ask_marketplace_functionality",
+      "confidence": 0.4357525706291199
+    }
+  },
+  {
+    "text": "I want to sell assets on Topio, guide me Tobie.",
+    "intent": "ask_process_sell",
+    "intent_prediction": {
+      "name": "ask_price_terms",
+      "confidence": 0.17475338280200958
+    }
+  },
+  {
+    "text": "How to sell on Topio?",
+    "intent": "ask_process_sell",
+    "intent_prediction": {
+      "name": "ask_more_than_data",
+      "confidence": 0.6513062715530396
+    }
+  },
+  {
+    "text": "guide me to the page for selling assets?",
+    "intent": "ask_process_sell",
+    "intent_prediction": {
+      "name": "ask_process_buy",
+      "confidence": 0.2248671054840088
+    }
+  },
+  {
+    "text": "Nice to meet you Tobie",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5924304127693176
+    }
+  },
+  {
+    "text": "hey Tobie, let us talk",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8457090258598328
+    }
+  },
+  {
+    "text": "good day",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7264721989631653
+    }
+  },
+  {
+    "text": "Tobie, you know anyone else can answer my question?",
+    "intent": "ask_more_answer",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.4461151361465454
+    }
+  },
+  {
+    "text": "thx",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3970184028148651
+    }
+  },
+  {
+    "text": "Thank you tobie",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.38091108202934265
+    }
+  },
+  {
+    "text": "you helped a lot Tobie",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "ask_more_answer",
+      "confidence": 0.38282302021980286
+    }
+  },
+  {
+    "text": "Thank you rasa",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.1908486932516098
+    }
+  },
+  {
+    "text": "which year is it?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7580678462982178
+    }
+  },
+  {
+    "text": "What is your age?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3316742181777954
+    }
+  },
+  {
+    "text": "can you tell me the time Tobie?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.355172723531723
+    }
+  },
+  {
+    "text": "how is ur personality?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5753219127655029
+    }
+  },
+  {
+    "text": "what season is it now?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8490408658981323
+    }
+  },
+  {
+    "text": "i am a little down today ,Tobie.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8388634920120239
+    }
+  },
+  {
+    "text": "Am I your friend?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.2220447063446045
+    }
+  }
+]

@@ -1,43 +1,9 @@
 {
-  "greet": {
-    "precision": 1.0,
-    "recall": 0.8,
-    "f1-score": 0.888888888888889,
-    "support": 5,
-    "confused_with": {
-      "bot_challenge": 1
-    }
-  },
-  "ask_early_user": {
-    "precision": 1.0,
-    "recall": 0.8,
-    "f1-score": 0.888888888888889,
-    "support": 5,
-    "confused_with": {
-      "ask_marketplace_functionality": 1
-    }
-  },
-  "ask_price_terms": {
+  "ask_terms_and_conditions": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "out_of_scope": {
-    "precision": 1.0,
-    "recall": 0.8888888888888888,
-    "f1-score": 0.9411764705882353,
-    "support": 9,
-    "confused_with": {
-      "ask_data_costs": 1
-    }
-  },
-  "ask_support": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
+    "support": 6,
     "confused_with": {}
   },
   "ask_sell_asset": {
@@ -49,67 +15,60 @@
       "ask_data_costs": 1
     }
   },
-  "ask_terms_and_conditions": {
+  "ask_process_sell": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "goodbye": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "bot_challenge": {
-    "precision": 0.8333333333333334,
-    "recall": 1.0,
-    "f1-score": 0.9090909090909091,
-    "support": 5,
-    "confused_with": {}
-  },
-  "ask_data_control": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "ask_data_usage": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "ask_free_service": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "ask_data_costs": {
-    "precision": 0.7142857142857143,
-    "recall": 1.0,
-    "f1-score": 0.8333333333333333,
-    "support": 5,
-    "confused_with": {}
-  },
-  "ask_security": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
+    "support": 6,
     "confused_with": {}
   },
   "ask_more_than_data": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 4,
+    "support": 6,
+    "confused_with": {}
+  },
+  "ask_more_answer": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "ask_security": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 6,
+    "confused_with": {}
+  },
+  "ask_early_user": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "ask_price_terms": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "ask_data_usage": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
     "confused_with": {}
   },
   "ask_information": {
@@ -119,31 +78,96 @@
     "support": 5,
     "confused_with": {}
   },
-  "ask_more_answer": {
+  "ask_support": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 5,
+    "support": 6,
+    "confused_with": {}
+  },
+  "out_of_scope": {
+    "precision": 1.0,
+    "recall": 0.7,
+    "f1-score": 0.8235294117647058,
+    "support": 10,
+    "confused_with": {
+      "ask_data_costs": 1,
+      "bot_challenge": 1
+    }
+  },
+  "ask_free_service": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {
+      "ask_security": 1
+    }
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "bot_challenge": 1
+    }
+  },
+  "thank": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 6,
+    "confused_with": {}
+  },
+  "ask_process_buy": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
     "confused_with": {}
   },
   "ask_marketplace_functionality": {
-    "precision": 0.8,
+    "precision": 0.8571428571428571,
     "recall": 1.0,
-    "f1-score": 0.888888888888889,
-    "support": 4,
+    "f1-score": 0.923076923076923,
+    "support": 6,
     "confused_with": {}
   },
-  "accuracy": 0.9550561797752809,
+  "ask_data_control": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "ask_data_costs": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1-score": 0.8571428571428571,
+    "support": 6,
+    "confused_with": {}
+  },
+  "bot_challenge": {
+    "precision": 0.7142857142857143,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.7692307692307692,
+    "support": 6,
+    "confused_with": {
+      "thank": 1
+    }
+  },
+  "accuracy": 0.9465648854961832,
   "macro avg": {
-    "precision": 0.9637566137566138,
-    "recall": 0.9604938271604938,
-    "f1-score": 0.9577309038093352,
-    "support": 89
+    "precision": 0.9540816326530613,
+    "recall": 0.9550264550264549,
+    "f1-score": 0.950394765520816,
+    "support": 131
   },
   "weighted avg": {
-    "precision": 0.9655965757089353,
-    "recall": 0.9550561797752809,
-    "f1-score": 0.9558606554640924,
-    "support": 89
+    "precision": 0.955834242093784,
+    "recall": 0.9465648854961832,
+    "f1-score": 0.9464007528668507,
+    "support": 131
   }
 }

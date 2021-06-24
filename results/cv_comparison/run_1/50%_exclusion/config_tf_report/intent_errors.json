@@ -1,0 +1,178 @@
+[
+  {
+    "text": "Tobie how much will you charge me for selling assets?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.44012296199798584
+    }
+  },
+  {
+    "text": "what are the fees I need to pay for selling data?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.7831308841705322
+    }
+  },
+  {
+    "text": "hey Tobie how much do I need to pay for selling data on your marketplace?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.6478319764137268
+    }
+  },
+  {
+    "text": "hey Tobie who would be in charge of my assets?",
+    "intent": "ask_data_control",
+    "intent_prediction": {
+      "name": "ask_process_sell",
+      "confidence": 0.3608416020870209
+    }
+  },
+  {
+    "text": "Tobie tell me functionalities of Topio .",
+    "intent": "ask_marketplace_functionality",
+    "intent_prediction": {
+      "name": "ask_process_sell",
+      "confidence": 0.43123194575309753
+    }
+  },
+  {
+    "text": "Adio",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.5221479535102844
+    }
+  },
+  {
+    "text": "How do I purchasing assets on your marketplace?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_process_sell",
+      "confidence": 0.3757818937301636
+    }
+  },
+  {
+    "text": "I want to know how to buy assets Tobie.",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_process_sell",
+      "confidence": 0.9757093191146851
+    }
+  },
+  {
+    "text": "what should I do, if I want to getting some assets ?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_process_sell",
+      "confidence": 0.6989360451698303
+    }
+  },
+  {
+    "text": "Can you guide me on purchasing assets Tobie?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_information",
+      "confidence": 0.3000744879245758
+    }
+  },
+  {
+    "text": "How should I purchase data on the platform ?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_process_sell",
+      "confidence": 0.7002533078193665
+    }
+  },
+  {
+    "text": "What is the detailed process for selling assets ?",
+    "intent": "ask_process_sell",
+    "intent_prediction": {
+      "name": "ask_process_buy",
+      "confidence": 0.4782537817955017
+    }
+  },
+  {
+    "text": "Teach me how to sell stuff ?",
+    "intent": "ask_process_sell",
+    "intent_prediction": {
+      "name": "ask_process_buy",
+      "confidence": 0.22632534801959991
+    }
+  },
+  {
+    "text": "guide me to the page for selling assets?",
+    "intent": "ask_process_sell",
+    "intent_prediction": {
+      "name": "ask_process_buy",
+      "confidence": 0.6540829539299011
+    }
+  },
+  {
+    "text": "Nice to meet you Tobie",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.6921402812004089
+    }
+  },
+  {
+    "text": "Hallo Tobie",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6906168460845947
+    }
+  },
+  {
+    "text": "how do you do",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5723310708999634
+    }
+  },
+  {
+    "text": "Helpdesk with a real person?",
+    "intent": "ask_more_answer",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.384957879781723
+    }
+  },
+  {
+    "text": "danke",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4952022135257721
+    }
+  },
+  {
+    "text": "Tobie, where do you live?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.820069432258606
+    }
+  },
+  {
+    "text": "i am a little down today ,Tobie.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4655795991420746
+    }
+  },
+  {
+    "text": "what are you made of?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8651703596115112
+    }
+  }
+]

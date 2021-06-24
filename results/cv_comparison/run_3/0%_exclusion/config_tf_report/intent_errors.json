@@ -1,0 +1,58 @@
+[
+  {
+    "text": "Tobie, I don't wann pay for anything, what can I do on Topio",
+    "intent": "ask_free_service",
+    "intent_prediction": {
+      "name": "ask_more_than_data",
+      "confidence": 0.2341906726360321
+    }
+  },
+  {
+    "text": "I am new, can you help Tobie?",
+    "intent": "ask_support",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6718865633010864
+    }
+  },
+  {
+    "text": "let us stop, Tobie",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5906999111175537
+    }
+  },
+  {
+    "text": "byr",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.8952545523643494
+    }
+  },
+  {
+    "text": "danke",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9044833779335022
+    }
+  },
+  {
+    "text": "i am happy.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.42117077112197876
+    }
+  },
+  {
+    "text": "you are boring](mood).",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_more_answer",
+      "confidence": 0.3459441065788269
+    }
+  }
+]

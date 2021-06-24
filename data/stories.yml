@@ -12,6 +12,10 @@ stories:
   steps:
   - intent: goodbye
   - action: utter_goodbye
+- story: thank
+  steps:
+  - intent: thank
+  - action: utter_thank 
 - story: out_of_scope
   steps:
   - intent: out_of_scope

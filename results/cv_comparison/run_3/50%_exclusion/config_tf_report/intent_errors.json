@@ -1,0 +1,170 @@
+[
+  {
+    "text": "how can I use my data on your marketplace?",
+    "intent": "ask_data_usage",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.6797618269920349
+    }
+  },
+  {
+    "text": "what are the charges for selling assets on your marketplace?",
+    "intent": "ask_sell_asset",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.8246740698814392
+    }
+  },
+  {
+    "text": "I want to try out something for free.",
+    "intent": "ask_free_service",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6081945896148682
+    }
+  },
+  {
+    "text": "Tobie, I don't wann pay for anything, what can I do on Topio",
+    "intent": "ask_free_service",
+    "intent_prediction": {
+      "name": "ask_more_than_data",
+      "confidence": 0.7698785662651062
+    }
+  },
+  {
+    "text": "how much do you charge for data?",
+    "intent": "ask_data_costs",
+    "intent_prediction": {
+      "name": "ask_sell_asset",
+      "confidence": 0.9824983477592468
+    }
+  },
+  {
+    "text": "how much to pay to get data from your platform?",
+    "intent": "ask_data_costs",
+    "intent_prediction": {
+      "name": "ask_sell_asset",
+      "confidence": 0.974198043346405
+    }
+  },
+  {
+    "text": "what activities does your marketplace support?",
+    "intent": "ask_marketplace_functionality",
+    "intent_prediction": {
+      "name": "ask_support",
+      "confidence": 0.34656840562820435
+    }
+  },
+  {
+    "text": "let us stop, Tobie",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6138790845870972
+    }
+  },
+  {
+    "text": "byr",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.39562609791755676
+    }
+  },
+  {
+    "text": "what is the procedure to buy data on Topio market ?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_data_usage",
+      "confidence": 0.30827224254608154
+    }
+  },
+  {
+    "text": "I need more details on the process of buying assets?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_process_sell",
+      "confidence": 0.35227081179618835
+    }
+  },
+  {
+    "text": "How to sell on Topio?",
+    "intent": "ask_process_sell",
+    "intent_prediction": {
+      "name": "ask_marketplace_functionality",
+      "confidence": 0.46908149123191833
+    }
+  },
+  {
+    "text": "Hi Tobie, what is the procedure to sell data on your marketplace ?",
+    "intent": "ask_process_sell",
+    "intent_prediction": {
+      "name": "ask_data_costs",
+      "confidence": 0.33682581782341003
+    }
+  },
+  {
+    "text": "Hey",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.8705579042434692
+    }
+  },
+  {
+    "text": "Are you ok, Tobie?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7713399529457092
+    }
+  },
+  {
+    "text": "what is new?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9552161693572998
+    }
+  },
+  {
+    "text": "how r u?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7069143056869507
+    }
+  },
+  {
+    "text": "Do you have a helpdesk?",
+    "intent": "ask_more_answer",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8266160488128662
+    }
+  },
+  {
+    "text": "danke",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8203755021095276
+    }
+  },
+  {
+    "text": "i am happy.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.8453639149665833
+    }
+  },
+  {
+    "text": "who is your mother?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7265980243682861
+    }
+  }
+]

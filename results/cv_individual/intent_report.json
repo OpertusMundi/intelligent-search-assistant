@@ -1,0 +1,185 @@
+{
+  "ask_security": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 26,
+    "confused_with": {}
+  },
+  "ask_sell_asset": {
+    "precision": 0.9565217391304348,
+    "recall": 0.9565217391304348,
+    "f1-score": 0.9565217391304348,
+    "support": 23,
+    "confused_with": {
+      "ask_data_costs": 1
+    }
+  },
+  "ask_support": {
+    "precision": 0.9615384615384616,
+    "recall": 1.0,
+    "f1-score": 0.9803921568627451,
+    "support": 25,
+    "confused_with": {}
+  },
+  "ask_more_than_data": {
+    "precision": 0.9629629629629629,
+    "recall": 1.0,
+    "f1-score": 0.9811320754716981,
+    "support": 26,
+    "confused_with": {}
+  },
+  "ask_marketplace_functionality": {
+    "precision": 1.0,
+    "recall": 0.9615384615384616,
+    "f1-score": 0.9803921568627451,
+    "support": 26,
+    "confused_with": {
+      "ask_process_buy": 1
+    }
+  },
+  "out_of_scope": {
+    "precision": 0.9393939393939394,
+    "recall": 0.775,
+    "f1-score": 0.8493150684931509,
+    "support": 40,
+    "confused_with": {
+      "bot_challenge": 3,
+      "ask_more_answer": 2
+    }
+  },
+  "bot_challenge": {
+    "precision": 0.8888888888888888,
+    "recall": 1.0,
+    "f1-score": 0.9411764705882353,
+    "support": 24,
+    "confused_with": {}
+  },
+  "ask_terms_and_conditions": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 25,
+    "confused_with": {}
+  },
+  "ask_early_user": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 26,
+    "confused_with": {}
+  },
+  "ask_data_usage": {
+    "precision": 0.9545454545454546,
+    "recall": 0.9545454545454546,
+    "f1-score": 0.9545454545454546,
+    "support": 22,
+    "confused_with": {
+      "ask_process_sell": 1
+    }
+  },
+  "ask_price_terms": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 24,
+    "confused_with": {}
+  },
+  "ask_process_buy": {
+    "precision": 0.9629629629629629,
+    "recall": 0.9629629629629629,
+    "f1-score": 0.9629629629629629,
+    "support": 27,
+    "confused_with": {
+      "ask_data_usage": 1
+    }
+  },
+  "ask_more_answer": {
+    "precision": 0.9375,
+    "recall": 0.9375,
+    "f1-score": 0.9375,
+    "support": 32,
+    "confused_with": {
+      "ask_support": 1,
+      "out_of_scope": 1
+    }
+  },
+  "ask_data_control": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 24,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 0.896551724137931,
+    "recall": 0.9629629629629629,
+    "f1-score": 0.9285714285714286,
+    "support": 27,
+    "confused_with": {
+      "greet": 1
+    }
+  },
+  "ask_information": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 24,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 0.90625,
+    "recall": 0.90625,
+    "f1-score": 0.90625,
+    "support": 32,
+    "confused_with": {
+      "goodbye": 2,
+      "out_of_scope": 1
+    }
+  },
+  "ask_data_costs": {
+    "precision": 0.96,
+    "recall": 0.96,
+    "f1-score": 0.96,
+    "support": 25,
+    "confused_with": {
+      "ask_sell_asset": 1
+    }
+  },
+  "ask_free_service": {
+    "precision": 1.0,
+    "recall": 0.9583333333333334,
+    "f1-score": 0.9787234042553191,
+    "support": 24,
+    "confused_with": {
+      "ask_more_than_data": 1
+    }
+  },
+  "thank": {
+    "precision": 0.9714285714285714,
+    "recall": 1.0,
+    "f1-score": 0.9855072463768115,
+    "support": 34,
+    "confused_with": {}
+  },
+  "ask_process_sell": {
+    "precision": 0.9655172413793104,
+    "recall": 1.0,
+    "f1-score": 0.9824561403508771,
+    "support": 28,
+    "confused_with": {}
+  },
+  "accuracy": 0.9627659574468085,
+  "macro avg": {
+    "precision": 0.9649553307794724,
+    "recall": 0.9683626149749338,
+    "f1-score": 0.9659736335462793,
+    "support": 564
+  },
+  "weighted avg": {
+    "precision": 0.963217269899833,
+    "recall": 0.9627659574468085,
+    "f1-score": 0.9621402137877664,
+    "support": 564
+  }
+}

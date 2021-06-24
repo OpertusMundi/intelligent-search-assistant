@@ -1,0 +1,66 @@
+[
+  {
+    "text": "who am I talking to right now?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "ask_more_answer",
+      "confidence": 0.7353482246398926
+    }
+  },
+  {
+    "text": "Adio",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.49647006392478943
+    }
+  },
+  {
+    "text": "wasssup!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.7608097791671753
+    }
+  },
+  {
+    "text": "Hallo Tobie",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5395300388336182
+    }
+  },
+  {
+    "text": "danke",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9539368748664856
+    }
+  },
+  {
+    "text": "thanks for forum link, I'll check it out",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "ask_marketplace_functionality",
+      "confidence": 0.4588731527328491
+    }
+  },
+  {
+    "text": "i am a little down today ,Tobie.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.2850852310657501
+    }
+  },
+  {
+    "text": "what are you made of?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_more_answer",
+      "confidence": 0.252958744764328
+    }
+  }
+]

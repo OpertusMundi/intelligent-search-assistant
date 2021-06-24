@@ -1,449 +1,622 @@
 version: "2.0"
 nlu:
-- intent: greet 
+- intent: greet #32
   examples: |
     - hello
-    - what is new?
-    - hey!
-    - Good afternoon
-    - how are you?
-    - how have you been?
-    - Are you all right?
-    - good day
-    - Good morning
-    - how do you do
-    - Are you ok?
-    - how r u?
-    - Hallo
+    - hello Tobie
+    - hello Rasa
+    - Hallo Tobie
+    - hallo rasa
     - Hey
+    - hey tobie!
+    - hey rasa
+    - hey dude!
+    - Hi there!
+    - hey Tobie, let us talk
+    - good day
+    - Morning Tobie
+    - Good morning
+    - good afternoon Tobie
+    - how do you do
+    - how r u?
+    - Tobie, how are you?
+    - how have you been?
+    - Are you ok, Tobie?
+    - Tobie,  Are you all right?
+    - hi Tobi, how r u doing?
+    - how are you doing today?
+    - Tobie, how is your day?
+    - how are you feeling?
     - how are things going?
     - Good to see you
-    - hey dude!
-    - what is up?
-    - Morning
+    - Nice to meet you Tobie
+    - what is up tobie?
+    - wasssup!
+    - what is new?
     - Everything ok?
-    - how are you doing today?
-    - how is your day?
-    - how are you feeling?
-    - Hi there!
-- intent: goodbye 
+- intent: goodbye #26
   examples: |
     - See you later
-    - go away
+    - see u later
+    - see you Tobie
+    - go away tobie
+    - bye-bye
+    - bye Tobie
+    - bye bye rasa
+    - bye for now
+    - byr
+    - Good bye rasa!
+    - Adio
+    - ciao Tobie
+    - farewell
     - I am off
-    - Exit
     - I am done
     - I will quit now
-    - bye-bye
     - Have a nice day
-    - until next time
     - Good night
-    - let us stop
+    - let us stop, Tobie
+    - gotta go Tobie
     - I got to go
-    - ciao
-    - catch you later
+    - catch you later Tobie
     - Talk to you later
     - that is all
-    - farewell
-    - Good bye rasa!
-    - bye for now
-    - gotta go
-    - see u later
-    - close this talk
-    - byr
-- intent: bot_challenge 
+    - Exit
+    - Tobie, close this talk
+    - until next time
+- intent: thank #33
   examples: |
+    - Great, thanks Tobie
+    - Thank you
+    - Thank you rasa
+    - Thank you tobie
+    - Thank you so much
+    - Thank's!
+    - Thanks Tobie
+    - much appreciated 
+    - I appreciate it 
+    - Thanks for that
+    - Thanks robot!
+    - amazing, thanks
+    - cheers Tobie
+    - cheers
+    - cool thank you
+    - cool, thanks
+    - danke
+    - great thanks
+    - ok thanks robo
+    - ok thanks Tobie
+    - ok thanks!
+    - thank you anyways
+    - thanks a bunch for everything
+    - thanks a lot
+    - thanks for forum link, I'll check it out
+    - thanks you
+    - thankyou
+    - thnks
+    - thx
+    - thanks for your information
+    - Good job Tobie
+    - good robo tobie
+    - you helped a lot Tobie 
+- intent: bot_challenge #24
+  examples: |    
     - who am I talking to right now?
-    - Are you a computer program?
+    - Are you a computer program, tobie?
     - Is this a real person?
     - Is this a chatbot?
     - am i speaking with a computer?
-    - are you a chatbot?
-    - are you a human?
+    - Tobie are you a chatbot?
+    - tobie, are you a human?
+    - tobie, you are a bot, right?
+    - Hi Tobie, are you a bot?
     - bot?
     - is this a bot that is answering me?
-    - who are you?
-    - are you ai?
+    - Tobie, who are you?
+    - hey Tobie, are you ai?
     - Are you a machine?
+    - Am I talking to a computer?
     - I am talking to a robot, am I not?
     - are you artificial intelligence?
-    - are you real?
+    - Tobie, are you real?
+    - Tobie, are you a bot?
     - r u a chat bot?
     - Is this a robot I am speaking with?
-    - Tell me, are you a bot?
+    - Tell me Tobie, are you a bot?
     - you are ai
-    - r u a robot?    
-- intent: ask_support 
-  examples: |
+    - r u a robot tobie?
+- intent: ask_support #25
+  examples: |    
     - Is there any [support](support_topio) you can offer to get started?
     - is there any [guidance](support_topio) you can provide to start?
-    - is there any [support](support_topio) you can give to start on on your [website](place)?
-    - Do you offer [assistance](support_topio) to get started?
-    - Do you provide [triaining](support_topio) on how to use your [marketplace](place)?
+    - Tobie, is there any [support](support_topio) you can give to start on on your [website](place)?
+    - tobie Do you offer [assistance](support_topio) to get started?
+    - Do you provide [training](support_topio) on how to use your [marketplace](place)?
     - do you provide onboarding [training](support_topio)?
-    - Do you offer any [help](support_topio) to start?
+    - hi tobie, do you offer any [help](support_topio) to start?
     - do you help on setting things up?
     - do you provide any [guidance](support_topio) to start off?
-    - do you help me to get started?
-    - can you help me to set things up?
+    - hey tobie, do you help me to get started?
+    - Tobie, can you help me to set things up?
     - can you teach me how to start using your [platform](place)?
-    - can you guide me onboarding?
+    - Tobie, can you guide me onboarding?
     - can you give me [assistance](support_topio) to set things up?
     - can you give more [guidance](support_topio) on how to use your services?
-    - Could you help me to start?
-    - I am new, can you help?
-    - I am new, would you mind help me to get started?
-    - I am a new [member](customer), can you provide me some [guidance](support_topio)?    
-    - Im new ro your platform, can you give me some onboarding [training](support_topio)?
+    - Tobie, could you help me to start?
+    - I am new, can you help Tobie?
+    - I am new, would you mind helping me to get started?
+    - I am a new [member](topio_user), can you provide me some [guidance](support_topio)?
+    - tobie, Im new ro your platform, can you give me some onboarding [training](support_topio)?
     - will you provide some onboarding [training](support_topio)?
-    - Any [support](support_topio) to get started?
-    - any help on getting started?
-    - I need [help](support_topio) to start. 
-- intent: ask_early_user 
-  examples: |
-    - I want to be an early [adopter](customer), what should I do?
-    - I would like to be an early [user](customer), what do I need to do?
-    - I would like to be an early [user](customer), what should I do?
-    - Id like to be an ealry [adopter](customer). 
-    - I wanna be an early [adopter](customer), what to do?
-    - what criteria are you using to find an early [user](customer) ?
-    - what criteria do you use to identify an early [adopter](customer)?
-    - what criteria do you use to select an early [user](customer)?
-    - What criteria will be used to pick an early [adopter](customer) ?
-    - what are the criteria to be selected as an [adopter](customer)?
-    - how to be an early [adopter](customer)?
-    - how to b ur early [user](customer) ?
-    - how to become an early [member](customer) of your [platform](place)?
-    - how can I become an early [user](customer)?  
-    - How can I be selected to be an early [user](customer)? 
-    - How can I register myself to be an early [user](customer)?
-    - what do I need to do to be an early [user](customer)?
-    - what are things I need to do to become an early [adopter](customer)?
-    - what are the requirements to be considered as an early [adopter](customer)?
-    - what are the requirements to be an early [adopter](customer) ?
-    - how do you decide if someone is an early [member](customer)?
-- intent: ask_data_control 
-  examples: |
-    - Can I have control over my data?
-    - can I have the right to manage my [data](property)?
+    - Any [support](support_topio) to get started Tobie?
+    - any [help](support_topio) on getting started?
+    - any [help](support_topio) to start off?
+    - I need [help](support_topio) to start.   
+- intent: ask_early_user #26
+  examples: |    
+    - hey Tobie, I want to be an early [adopter](topio_user), what should I do?
+    - I would like to be an early [user](topio_user), what do I need to do?
+    - I would like to be an early [member](topio_user), Tobie what should I do ?
+    - I'd like to be an ealry [adopter](topio_user).
+    - Tobie I wanna be an early [adopter](topio_user), what to do?
+    - what criteria are you using to find an early [user](topio_user) ?
+    - what criteria do you use to identify an early [adopter](topio_user)?
+    - tobie what criteria do you use to select an early [user](topio_user)?
+    - What criteria will be used to pick an early [adopter](topio_user) ?
+    - Tobie, what are the criteria to be selected as an early [adopter](topio_user)?
+    - how to be an early [adopter](topio_user)?
+    - Tobie, how to b ur early [user](topio_user) ?
+    - how to become an early [member](topio_user) of your [platform](place)?
+    - hey Tobie, how can I become an early [user](topio_user)?
+    - tobie, tell me how can I become an early [user](topio_user)?
+    - tobie how to become an early [user](topio_user) of [Topio](place)?
+    - How can I get selected as an early [user](topio_user)?
+    - How can I register to be an early [user](topio_user)?
+    - Tobie, what do I need to do to be an early [user](topio_user)?
+    - what are things I need to do to become an early [adopter](topio_user)?
+    - Tobie, what are the requirements to be considered as an early [adopter](topio_user)?
+    - what are the requirements to be an early [adopter](topio_user) ?
+    - how do you decide if someone is an early [member](topio_user)?
+    - okay, register me to be an early [user](topio_user).
+    - hey Tobie, make me an early [user](topio_user).
+    - okay Tobie, tell me how to be your early [user](topio_user)?  
+- intent: ask_data_control #24
+  examples: |    
+    - Can I have control over my [data](property), tobie?
+    - Tobie can I have the right to manage my [data](property)?
     - can I maintain full control over my [assets](property)?
-    - can I take ownership of my [data](property) ?
-    - Can I manage and manipulate the data the way I want to?
+    - Tell me Tobie, can I take ownership of my [assets](property) ?
+    - Can I manage and manipulate the [data](property) the way I want to?
     - Could I keep control of my own [data](property)?
-    - could I take the full control over my data?
-    - do I take the absolute control of my data?
-    - Do I have the full right to manage my data ?
-    - Am I in control of my [data](property)?
-    - am i the boss of my data?
-    - Am I in charge of my own data?
-    - am I the person who is in charge of my own data?
-    - Am I taking responsibility of my data ?
-    - Will I have the absolute control of my own data?
-    - will I keep control of my own [data](property)?
-    - will my data on your platform still be under my control?
-    - Who is in control of my [data](property)?
-    - who would be in charge of my [assets](property)?
+    - could I take the full control over my [data](property)?
+    - Tobie, do I take the absolute control of my [assets](property)?
+    - Do I have the full right to manage my [data](property)?
+    - hey Tobie, Am I in control of my [data](property)?
+    - am i the boss of my [data](property)?
+    - hi Tobie am I in charge of my own data?
+    - Am I in charge of my own [data](property)?
+    - Tobie will I be in charge of my [data](property)?
+    - am I the person who is in charge of my own [data](property)?
+    - Am I taking responsibility of my [data](property) ?
+    - Will I have the absolute control of my own [assets](property)?
+    - Tobie will I keep control of my own [data](property)?
+    - will my [data](property) on your [platform](place) still be under my control?
+    - tobie, Who is in control of my [data](property) ?
+    - hey Tobie who would be in charge of my [assets](property)?
     - Is the data still mine after uploading it to your [platform](place)?
-    - Is it possible to kepp the full control of my data?    
-    - Does the data still belong to me after uploading it to your [marketplace](place)?
-- intent: ask_data_usage 
-  examples: |
+    - Is it possible to keep the full control of my [data](property)?
+    - Does the [data](property) still belong to me after uploading it to your [marketplace](place)?
+- intent: ask_data_usage #22
+  examples: |    
     - what exactly can I do with my data on the [marketplace](place)?
     - what could I do with my data at your [marketplace](place) ?
-    - what can I possibly do with my data?
-    - What can I do with my [data](property)?
-    - what to do with my data at your place?
-    - what do you suggest me to do with my data?
+    - what can I possibly do with my [data](property) on [Topio market](place)?
+    - tell me Tobie what can I do with my [data](property)?
+    - What can I do with my [assets](property) on [Topio](place)
+    - what to do with my [data](property) at your [marketplace](place)?
+    - what do you suggest me to do with my [data](property)?
     - what to do with my [data](property) on your [platform](place)?
-    - what options do you provide for using data on your [marketplace](place)?
+    - Tobie what options do you provide for using data on your [marketplace](place)?
     - What options do I have for using data at your [platform](place)?
     - What are the things I could do with my data on your [marketplace](place)?
     - what are the choices for using my data on your [platform](place)
-    - what choices do I have for using my data on your [website](place)?
-    - Tell me what things can I do with my data?
+    - tell me Tobie what choices do I have for using my data on your [website](place)?
+    - Tobie tell me what things can I do with my [data](property)?
     - what are the thing I can do with my [data](property)?
-    - how can I best use my [data](property)?
+    - hey Tobie how can I best use my [data](property) on your [platform](place)?
     - how can I use my data on your [marketplace](place)?
-    - any suggestions on what can I do with my data?
-    - any suggestion on how to use my data on your [marketplace](place)?
-    - any recommendation on what to do with my [data](property)?
+    - Tobie, any suggestions on what I can do with my [data](property)?
+    - tobie any suggestion on how to use my data on your [marketplace](place)?
+    - any recommendation on what to do with my [data](property) ? Tobie
     - Are there many things I can do with my data on your [marketplace](place)?
-- intent: ask_sell_asset 
-  examples: |
-    - How much will you charge me for selling [assets](property)?
-    - how much does it cost to sell [data](property)?
-    - how much to pay to sell [assets](property)?
+    - Any idea on what I can do with my [data](property) ?
+- intent: ask_sell_asset #23
+  examples: |   
+    - Tobie how much will you charge me for selling [assets](property)?
+    - how much does it cost to sell [data](property) on [Topio market](place)?
+    - hey Tobie how much to pay to sell [assets](property)?
     - how much should I pay you for selling assets on your [website](place)?
-    - how much do I need to pay for selling data on your [marketplace](place)?
+    - hey Tobie how much do I need to pay for selling data on your [marketplace](place)?
+    - how much will I pay you for making a deal on [topio market](place) ?
     - Any extra fees I need to pay for selling [assets](property)?
-    - Any selling fees I need to pay ?
+    - tobie any selling fees I need to pay ?
+    - hey tobie, any fee to pay to sell [stuff](property) on your [marketplace](place)
     - any processing fee for selling [assets](property)?
-    - any hideen cost I need to pay when making a sale?
+    - any hidden cost I need to pay when making a sale?
     - any processing fee to pay for selling [assets](property)?
-    - is there any processing fee that I need to pay to sell [assets](property)?
-    - Is there a fee to pay for selling [data](property)?
+    - hi tobie is there any processing fee that I need to pay to sell [assets](property)?
+    - Tobie, is there a fee to pay for selling [data](property)?
     - do I need to pay you for selling [data](property) on your [marketplace](place)?
     - what are the fees I need to pay for selling [data](property)?
-    - What are the fees on selling [assets](property) ?
+    - tobie What are the fees on selling [assets](property) ?
     - what are the charges for selling [assets](property) on your [marketplace](place)?
     - What are the merchant charge in a transaction?
+    - how much do you charge for each transaction?
     - Will you charge me for selling [assets](property)?
-    - will there be a fee to [assets](property)?
-    - Tell me how much is the selling fee on your [website](place)?
-- intent: ask_free_service 
-  examples: |
-    - Is there any other free service that I can use?
-    - is there anything for free ?
-    - Any free services I can use?
+    - will there be a fee for selling [assets](property) tobie ?
+    - Tell me Tobie how much is the selling fee on your [website](place)?
+- intent: ask_free_service #24
+  examples: |   
+    - Tobie tell me, is there any other free service that I can use?
+    - is there anything for free on [Topio](place)?
+    - Any free services I can use Tobie?
     - Any service I do not need to pay?
-    - anything for free?
+    - Hi Tobie, anything for free?
     - Anything free of charge?
     - Anything for free at your [marketplace](place)?
     - Anything free on your [website](place)?
-    - do you offer free service on your [website](place)?
-    - do you have something for free?
-    - how can I access your free service ?
+    - Tobie do you offer free service on your [website](place)?
+    - tobie do you have something for free?
+    - how can I access your free service, tobie?
     - what service is for free?
     - what services do you have for free?
-    - what service can I use for free?
+    - Tobie, what service can I use for free?
     - what can I use for free on your [marketplace](place)?
-    - what services can I take without paying ?
-    - what is out there for free?
-    - I am looking for free services.
+    - Tobie what services can I take without paying ?
+    - what is out there for free on [Topio market](place)?
+    - What's there for free on your [website](place)
+    - I am looking for free services, Tobie.
     - I do not want to pay, what services can I get?
     - I want to try out something for free.
     - I do not have money, what is for free?
-- intent: ask_price_terms 
-  examples: |
-    - is it possible for me to set my own terms for my [assets](property)?
-    - Is it possible for me to set price for my [assets](property)?
-    - is it possible to create terms & prices for my [assets](property) myself?
-    - Is it possible to set the price and terms of my [assets](property) myself?
-    - can I set my own price and terms for my [assets](property)?
+    - Tobie, I don't wann pay for anything, what can I do on [Topio](place)
+    - Free service?
+- intent: ask_price_terms #24
+  examples: |    
+    - is it possible for me to set my own terms for my [assets](property) on your [marketplace](place)?
+    - Tell me Tobie is it possible for me to set price for my [assets](property)?
+    - is it possible to create terms & prices for my [data](property) myself?
+    - Is it possible to set the price and terms of my [assets](property) myself on [Topio](place)?
+    - Tobie can I set my own price and terms for my [assets](property)?
     - can I decide on the terms and prices of my [data](property)?
-    - can I make terms and price for my [data](property)?
-    - can I make the price and terms of my [assets](property) myself
-    - can I make a decision on the price of my [assets](property) ?
-    - Am I able to decide price and terms for my own [assets](property)?
+    - can I set the terms and prices of my [data](property) myself?
+    - hi Tobie can I make terms and price for my [data](property)?
+    - can I make the price and terms of my [assets](property) on [Topio market](place) ?
+    - hey Tobie, can I make a decision on the price of my [assets](property) ?
+    - Tobie, am I able to decide price and terms for my own [assets](property)?
     - Am I going to set terms and prices for my [assets](property)?
-    - Am i able to choose the price for my [data](property)?
-    - will I decide on the terms and price of my [assets](property)?
-    - will I be able to make a decision on the prices and terms for my [assets](property)?
+    - Am i able to set the price for my own [data](property)?
+    - Tobie will I decide on the terms and price of my [assets](property)?
+    - Tell me Tobie will I be able to make a decision on the prices and terms for my [assets](property)?
     - will I determine the prices and terms of my [assets](property)?
+    - would it be possible for me to set the price & terms of my [assets](property) ?
     - would I be able to set the price and terms for my [assets](property)?
     - do I have the right to set the terms and price for my own [data](property)?
+    - do I have the power to decide on the terms& price for my [data](property) on your [marketplace](place)
     - Do I decide on the price and terms for my [assets](property)?
-    - I want to set my own price for my [assets](property), can I do that?
+    - tobie I want to set my own price for my [assets](property), can I do that?
     - I would like to make the terms and prices for my [assets](property), is it allowed?
-- intent: ask_security 
+    - I'd like to set the terms and prices for my [assets](property), can I?
+- intent: ask_security #26
   examples: |
-    - On what security measurements I can rely on if something goes wrong?
-    - what protection measurements I can rely on if things go wrong?
+    - Tobie on what security measurements I can rely on if something goes wrong?
+    - what protection measurements I can rely on when things go wrong?
     - What will you do to protect my assets if something happens
-    - what are the security measures to take if something goes wrong?
+    - hey tobie, what are the security measures to take when something goes wrong?
     - if something goes wrong, what security measurements can I depend on?
     - If something unexpected happens, what protection methods are there?
-    - If there is a problem with a transaction, how will you protect sellers rights and interests?
+    - Tobie If there is a problem with a transaction, how will you protect sellers rights and interests?
     - if things go wrong, how will my sellers right be secured?
+    - if something unexpected happens, what security measure do you have?
     - how am I protected if something happens that is outside of my control?
     - how will I be protected if something unexpected happens?
     - how do you protect my seller rights in case of unexpected events in a transactions?
-    - How will the seller be protected if something goes wrong?
+    - how will [Topio market](place) protect me when things go wrong. 
+    - How will the seller be protected by your [marketplace](place) when something goes wrong?
     - will I be protected when there is an issue with the transaction?
-    - when there is a dispute, how will you protect me? 
-    - Is there any seller protection guarantee policy?
-    - is there any protection for the seller in case something goes wrong?
-    - Is there any security actions that will be followed in case of things going wrong?
+    - when there is a dispute, how will you protect me?
+    - Tell me Tobie, is there any seller protection guarantee policy?
+    - Tobie tell me about the security measures you have when something goes wrong. 
+    - Is there any security measurements if something happens during transaction. 
+    - Tobie do you know is there any protection for the seller in case something goes wrong?
+    - Tobie is there any security actions that will be followed in case of things going wrong?
     - In case of disputes or claims, how will I be protected as a seller?
-    - In case of disputes and claims, what protection will I get?
+    - Tobie in case of disputes and claims, what protection will I get?
     - Do you have any security measurements to take in case something goes wrong?
-    - Do you have any protection measurements for sellers if things go wrong 
-- intent: ask_terms_and_conditions 
-  examples: |
-    - Can I have a look at terms and conditions?
-    - can I please take a look at conditions & terms?
-    - can I know what are your terms and conditions ?
-    - can I read the conditions and terms?
-    - can I check contract conditions?
-    - can I see the terms and conditions ?
+    - Do you have any protection measurements for sellers if things go wrong
+    - tobie, any security measures in case things go out of control ?
+- intent: ask_terms_and_conditions #25
+  examples: |    
+    - hi Tobie can I have a look at terms and conditions?
+    - can I please take a look at conditions & terms tobie?
+    - can I know what are the terms and conditions of this [Topio market](place)?
+    - Tobie can I read the conditions and terms of your [marketplace](place)?
+    - can I check contract conditions? Tobie
+    - Tobie can I see the terms and conditions ?
     - Is there a place to check out terms and conditions?
     - Is it possible to view the terms & conditions?
     - Is it possible for me to go over the terms and conditions?
-    - Is it possible to check the terms and conditions?
+    - Tobie is it possible to check the terms and conditions?
     - Would it be possible to have a look at your terms and conditions?
-    - I am interested in the terms and conditions.
-    - I want to view the condition and terms. 
+    - Tobie, I am interested in the terms and conditions.
+    - I want to view the condition and terms.
     - I wanna first read your terms & conditions.
-    - where can I find the terms and conditions?
+    - Tobie tell me where can I find the terms and conditions?
     - where are your conditions and terms ?
-    - where is the link to terms and conditions?
-    - Show me terms and conditions. 
-    - guide me to terms & conditions
-    - terms and conditions please.
-- intent: ask_marketplace_functionality
-  examples: |
-    - what functionalities does the [marketplace](place) have ?
+    - tobie, where is the link to terms and conditions?
+    - Tobie show me terms and conditions of your [marketplace](place).
+    - show me terms & conditions of [Topio](place)
+    - Tobie can you guide me to the page of terms & conditions? 
+    - tobie, guide me to terms & conditions
+    - hey tobie, terms and conditions please.
+    - Terms & conditions of [Topio](place) ?
+    - Give me the terms & conditions of your [website](place)?
+    - Tobie tell me what are the terms and conditions of this [marketplace](place). 
+- intent: ask_marketplace_functionality #26
+  examples: |  
+    - hey Tobie, what functionalities does the [marketplace](place) have ?
+    - what functionalities does [Topio](place) have ?
     - What are the functionalities that your [marketplace](place) offer?
-    - What functionalities can your [platform](place) provide?
-    - what activities does your [marketplace](place) support?
+    - Tobie, what functionalities can your [platform](place) provide?
+    - what activities does your [marketplace](place) support? 
+    - Tobie what activities does your [Topio market](place) support?
     - what are the functionalities of your [platform](place)?
-    - what are the features of the [marketplace](place)?
+    - Tobie tell me what are the features of the [marketplace](place)?
     - what are the main features or functionalities of this [marketplace](place)?
-    - what can I do on your [platform](place)?
+    - Tobie what can I do on your [platform](place)?
+    - what to do on [Topio](place)?
     - what can I do in general on your [marketplace](place)?
     - what will I be able to do on your [marketplace](place)?
     - What features does the [marketplace](place) have?
-    - How can I use the [marketplace](place) ?  
-    - how to use your [platform](place)?    
+    - What are the features [Topio market](place) have?
+    - How can I use the [marketplace](place) ?
+    - tell me Tobie how to use your [platform](place)?
     - can you suggest me some ways to use your [marketplace](place)?
-    - Can you tell me what are the ways to use your [marketplace](place)?
-    - can you tell me what functions does your [marketplace](place) have ?
+    - Can you tell me what are the best ways to use your [marketplace](place)?
+    - Tobie can you tell me what functions does your [marketplace](place) have ?
     - could you tell me the features of the [marketplace](place)?
     - Tell me more about the functionality of the [platform](place).
-    - tell me the features of your [marketplace](place). 
-    - Features & functionality of the [marketplace](place).
-- intent: ask_information 
-  examples: |
-    - what kind of information is available upfront before I purchase [assets](property)?
+    - Tobie tell me the features of your [marketplace](place).
+    - Features & functionalities of the [marketplace](place) ?
+    - Tobie tell me functionalities of [Topio](place) .
+    - Features of [Topio market](place)?
+- intent: ask_information #21
+  examples: |   
+    - Tobie what kind of information is available upfront before I purchase [assets](property)?
     - what kind of information is out there before I buy [assets](property)?
     - what infor is available to me before purchasing [assets](property)?
     - What information about the [assets](property) will I get before purchasing?
-    - What kind of information can I access before I buy [data](property) ?
-    - what information can I see before purchasing anything?
-    - what infor will I get before buying [assets](property)?
+    - Tobie, What kind of information can I access before I buy [data](property) ?
+    - hi tobie what information can I see before purchasing anything?
+    - what infor will I get before buying [stuff](property)?
+    - what can I view before buying [stuff](property) from your [marketplace](place)
+    - hey tobie, what can I see before buying anything from [Topio](place)?
     - What information can I have in advance of buying [data](property)?
     - What kind of details do I have access to before buying [assets](property)?
     - what are the details I can see before purchasing [assets](property) ?
     - Before purchasing [assets](property), what information is made available to me ?
     - Before I purchase [assets](property), what kind of information is out there?
     - before buying anything, what information can I get access to?
-    - Could you give me some information before I purchase [assets](property)?
-    - can I see more information about the [assets](property) before purchasing?
+    - Could you give me some information before I purchase [assets](property), Tobie?
+    - Tobie can I see more information about the [assets](property) before purchasing?
     - Can I view have more information in advance of purchasing [assets](property)?
     - Is there any information available before purchasing [assets](property)?
     - Is there any infor I can use to make up my decision on buying [assets](property)?
     - will there be any information given, prior to buying any [assets](property)?
     - Will you allow me to check more information prior to purchasing [assets](property)
-    - Any information given ahead of buying [assets](property) ?
-- intent: ask_data_costs
-  examples: |
-    - what are the costs for buying [data](property)?
+    - Hey Tobie, any information given ahead of buying [assets](property) ?
+    - any details I can see before buying [data](property) ?
+- intent: ask_data_costs #25
+  examples: |    
+    - Tobie what are the costs for buying [data](property)?
+    - what are the costs of buying [assets](property) on [Topio](place) ?
     - What are the prices for purchasing [data](property)?
     - What are the prices of your [data](property)?
-    - what is the rate of your [data](property)?
-    - how much is the [data](property)?
-    - How much does the [data](property) cost?
-    - How much does it cost to buy [data](property)?
+    - hey Tobie, what is the rate of your [data](property)?
+    - how much is the [data](property) on your [marketplace](place)?
+    - Tobie how much does the [data](property) cost? 
+    - How much does it cost to buy [assets](property) on [Topio market](place)?
     - How much will I pay for buying [data](property)?
-    - how much do I need to pay for buying [assets](property) ?
-    - how much would it cost to buy [data](property)?
-    - can I know the price for buying the [data](property)? 
-    - Can I please know the costs of purchasing [data](property) 
-    - Can you tell me the price of the [data](property)?
+    - tell me Tobie, how much do I need to pay for buying [assets](property) ?
+    - how much would it cost to buy [data](property) on your [platform](place)?
+    - how much to pay to get [data](property) from your [platform](place)?
+    - how much do you charge for data?
+    - tobie, can I know the price for buying the [data](property)?
+    - Can I please know the costs of purchasing [data](property)
+    - Tobie can you tell me the price of the [assets](property)?
     - can you tell me what are the costs for buying [assets](property)?
     - could you tell me where to find the price of the [data](property) ?
-    - Tell me the costs of buying [assets](property)
+    - Tell me the costs of buying [assets](property) on [Topio](place).
     - I want to know the price of buying data on your [marketplace](place)?
-    - I want to buy data, where is the price?
-    - I would like to buy some data, can I see the price of the [data](property)?  
+    - I want to buy [data](property), where is the price?
+    - I would like to buy some [data](property), can I see the price of the [data](property)?
     - I am interested in getting some data, can you tell me the costs?
-    - Price of your [data](property)?
-- intent: ask_more_than_data
-  examples: |
-    - can I do more than just buying [asstes](property)?
-    - Can I do some other things instead of buying [asstes](property) ?
+    - Price of [data](property)? Tobie
+    - Costs of [data](property) on your [marketplace](place) ?
+- intent: ask_more_than_data #26
+  examples: |    
+    - can I do more than just buying [asstes](property) on [Topio market](place)?
+    - Tobie, can I do some other things instead of buying [stuff](property) ?
     - Can I do anything else apart from purchasing [data](property)?
     - can I do something else on your [platform](place) other than buying [data](property)?
-    - what can I do other than purchasing [assets](property)?
+    - what can I do other than purchasing [assets](property) on your [marketplace](place)?
     - what are the things I can do outside of buying [data](property)?
-    - what else can I do apart form buying [data](property)?
+    - Tobie what else can I do apart form buying [data](property)?
     - What else could I do besides buying or selling [data](property)?
-    - Is there anything to do on your marketplace excluding buying data?
-    - Is there something I can do outside of buying [assets](property) ?
+    - what else can I do, I don't want to get [data](property).
+    - what 's more to do outside buying [stuff](property) from your [platform](place) ?
+    - Is there anything to do on your [marketplace](place) excluding buying [data](property)?
+    - Tobie is there something I can do outside of buying [assets](property) ?
     - is it possible to do more than just buying [data](property)?
     - Is there anything else to do other than buying/selling [data](property)?
     - Anything else I can do apart from buying [assets](property)?
-    - Anything to do outside of purchasing data?
+    - Anything to do outside of purchasing [data](property) on [Topio](place)?
     - Any suggestion on what I can do instead of buying [data](property)?
-    - I do not want to buy data, what else can I do on your [platform](place)?   
-    - I do not wanna buy any data, suggest me something else to do.  
-    - I am not interested in purchasing data, tell me something else to do.
-    - apart from buying or selling [data](property), what else can I do?
-    - I am not interested in buying [assets](property), suggest me something else to do.     
-- intent: ask_more_answer 
+    - anything else to do? I don't need to buy [data](property).
+    - Tobie, I do not want to buy [stuff](property), what else can I do on your [platform](place)?
+    - I do not wanna buy any [data](property), Tobie suggest me something else to do.
+    - hey tobie, I don't need to buy anything, what can I do?
+    - I don't need to buy data, what else to do ?
+    - Hey tobie, I dont wanna buy data, what to do? 
+    - I am not interested in purchasing [data](property), tell me something else to do.
+    - Hey Tobie, apart from buying or selling [stuff](property), what else can I do?
+    - I am not interested in buying [assets](property), Tobie suggest me something else to do.
+- intent: ask_more_answer #31
   examples: |
     - My question is not answered here, who can I contact?
-    - my question is not answered, can I talk to someone else?
-    - my question is not answered, can I speak to a human?
-    - my problem is not solved, who can I ask?
-    - My problem is unsolved, I want to talk to a real person. 
-    - You did not answer my question, can I speak to someone else? 
-    - Your answer is not good, who should I ask?
-    - you do not have the answer Im looking for, give me the contact of someone else.
+    - Tobie, my question is not answered, can I talk to someone else?
+    - my question is not answered by you Tobie, can I speak to a human?
+    - my problem is not solved, Tobie who can I ask?
+    - My problem is unsolved, I want to talk to a real person.
+    - Tobie you did not answer my question, can I speak to someone else?
+    - Tobie your answer is not helpful, I need to speak to a person about my problem. 
+    - Tobie your answer is bad.
+    - Your answer is not good Tobie, who should I ask?
+    - you do not have the answer I'm looking for, give me the contact of someone else.
     - I do not get the right answer here, what should I do next?
     - I do not find an answer, who can I ask?
-    - I have more to ask, I want to talk to a person. 
-    - I need better answer, who to contact?
+    - I have more to ask, I want to talk to a person.
+    - Tobie I need better answer, who to contact?
     - is there anyone else I can ask the questions?
-    - Is there anybody can help me with my problem?
-    - Anyone can answer my question?
-    - Anyone can help me further with my question? 
+    - Hey Tobie, is there anybody can help me with my problem?
+    - Tobie, you know anyone else can answer my question?
+    - Anyone can help me further with my question?
     - who can I ask because my question is not answered here?
     - who can I contact if my question is not answered here?
     - where can I get better answers to my questions?
-    - If my question is not answered here, who should I contact?
-    - Give me the contact to a real person, I have more complex questions. 
-    
-- intent: out_of_scope 
-  examples: |
-    - what is your [name](information)?
+    - when my question is not answered here, who should I contact?
+    - Tobie give me the contact to a real person please, I have more complex questions.
+    - Do you have a helpdesk?
+    - Tobie, do you know who can help me more with my question? 
+    - Helpdesk with a real person?
+    - I have more to ask 
+    - Tobie, guide me to your helpdesk. 
+    - Thanks tobie, but I still want to talk to a person. 
+    - Thanks but I have more questions
+    - I wanna speak to a real person
+    - thank you, but my problem is not solved. I need to speak to someone else.  
+- intent: ask_process_sell # 27
+  examples: |    
+    - What is the exact process to sell [assets](property)?
+    - Hi Tobie, what is the procedure to sell [data](property) on your [marketplace](place) ?
+    - What is the detailed process for selling [assets](property) ?
+    - what exactly is the procedure for selling [assets](property) on your [platform](place)?
+    - What are the steps of selling assets on your [platform](place) ?
+    - what do I need to do to sell [assets](property) ?
+    - how to sell [data](property) on [Topio](place)?
+    - how to sell [stuff](property) on your [website](place)?
+    - How to sell on [Topio](place)?
+    - How can I sell [stuff](property) on [Topio](place)?
+    - How do I sell assets on your [marketplace](place)?
+    - How should I sell [data](property) on the [marketplace](place) ?
+    - Tobie can you guide me on selling [assets](property)?
+    - Can you guide me on how to sell my [assets](property) ?
+    - Tobie can you tell me how to sell [data](property)?
+    - can you show me the guidance to selling on [Topio](place)?
+    - Hey Tobie do you know how I can sell [assets](property) on your [website](place)?
+    - I do not know how to sell [data](property), can you help Tobie?
+    - I want to sell assets on [Topio](place), guide me Tobie.
+    - I have [assets](property) to sell, Tobie can you tell me what to do.
+    - Teach me how to sell [stuff](property) ?
+    - tobie guide me to details of selling [data](property)?
+    - guide me to the page for selling [assets](property)?
+    - I need more information on how to sell [data](property)?
+    - I need more details on the process of selling [assets](property) ?
+    - I want to know how to sell [assets](property)
+    - Tobie, any idea on how to sell [assets](property) on [Topio market](place)?
+    - Tips for selling [assets](property)?
+- intent: ask_process_buy # 27
+  examples: |    
+    - Tobie what is the exact process to buy [assets](property)?
+    - what is the procedure to buy [data](property) on [Topio market](place) ?
+    - What is the detailed process for purchasing [assets](property) ?
+    - what exactly is the procedure for buying [assets](property)?
+    - Hey Tobie, what are the steps of buying assets on your [platform](place)?
+    - what should I do, if I want to getting some [assets](property) ?
+    - how to buy [stuff](property) on your [marketplace](place)?
+    - How to purchase [assets](property) safely on [Topio](place)?
+    - How can I get [data](property) on [Topio](place)?
+    - How do I purchasing [assets](property) on your [marketplace](place)?
+    - How should I purchase [data](property) on the [platform](place) ?
+    - Can you guide me on purchasing [assets](property) Tobie?
+    - Can you guide me on how to buy [data](property)
+    - Can you tell me how to buy [data](property) ?
+    - I do not know how to buy assets, can you help Tobie ?
+    - Do you know how I can purchase [assets](property) on your [website](place)?
+    - I want to buy [assets](property) on [Topio](place), show me how to do it.
+    - I am interesting in getting [assets](property), Tobie what should I do ?
+    - Show me how to buy [stuff](property) ?
+    - Tobie how does buying works on [Topio](place)
+    - Guide me to details of purchasing [data](property)?
+    - Guide me to the page for buying [assets](property) Tobie. 
+    - I need more information on how to buy [data](property)?
+    - I need more details on the process of buying [assets](property)?
+    - I want to know how to buy [assets](property) Tobie.
+    - Tips for buying [stuff](property) on this [marketplace](place)?
+    - Any help on how to buy [assets](property) on [Topio](place) ?
+- intent: out_of_scope #40
+  examples: |    
+    - which [city](information) are you living in?
     - What is your [age](information)?
-    - Tell me your [gender](information)?
+    - Tobie, what is your [gender](information)?
     - how is ur [personality](information)?
-    - what [country](information) are you from?
+    - what [country](information) are you from Tobie?
     - which [year](time) is it?
     - what is the [date](time) today?
-    - can you tell me the [time](time) ? 
+    - can you tell me the [time](time) Tobie?
     - what [season](time) is it now?
-    - what is the [temperature](time) today ? 
+    - what is the [temperature](time) today ?
     - what is 1 + 1?
-    - Can you sing a song?
+    - Can you sing a song, Tobie?
     - who is the US president?
-    - Where do you live?
+    - Tobie, where do you live?
     - what are you made of?
+    - tobie do you know facebook?
     - Can you book me a [flight](service)?
     - can you reserve a [hotel](service) for me?
     - please book a [taxi](service) for me.
-    - I want to book a sales [call](service).
+    - Tobie I want to book a sales [call](service).
     - find the [restaurants](service) around me.
     - i am [happy](mood).
     - I am felling a bit [worrying](mood).
-    - i am a little [down](mood) today.
+    - i am a little [down](mood) today ,Tobie. 
     - you are boring](mood).
     - will you ever get [mad](mood)?
-    - can you tell me a story?
+    - Hey Tobie can you tell me a story?
     - who is your [mother](relation)?
-    - who is ur [father](relation)
+    - Tobie who is ur [father](relation)
     - who is your [boss](relation)?
     - do you have a [girlfriend](relation)?
     - Am I your [friend](relation)?
-    - Do you speak [German](language)?
+    - Do you speak [German](language) Tobie?
     - do you also talk in [spanish](language)?
     - can you answer in [Chinese](language)?
     - You cannot speak [French](language) ?
-    - I want to learn [english](language).
-    - are you smart?
-    - dsanjsd3218341
-    - sudo reboot
+    - I want to learn [english](language) Tobie.
+    - Tobie, are you smart?
+    - do you like movies Tobie?
+    - dsanjsd3218341 
 
 
 - synonym: assets
   examples: |
     - data  
+    - stuff
 - synonym: marketplace
   examples: |
     - platform
     - website
+    - Topio
+    - Topio market
 - synonym: adopter
   examples: |
     - user
@@ -455,7 +628,16 @@ nlu:
     - help
     - assistance
     - training  
-
+- synonym: stack
+  examples: |
+    - fullstack
+    - full
+    - Full stack
+    - full staclk
+    - full framework
+    - full stack
+    - Full
+    - Full Stack
     
     
     

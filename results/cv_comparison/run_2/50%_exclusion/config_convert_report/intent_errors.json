@@ -1,0 +1,74 @@
+[
+  {
+    "text": "Tobie is there something I can do outside of buying assets ?",
+    "intent": "ask_more_than_data",
+    "intent_prediction": {
+      "name": "ask_process_buy",
+      "confidence": 0.43432003259658813
+    }
+  },
+  {
+    "text": "what can I do other than purchasing assets on your marketplace?",
+    "intent": "ask_more_than_data",
+    "intent_prediction": {
+      "name": "ask_marketplace_functionality",
+      "confidence": 0.4244861602783203
+    }
+  },
+  {
+    "text": "how to buy stuff on your marketplace?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_process_sell",
+      "confidence": 0.3405795693397522
+    }
+  },
+  {
+    "text": "How do I purchasing assets on your marketplace?",
+    "intent": "ask_process_buy",
+    "intent_prediction": {
+      "name": "ask_process_sell",
+      "confidence": 0.4111775755882263
+    }
+  },
+  {
+    "text": "Nice to meet you Tobie",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.28809109330177307
+    }
+  },
+  {
+    "text": "good day",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4650894105434418
+    }
+  },
+  {
+    "text": "I have more to ask",
+    "intent": "ask_more_answer",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.4352668225765228
+    }
+  },
+  {
+    "text": "Thanks but I have more questions",
+    "intent": "ask_more_answer",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.3961612284183502
+    }
+  },
+  {
+    "text": "i am a little down today ,Tobie.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7985566854476929
+    }
+  }
+]
