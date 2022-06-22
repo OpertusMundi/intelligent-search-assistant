@@ -1,36 +1,104 @@
 rules: 
- # - rule: respond to FAQs
- #   steps:
- #   - intent: faq
- #   - action: utter_faq
+ - rule: respond to ask_what_is_topio
+   steps:
+   - intent: ask_what_is_topio
+   - action: utter_ask_what_is_topio
+ - rule: respond to ask_what_topio_motto
+   steps:
+   - intent: ask_what_topio_motto
+   - action: utter_ask_what_topio_motto
+ - rule: respond to ask_what_benefit_general_user
+   steps:
+   - intent: ask_what_benefit_general_user
+   - action: utter_ask_what_benefit_general_user
+ - rule: respond to ask_what_benefit_data_exchange
+   steps:
+   - intent: ask_what_benefit_data_exchange
+   - action: utter_ask_what_benefit_data_exchange
+ - rule: respond to ask_easy_trade_data
+   steps:
+   - intent: ask_easy_trade_data
+   - action: utter_ask_easy_trade_data
+ - rule: respond to ask_is_data_safe
+   steps:
+   - intent: ask_is_data_safe
+   - action: utter_ask_is_data_safe
+ - rule: respond to ask_report_platform_issue
+   steps:
+   - intent: ask_report_platform_issue
+   - action: utter_ask_report_platform_issue
+ - rule: respond to ask_become_early_adopter
+   steps:
+   - intent: ask_become_early_adopter
+   - action: utter_ask_become_early_adopter
+ - rule: respond to ask_register_topio
+   steps:
+   - intent: ask_register_topio
+   - action: utter_ask_register_topio
+ - rule: respond to ask_optout_topio
+   steps:
+   - intent: ask_optout_topio
+   - action: utter_ask_optout_topio
+ - rule: respond to ask_how_topio_created
+   steps:
+   - intent: ask_how_topio_created
+   - action: utter_ask_how_topio_created
+ - rule: respond to ask_what_benefit_seller
+   steps:
+   - intent: ask_what_benefit_seller
+   - action: utter_ask_what_benefit_seller
  - rule: respond to ask_support
    steps:
    - intent: ask_support
    - action: utter_ask_support
- - rule: respond to ask_support
+ - rule: respond to ask_criteria_early_adopter
    steps:
-   - intent: ask_early_user
-   - action: utter_ask_early_user
- - rule: respond to ask_data_control
-   steps:
-   - intent: ask_data_control
-   - action: utter_ask_data_control
+   - intent: ask_criteria_early_adopter
+   - action: utter_ask_criteria_early_adopter
  - rule: respond to ask_data_usage
    steps:
    - intent: ask_data_usage
    - action: utter_ask_data_usage
+ - rule: respond to ask_become_seller_docs
+   steps:
+   - intent: ask_become_seller_docs
+   - action: utter_ask_become_seller_docs
+ - rule: respond to ask_data_control
+   steps:
+   - intent: ask_data_control
+   - action: utter_ask_data_control
  - rule: respond to ask_sell_asset
    steps:
    - intent: ask_sell_asset
    - action: utter_ask_sell_asset  
- - rule: respond to ask_free_service
+ - rule: respond to ask_set_price
    steps:
-   - intent: ask_free_service
-   - action: utter_ask_free_service 
- - rule: respond to ask_price_terms
+   - intent: ask_set_price
+   - action: utter_ask_set_price
+ - rule: respond to ask_what_pricing_model
    steps:
-   - intent: ask_price_terms
-   - action: utter_ask_price_terms
+   - intent: ask_what_pricing_model
+   - action: utter_ask_what_pricing_model
+ - rule: respond to ask_contract_licensing_terms
+   steps:
+   - intent: ask_contract_licensing_terms
+   - action: utter_ask_contract_licensing_terms
+ - rule: respond to ask_create_own_contract
+   steps:
+   - intent: ask_create_own_contract
+   - action: utter_ask_create_own_contract
+ - rule: respond to ask_establish_binding_contract
+   steps:
+   - intent: ask_establish_binding_contract
+   - action: utter_ask_establish_binding_contract
+ - rule: respond to ask_add_payment_method
+   steps:
+   - intent: ask_add_payment_method
+   - action: utter_ask_add_payment_method
+ - rule: respond to ask_receive_money
+   steps:
+   - intent: ask_receive_money
+   - action: utter_ask_receive_money
  - rule: respond to ask_security
    steps:
    - intent: ask_security
@@ -39,34 +107,110 @@ rules:
    steps:
    - intent: ask_terms_and_conditions
    - action: utter_ask_terms_and_conditions
- - rule: respond to ask_marketplace_functionality
-   steps:
-   - intent: ask_marketplace_functionality
-   - action: utter_ask_marketplace_functionality
- - rule: respond to ask_information
-   steps:
-   - intent: ask_information
-   - action: utter_ask_information
- - rule: respond to ask_data_costs
-   steps:
-   - intent: ask_data_costs
-   - action: utter_ask_data_costs
- - rule: respond to ask_more_than_data
-   steps:
-   - intent: ask_more_than_data
-   - action: utter_ask_more_than_data
- - rule: respond to ask_more_answer
-   steps:
-   - intent: ask_more_answer
-   - action: utter_ask_more_answer
  - rule: respond to ask_process_sell
    steps:
    - intent: ask_process_sell
    - action: utter_ask_process_sell
- - rule: respond to ask_process_buy
+ - rule: respond to ask_automated_metadata
    steps:
-   - intent: ask_process_buy
-   - action: utter_ask_process_buy
+   - intent: ask_automated_metadata
+   - action: utter_ask_automated_metadata
+ - rule: respond to ask_free_service
+   steps:
+   - intent: ask_free_service
+   - action: utter_ask_free_service 
+ - rule: respond to ask_what_benefit_consumer
+   steps:
+   - intent: ask_what_benefit_consumer
+   - action: utter_ask_what_benefit_consumer
+ - rule: respond to ask_become_consumer_docs
+   steps:
+   - intent: ask_become_consumer_docs
+   - action: utter_ask_become_consumer_docs
+ - rule: respond to ask_how_search_data
+   steps:
+   - intent: ask_how_search_data
+   - action: utter_ask_how_search_data
+ - rule: respond to ask_how_purchase_data
+   steps:
+   - intent: ask_how_purchase_data
+   - action: utter_ask_how_purchase_data
+ - rule: respond to ask_information_available
+   steps:
+   - intent: ask_information_available
+   - action: utter_ask_information_available
+ - rule: respond to ask_how_compare_data
+   steps:
+   - intent: ask_how_compare_data
+   - action: utter_ask_how_compare_data
+ - rule: respond to ask_price_the_same
+   steps:
+   - intent: ask_price_the_same
+   - action: utter_ask_price_the_same
+ - rule: respond to ask_when_data_delivered
+   steps:
+   - intent: ask_when_data_delivered
+   - action: utter_ask_when_data_delivered
+ - rule: respond to ask_whatif_data_not_arrive
+   steps:
+   - intent: ask_whatif_data_not_arrive
+   - action: utter_ask_whatif_data_not_arrive
+ - rule: respond to ask_more_than_data
+   steps:
+   - intent: ask_more_than_data
+   - action: utter_ask_more_than_data
+ - rule: respond to ask_upload_data
+   steps:
+   - intent: ask_upload_data
+   - action: utter_ask_upload_data
+ - rule: respond to ask_manage_data
+   steps:
+   - intent: ask_manage_data
+   - action: utter_ask_manage_data
+ - rule: respond to ask_create_service
+   steps:
+   - intent: ask_create_service
+   - action: utter_ask_create_service
+ - rule: respond to ask_storage_topio
+   steps:
+   - intent: ask_storage_topio
+   - action: utter_ask_storage_topio
+ - rule: respond to ask_use_data_in_notebook
+   steps:
+   - intent: ask_use_data_in_notebook
+   - action: utter_ask_use_data_in_notebook
+ - rule: respond to ask_severs_in_notebook
+   steps:
+   - intent: ask_severs_in_notebook
+   - action: utter_ask_severs_in_notebook
+ - rule: respond to ask_create_custom_map
+   steps:
+   - intent: ask_create_custom_map
+   - action: utter_ask_create_custom_map
+ - rule: respond to ask_type_of_maps
+   steps:
+   - intent: ask_type_of_maps
+   - action: utter_ask_type_of_maps
+ - rule: respond to ask_how_many_maps
+   steps:
+   - intent: ask_how_many_maps
+   - action: utter_ask_how_many_maps
+ - rule: respond to ask_forgot_password
+   steps:
+   - intent: ask_forgot_password
+   - action: utter_ask_forgot_password
+ - rule: respond to ask_change_personal_info 
+   steps:
+   - intent: ask_change_personal_info 
+   - action: utter_ask_change_personal_info 
+ - rule: respond to ask_intereact_data_supplier 
+   steps:
+   - intent: ask_intereact_data_supplier
+   - action: utter_ask_intereact_data_supplier
+ - rule: respond to ask_invite_new_members
+   steps:
+   - intent: ask_invite_new_members
+   - action: utter_ask_invite_new_members
  - rule: ask user to ask relevant questions
    steps:
    - intent: nlu_fallback

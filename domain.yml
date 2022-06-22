@@ -13,37 +13,111 @@ intents:
     use_entities: true
 - bot_challenge:
     use_entities: true
+- ask_what_is_topio:
+    use_entities: true
+- ask_what_topio_motto:
+    use_entities: true
+- ask_what_benefit_general_user:
+    use_entities: true
+- ask_what_benefit_data_exchange:
+    use_entities: true
+- ask_easy_trade_data:
+    use_entities: true
+- ask_is_data_safe:
+    use_entities: true
+- ask_report_platform_issue:
+    use_entities: true
+- ask_become_early_adopter:
+    use_entities: true
+- ask_register_topio:
+    use_entities: true
+- ask_optout_topio:
+    use_entities: true
+- ask_how_topio_created:
+    use_entities: true
+- ask_what_benefit_seller:
+    use_entities: true
 - ask_support:
     use_entities: true
-- ask_early_user:
-    use_entities: true
-- ask_data_control:
+- ask_criteria_early_adopter:
     use_entities: true
 - ask_data_usage:
     use_entities: true
+- ask_become_seller_docs:
+    use_entities: true
+- ask_data_control:
+    use_entities: true
 - ask_sell_asset:
     use_entities: true
-- ask_free_service:
+- ask_set_price:
     use_entities: true
-- ask_price_terms:
+- ask_what_pricing_model:
+    use_entities: true
+- ask_contract_licensing_terms:
+    use_entities: true
+- ask_create_own_contract:
+    use_entities: true
+- ask_establish_binding_contract:
+    use_entities: true
+- ask_add_payment_method:
+    use_entities: true
+- ask_receive_money:
     use_entities: true
 - ask_security:
     use_entities: true
 - ask_terms_and_conditions:
     use_entities: true
-- ask_marketplace_functionality:
+- ask_process_sell:
     use_entities: true
-- ask_information:
+- ask_automated_metadata:
     use_entities: true
-- ask_data_costs:
+- ask_free_service:
+    use_entities: true
+- ask_what_benefit_consumer:
+    use_entities: true
+- ask_become_consumer_docs:
+    use_entities: true
+- ask_how_search_data:
+    use_entities: true
+- ask_how_purchase_data:
+    use_entities: true
+- ask_information_available:
+    use_entities: true
+- ask_how_compare_data:
+    use_entities: true
+- ask_price_the_same:
+    use_entities: true
+- ask_when_data_delivered:
+    use_entities: true
+- ask_whatif_data_not_arrive:
     use_entities: true
 - ask_more_than_data:
     use_entities: true
-- ask_more_answer:
+- ask_upload_data:
     use_entities: true
-- ask_process_sell:
+- ask_manage_data:
     use_entities: true
-- ask_process_buy:
+- ask_create_service:
+    use_entities: true
+- ask_storage_topio:
+    use_entities: true
+- ask_use_data_in_notebook:
+    use_entities: true
+- ask_severs_in_notebook:
+    use_entities: true
+- ask_create_custom_map:
+    use_entities: true
+- ask_type_of_maps:
+    use_entities: true
+- ask_how_many_maps:
+    use_entities: true
+- ask_forgot_password:
+    use_entities: true
+- ask_change_personal_info:
+    use_entities: true
+- ask_intereact_data_supplier:
+    use_entities: true
+- ask_invite_new_members:
     use_entities: true
 - out_of_scope:
     use_entities: true
@@ -60,6 +134,8 @@ entities:
 - mood
 - relation
 - language
+- topio_seller
+- topio_buyer
 slots: {}
 responses:
   utter_greet:
@@ -89,58 +165,191 @@ responses:
   - text: |
       I am a bot 🤖, powered by a Rasa!   
   - text: |
-      I am a chatbot 🤖. powered by a Rasa!     
+      I am a chatbot 🤖. powered by a Rasa!  
+  utter_ask_what_is_topio:
+  - text: |
+      Topio is EU’s first digital marketplace for geospatial data and services.
+  utter_ask_what_topio_motto:
+  - text: |
+      The purpose of Topio is to streamline geospatial data trading across the EU, under fair terms. Geospatial data owners are able to unlock the value of their assets by offering them for sale under their homogenized contracts and licensing terms, while geospatial data users can discover, purchase and use geospatial data assets; all within the Topio platform.
+  utter_ask_what_benefit_general_user:
+  - text: |
+      1. In Topio, you can:
+        . Sell data: Trade your geospatial data and services across Europe
+        . Buy data: Search, discover and buy geospatial data and services that suit your needs, within seconds.
+        . Use data: Store, process, visualize, integrate, and create. From a simple map, to a complex analysis, we are here. 
+
+      2. Topio is more than a marketplace. As a user, you can use the data you buy and data you own right within Topio. Store, process, visualize, integrate, and create. From a simple map, to a complex analysis, we are here. You can store the data you purchase, or data you already own on your personal space in Topio Drive. You can use the data you purchase, or data you already own, to perform complex analytics workflows via the Topio Notebooks. You can also use your data to create beautiful custom maps via Topio Maps.
+  utter_ask_what_benefit_data_exchange:
+  - text: |
+      We only charge you a fee for processing payments – no more. We create revenue from our value-added services, not your success. Our vision is to build a community of geospatial data suppliers and users across the EU, serving our Data Economy.
+  utter_ask_easy_trade_data:
+  - text: |
+      As easy as it gets. Simply register as a data supplier and publish your data offerings in a few minutes. See this video [LINK TO VIDEO] to learn how!
+  utter_ask_is_data_safe:
+  - text: |
+      Absolutely. Topio is a secure-by-design digital marketplace conforming to all technical and regulatory standards in the EU. Your data is safe with us.
+  utter_ask_report_platform_issue:
+  - text: |
+      You can send an email to hello@topio.market and we will get back to you!
+  utter_ask_become_early_adopter:
+  - text: |
+      Yes, we are looking for early adopters to test Topio. We will receive your input on the marketplace and in return, you will receive free onboarding for your data. Let us do the heavy lifting! You will also receive free training and access to Topio APIs and value-added services.
+  utter_ask_register_topio:
+  - text: |
+      Simple! By providing only a few details, such as your name and phone. See this [LINK TO VIDEO] for more details!
+  utter_ask_optout_topio:
+  - text: |
+      Yes, there are no strings attached here. You decide how your data and services are provided, delivered, and purchased. You can opt-in and opt-out Topio whenever you want, without restrictions. We won't ask you to justify or pay anything for this.
+  utter_ask_how_topio_created:
+  - text: |
+      Topio’s development is funded by the EU Horizon 2020 Innovation Action OpertusMundi (GA 870228). Learn more about OpertusMundi here.
+  utter_ask_what_benefit_seller:
+  - text: |
+      As a data supplier, you will have access to a fair, secure, and trusted geospatial data marketplace, where you can easily trade your data across the EU. You decide how your data are:
+        . Provided: Offer your data for sale under your own contract and set your own pricing terms.
+        . Purchased: You can monitor your sales through the platform and even vet any sale before it is processed. You can receive payments either within Topio, or straight at your bank account, card or PayPal;
+        . Delivered: You can choose whether Topio will deliver your data to your customers, or handle delivery through your own channel.
   utter_ask_support:
   - text: |
-      Yes, we do. If you join as an early user, you get free onboarding for your assets and services. In addition, we also guide you through the marketplace with free trainings for your personnel and do support for your existing clients. You also get free access to early Topio APIs and value-added services. So what are you waiting for?
-  utter_ask_early_user:
+      Yes, we do. If you join as an early adopter, you will get free onboarding for your data. You will also receive free training to guide you through the marketplace. Additionally, you will get free access to early Topio APIs and value-added services. So, what are you waiting for? 
+  utter_ask_criteria_early_adopter:
   - text: |
-      It is first come, first served. 
+      It is first come, first served; continuous onboarding. All suppliers and their data are treated equally and under the same terms. No special favors here.
+  utter_ask_data_usage:
+  - text: |
+      A lot! You can choose from three different options depending on your goals.
+        1. Advertise your data if you want to gain an EU audience, but do not feel comfortable uploading your data in our secure data lake. If you go for that option, consumers can find and purchase your data. You provide data directly to consumers and after we receive delivery confirmation, we transfer the payment to you.
+        2. Sell your data, increase your revenues, reduce your admin overhead and improve customer’s satisfaction. With this option, consumers find your asset and purchase it. We deliver the asset and transfer the payment to you immediately.
+        3. Sell your data as a service if you want to expand your services, increase your revenues, address consumer demand and reduce CAPEX/OPEX. Consumers find the service and purchase a license (subscription) and we deliver the service, keep our commission, and bill your account. 
+  utter_ask_become_seller_docs:
+  - text: |
+      To register as a seller, you need to upload the following documents in order to be KYC/KYB validated for selling assets via Topio:
+        1. Identity proof: This document should refer to the individual duly empowered to act on behalf of the legal entity. ID card: Front AND Back (Valid) OR Passport (Valid).
+        2. Articles of association: Certified articles of association (Statute) - formal memorandum stated by the entrepreneurs, in which the following information is mentioned: business name, activity, registered address, shareholding, etc.
+        3. Registration proof: Extract from the Company Register issued within the last three months in the case of an organization or sole trader, this can be a proof of registration from the official authority.
+      See this video [LINK TO VIDEO] for more details!
   utter_ask_data_control:
   - text: |
       Yes, the data is all yours. We have an opt-in and opt-out policy without any restrictions. You can always add, remove, or enrich your assets. 
-  utter_ask_data_usage:
-  - text: |
-      A lot. You can choose from three different options depending on your goals! 
-      1. Advertise your assets if you want to gain an EU audience, but do not feel comfortable uploading your assets in our secure data lake. If you go for that option, consumers can find and purchase your asset. You provide assets directly to consumers and after we receive delivery confirmation, transfer the payment to you. 
-      2. Sell your assets if you want to gain an international audience, increase your revenues, reduce your admin overhead and improve customer’s satisfaction. With this option, consumers find your asset and purchase it. We deliver the asset and transfer the payment to you immediately. 
-      3. Sell your asset as a service if you want to expand your services, increase your revenues, address consumer demand, reduce CAPEX/OPEX and gain a more international audience. In that case the consumers find the service and purchase a license (subscription) and we deliver the service, keep our commission, and bill your account. 
   utter_ask_sell_asset:
   - text: |
-      None. We don’t purchase referral fees and do not take commissions. There will be no hidden costs, no advertising costs, and no preferential treatment. There is only the usual standard processing fee for secure electronic payments. We create revenue from our value-added services, not from your assets. 
-  utter_ask_free_service:
+      We don’t receive referral fees and do not take commissions. There are no commissions, no hidden costs, no advertising costs, and no preferential treatment. There is only the usual standard processing fee for secure electronic payments. We create revenue from our value-added services, not from your data.
+  utter_ask_set_price:
   - text: |
-      Sure, you can keep track of all your activity in a Dashboard on one place via a simple to use secure web-based application. You can check rich analytics for your sales across all channels and manage your account, roles in your organization, payment preferences, and much more. Moreover, you can use our Secure Storage to keep track of all your contracts and assets.    
-  utter_ask_price_terms:
+      Yes. You can select among various available pricing models and set your own pricing terms. You can offer your assets under more than one pricing model.
+  utter_ask_what_pricing_model:
   - text: |
-      Yes, you are the one that decides. To make it as easy as possible for you, you can select from different pricing modes. In addition, we have predefined contracts that are adjusted to current EU regulations. Chose from them and build your own contract. 
+      There are numerous pricing models available. You can provide your data free of charge, or with custom pricing. Pick your price and sell your data via a one time purchase, or depending on the number of rows purchased and population covered. You can also optionally provide custom discounting schemes to attract more customers!
+  utter_ask_contract_licensing_terms:
+  - text: |
+      Yes. You can choose among our predefined template contracts, adjusted to current EU regulations. Select one and build your own contract for your data.
+  utter_ask_create_own_contract:
+  - text: |
+      Simple! Just navigate to the ‘Contracts’ tab of your dashboard, click on ‘Create Contract Template’ and follow the simple wizard. See this video [LINK TO VIDEO] for more details!
+  utter_ask_establish_binding_contract:
+  - text: |
+      During a transaction, the contract attached to your asset will be automatically digitally signed by Topio if accepted by a customer. Of course, you will always have access to all your signed contracts via your dashboard.
+  utter_ask_add_payment_method:
+  - text: |
+      - For data sellers, to add a payout account:
+        . Just navigate to the Settings tab of your dashboard and click on ‘Payout Options’. You only need to provide your bank account name, IBAN, BIC number and address.
+
+      - For data buyers, to add a payment method:
+        . Just navigate to the Settings tab of your dashboard and click on ‘Payment Methods’. From there, you can add one or more credit/debit cards.        
+  utter_ask_receive_money:
+  - text: |
+      The transaction is processed and the money is immediately transferred to the payout account you have provided. In case you have selected to deliver the data via your own channel, the payment is put on-hold until the buyer confirms delivery.
   utter_ask_security:
   - text: |
-      We do our best nothing goes wrong. Your assets are tracked via our digital watermarks for each unique transaction. Our contracts limit your liability towards clients and protecting you from claims. We are responsible for ensuring the client’s SLA, not you.    
+      We do our best to ensure nothing goes wrong. Your data is tracked via our digital watermarks for each unique transaction. Our contracts limit your liability towards clients and protect you from claims. We are responsible for ensuring the client’s SLA, not you.  
   utter_ask_terms_and_conditions:
   - text: |
-      Sure, here they are the Link to terms. 
-  utter_ask_marketplace_functionality:
-  - text: |
-      You can search for, compare, and purchase geospatial data. We have any type of data, regardless of the domain, size, or type.
-  utter_ask_information:
-  - text: |
-      You can preview key asset information and compare with other assets. 
-  utter_ask_data_costs:
-  - text: |
-      That depends on what you want. You can buy a single file, a collection, or a subscription. Costs are transparently listed in detail in line with each asset. 
-  utter_ask_more_than_data:
-  - text: |
-      Sure, you can use the assets bought in any of our value-added services. You can build maps, integrate, analyze, build a web service, and much more. Moreover, you can keep track of all your activity in a Dashboard on one place via a simple to use secure web-based application. You can check all your contracts and assets bought.   
-  utter_ask_more_answer:
-  - text: |
-      We do have a helpdesk to answer technical, business and legal questions. Contact us via the link.  
+      Sure, here they are [LINK TO T&Cs].
   utter_ask_process_sell:
   - text: |
-      For selling assets, please check https://topio.market/  
-  utter_ask_process_buy:
+      Simple! Just navigate to the Assets tab of your dashboard and click on ‘Add an Asset’. Then, just follow the simple wizard. See this video [LINK TO VIDEO] for more details!
+  utter_ask_automated_metadata:
   - text: |
-      For buying assets, please check https://topio.market/  
+      - For data sellers 
+        . When you upload your data for sale via Topio, a set of automated metadata is calculated and offered along the original metadata. Of course, you can select which automated metadata you want to be available along with your asset, before it is published for sale. \n \n
+
+      - For data consumers
+        . Automated metadata is a set of insightful, automatically computed metadata that are offered along with the original metadata of an asset. You can view, visualize and download all the metadata of an asset from the asset view page. 
+  utter_ask_free_service:
+  - text: |
+      Sure, you can keep track of all your activity in your own dashboard in Topio. You can check rich analytics for your sales across all channels and manage your account, roles in your organization, custom contracts, payment preferences, and much more. See this video [LINK TO VIDEO] for more details. Moreover, you can use our services, Topio Drive, Topio Notebooks and Topio Maps. For more information, you can check the Data Users FAQ section.        
+  utter_ask_what_benefit_consumer:
+  - text: |
+      As a consumer, you have access to a one-stop shop for geospatial data and services. You can seamlessly search for data that suit your needs via detailed, rich and fit-for-use metadata. Topio provides clear licensing -you’ll know what you can do before purchase- and the process is as streamlined as it gets, while guaranteeing secure payment and delivery.
+  utter_ask_become_consumer_docs:
+  - text: |
+      To become a consumer, you need to upload the following documents in order to be KYC/KYB validated for buying assets via Topio:
+        1. Identity proof: This document should refer to the individual duly empowered to act on behalf of the legal entity. ID card: Front AND Back (Valid) OR Passport (Valid).
+      See this video [LINK TO VIDEO] for more details!
+  utter_ask_how_search_data:
+  - text: |
+      To search for data, you may use the search box at the landing page of Topio and enter any desired keywords. You can apply numerous filters on the results by clicking on ‘Advanced Search. To access more details regarding data you discover, you can visit their view page. See this video [LINK TO VIDEO] for more details!
+  utter_ask_how_purchase_data:
+  - text: |
+      Simple! From the view page of an asset, you may select one of the available pricing models and add it to your cart. Finally, proceed with the payment by visiting your cart and then proceeding to checkout. See this video [LINK TO VIDEO] for more details!
+  utter_ask_information_available:
+  - text: |
+      You can find out by visiting the view page of any asset. There are no surprises here, you will be able to reach all the necessary information before purchase, including the price, metadata, T&Cs, samples and more. You will know what you buy before you buy it for the best possible purchasing decisions! 
+  utter_ask_how_compare_data:
+  - text: |
+      [....]
+  utter_ask_price_the_same:
+  - text: |
+      The price you see at an asset’s view page is the price of the asset without the additional required VAT. The final price is the one you can see in your cart.
+  utter_ask_when_data_delivered:
+  - text: |
+      If the data are delivered by Topio, you can download them as soon as your payment is processed from the Purchases tab of your dashboard. However, there are cases when sellers choose to deliver their data via their own channel. In this case, the delivery time depends on the seller. Once you receive your data, don’t forget to acknowledge the delivery! See this video [LINK TO VIDEO] for more details!
+  utter_ask_whatif_data_not_arrive:
+  - text: |
+      You may file a dispute by visiting the corresponding purchase at the Purchases tab in your dashboard.
+  utter_ask_more_than_data:
+  - text: |
+      Sure, you can keep track of all your activity via your dashboard, such as your purchases and service subscriptions. See this video [LINK TO VIDEO] for more details! Moreover, you can use your own data in any of our Topio services: You can store, integrate, analyze your data, or build beautiful custom maps. For more details, see the ‘Data Users’ FAQ section.   
+  utter_ask_upload_data:
+  - text: |
+      Simply navigate to your dashboard, at the Topio Drive tab. Then, click on ‘Upload’ and select the files you want to add from your computer. See this video [LINK TO VIDEO] for more details
+  utter_ask_manage_data:
+  - text: |
+      You may create new folders for your data in your Topio Drive, by clicking on ‘Create Folder’. Moreover, you may delete folders and uploaded files by hovering over each item and clicking on the trash icon. See this video [LINK TO VIDEO] for more details!
+  utter_ask_create_service:
+  - text: |
+      [....]
+  utter_ask_storage_topio:
+  - text: |
+      All registered users can store up to 20GB of data on Topio Drive for free. To purchase more storage, simply navigate to [Link to Storage tiers] and take a look at the available Topio Drive tiers.
+  utter_ask_use_data_in_notebook:
+  - text: |
+      Navigate to the Topio Notebooks tab in your dashboard. From there, you can start any of the available servers. Then, you can open the JupyterHub environment and create your own notebooks, load your data, write code and perform any analytics you desire. See this video [LINK TO VIDEO] for more details!
+  utter_ask_severs_in_notebook:
+  - text: |
+      Simply navigate to [Link to Notebook tiers] and take a look at the available tiers for Topio Notebooks. You can check out the servers offered by each tier.
+  utter_ask_create_custom_map:
+  - text: |
+      [....]
+  utter_ask_type_of_maps:
+  - text: |
+      [....]
+  utter_ask_how_many_maps:
+  - text: |
+      [....]
+  utter_ask_forgot_password:
+  - text: |
+      Navigate to the Login page and click on ‘Forgot your Password?’. You will receive an email containing all the necessary steps you need to follow.
+  utter_ask_change_personal_info:
+  - text: |
+      Visit the Settings tab in your Dashboard and navigate to the General tab.
+  utter_ask_intereact_data_supplier:
+  - text: |
+      You can send a direct message to data suppliers via their profile page.
+  utter_ask_invite_new_members:
+  - text: |
+      You cannot currently invite new users to Topio.
   utter_out_of_scope:
   - text: |
       Sorry, I cannot understand you 🤷, can you rephrase the question?
@@ -156,22 +365,59 @@ actions:
 - utter_greet
 - utter_thank
 - utter_i_am_a_bot
+- utter_ask_what_is_topio
+- utter_ask_what_topio_motto
+- utter_ask_what_benefit_general_user
+- utter_ask_what_benefit_data_exchange
+- utter_ask_easy_trade_data
+- utter_ask_is_data_safe
+- utter_ask_report_platform_issue
+- utter_ask_become_early_adopter
+- utter_ask_register_topio
+- utter_ask_optout_topio
+- utter_ask_how_topio_created
+- utter_ask_what_benefit_seller
 - utter_ask_support
-- utter_ask_early_user
-- utter_ask_data_control
+- utter_ask_criteria_early_adopter
 - utter_ask_data_usage
+- utter_ask_become_seller_docs
+- utter_ask_data_control
 - utter_ask_sell_asset
-- utter_ask_free_service
-- utter_ask_price_terms
+- utter_ask_set_price
+- utter_ask_what_pricing_model
+- utter_ask_contract_licensing_terms
+- utter_ask_create_own_contract
+- utter_ask_establish_binding_contract
+- utter_ask_add_payment_method
+- utter_ask_receive_money
 - utter_ask_security
 - utter_ask_terms_and_conditions
-- utter_ask_marketplace_functionality
-- utter_ask_information
-- utter_ask_data_costs
-- utter_ask_more_than_data
-- utter_ask_more_answer
 - utter_ask_process_sell
-- utter_ask_process_buy
+- utter_ask_automated_metadata
+- utter_ask_free_service
+- utter_ask_what_benefit_consumer
+- utter_ask_become_consumer_docs
+- utter_ask_how_search_data
+- utter_ask_how_purchase_data
+- utter_ask_information_available
+- utter_ask_how_compare_data
+- utter_ask_price_the_same
+- utter_ask_when_data_delivered
+- utter_ask_whatif_data_not_arrive
+- utter_ask_more_than_data
+- utter_ask_upload_data
+- utter_ask_manage_data
+- utter_ask_create_service
+- utter_ask_storage_topio
+- utter_ask_use_data_in_notebook
+- utter_ask_severs_in_notebook
+- utter_ask_create_custom_map
+- utter_ask_type_of_maps
+- utter_ask_how_many_maps
+- utter_ask_forgot_password
+- utter_ask_change_personal_info
+- utter_ask_intereact_data_supplier
+- utter_ask_invite_new_members
 - utter_out_of_scope
 forms: {}
 e2e_actions: []
